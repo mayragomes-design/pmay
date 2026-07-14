@@ -96,7 +96,8 @@ const translations = {
 
         skillResearchDescription:
             "Cultura digital, plataformas, algoritmos, comunicação, audiovisual e cultura visual.",
-              /*==============================
+      
+      /*==============================
         PROJETOS
         ==============================*/
 
@@ -235,7 +236,8 @@ const translations = {
 
         casaMaeTag3:
             "Identidade Visual",
-              /*==============================
+      
+      /*==============================
         PROJETOS ACADÊMICOS
         ==============================*/
 
@@ -398,6 +400,7 @@ alegrementeTag3:
 
 alegrementeTag4:
     "Saúde Mental",
+      
         /*==============================
         PESQUISA
         ==============================*/
@@ -724,7 +727,8 @@ alegrementeTag4:
 
         casaMaeTag3:
             "Visual Identity",
-              /*==============================
+      
+      /*==============================
         ACADEMIC PROJECTS
         ==============================*/
 
@@ -887,6 +891,7 @@ alegrementeTag3:
 
 alegrementeTag4:
     "Mental Health",
+ 
         /*==============================
         RESEARCH
         ==============================*/
