@@ -1,98 +1,105 @@
 /*====================================================
   TRANSLATIONS
 ====================================================*/
+
 const translations = {
+
+    /*====================================================
+      PORTUGUÊS
+    ====================================================*/
 
     pt: {
 
-    /*==============================
-    MENU
-    ==============================*/
+        /*==============================
+        MENU
+        ==============================*/
 
-    menuAbout:
-        "Sobre",
+        menuAbout:
+            "Sobre",
 
-    menuSkills:
-        "Especialidades",
+        menuSkills:
+            "Especialidades",
 
-    menuProjects:
-        "Projetos",
+        menuProjects:
+            "Projetos",
 
-    menuResearch:
-        "Pesquisa",
+        menuResearch:
+            "Pesquisa",
 
-    menuResume:
-        "Currículo",
+        menuResume:
+            "Currículo",
 
-    menuContact:
-        "Contato",
-
-
-    /*==============================
-    HERO
-    ==============================*/
-
-    heroTag:
-        "DESIGN • BRANDING • COMUNICAÇÃO DIGITAL",
-
-    heroDescription:
-        "Toda marca conta uma história. Meu trabalho é transformar ideias em identidades visuais que comunicam propósito, autenticidade e personalidade, criando projetos que unem estratégia, design e experiência digital.",
-
-    btnProjects:
-        "VER PROJETOS",
-
-    btnResume:
-        "CURRÍCULO",
+        menuContact:
+            "Contato",
 
 
-    /*==============================
-    ESPECIALIDADES
-    ==============================*/
+        /*==============================
+        HERO
+        ==============================*/
 
-    skillsTag:
-        "ESPECIALIDADES",
+        heroTag:
+            "DESIGN • BRANDING • COMUNICAÇÃO DIGITAL",
 
-    skillsTitle:
-        "Áreas de atuação",
+        heroDescription:
+            "Toda marca conta uma história. Meu trabalho é transformar ideias em identidades visuais que comunicam propósito, autenticidade e personalidade, criando projetos que unem estratégia, design e experiência digital.",
 
-    skillsDescription:
-        "Competências desenvolvidas ao longo da graduação, experiências profissionais e projetos de pesquisa.",
+        btnProjects:
+            "VER PROJETOS",
 
-    skillGraphicTitle:
-        "Design Gráfico",
+        btnResume:
+            "CURRÍCULO",
+        /*==============================
+        ESPECIALIDADES
+        ==============================*/
 
-    skillGraphicDescription:
-        "Desenvolvimento de identidades visuais, materiais editoriais, peças digitais e impressas.",
+        skillsTag:
+            "ESPECIALIDADES",
 
-    skillBrandingTitle:
-        "Branding & Comunicação",
+        skillsTitle:
+            "Áreas de atuação",
 
-    skillBrandingDescription:
-        "Estratégias de comunicação, branding, marketing digital e posicionamento de marca.",
+        skillsDescription:
+            "Competências desenvolvidas ao longo da graduação, experiências profissionais e projetos de pesquisa.",
 
-    skillAudiovisualTitle:
-        "Audiovisual",
+        skillGraphicTitle:
+            "Design Gráfico",
 
-    skillAudiovisualDescription:
-        "Produção, edição de vídeo, fotografia, storytelling e narrativa visual.",
+        skillGraphicDescription:
+            "Desenvolvimento de identidades visuais, materiais editoriais, peças digitais e impressas.",
 
-    skillSocialTitle:
-        "Social Media",
+        skillBrandingTitle:
+            "Branding & Comunicação",
 
-    skillSocialDescription:
-        "Planejamento, produção de conteúdo, identidade para redes sociais e gestão de perfis.",
+        skillBrandingDescription:
+            "Estratégias de comunicação, branding, marketing digital e posicionamento de marca.",
 
-    skillDigitalTitle:
-        "Design Digital",
+        skillAudiovisualTitle:
+            "Audiovisual",
 
-    skillDigitalDescription:
-        "HTML, CSS, Bootstrap, interfaces digitais e experiência do usuário.",
+        skillAudiovisualDescription:
+            "Produção, edição de vídeo, fotografia, storytelling e narrativa visual.",
 
-    skillResearchTitle:
-        "Pesquisa",
+        skillSocialTitle:
+            "Social Media",
 
-    skillResearchDescription:
-        "Cultura digital, plataformas, algoritmos, comunicação, audiovisual e cultura visual.",
+        skillSocialDescription:
+            "Planejamento, produção de conteúdo, identidade para redes sociais e gestão de perfis.",
+
+        skillDigitalTitle:
+            "Design Digital",
+
+        skillDigitalDescription:
+            "HTML, CSS, Bootstrap, interfaces digitais e experiência do usuário.",
+
+        skillResearchTitle:
+            "Pesquisa",
+
+        skillResearchDescription:
+            "Cultura digital, plataformas, algoritmos, comunicação, audiovisual e cultura visual.",
+              /*==============================
+        PROJETOS
+        ==============================*/
+
         myRole:
             "Minha participação",
 
@@ -102,999 +109,892 @@ const translations = {
         freelancerClients:
             "• Sonhadeiro<br>• Cores & Crochê",
 
+        pmaySkills:
+            "• Identidade Visual<br>• Branding<br>• Design Gráfico",
+
         alegreSkills:
             "• Identidade Visual<br>• Branding<br>• Design Gráfico<br>• Social Media",
 
         folhasSkills:
             "• Identidade Visual<br>• Branding<br>• Design Gráfico",
+
+
         /*==============================
-BRANDING
-==============================*/
+        BRANDING
+        ==============================*/
 
-brandingCategory:
-    "Branding & Identidade Visual",
+        brandingCategory:
+            "Branding & Identidade Visual",
 
-brandingTitle:
-    "Projetos de Branding",
+        brandingTitle:
+            "Projetos de Branding",
 
-brandingDescription:
-    "Projetos voltados à construção de marcas, identidade visual e design editorial.",
+        brandingDescription:
+            "Projetos voltados à construção de marcas, identidade visual e design editorial.",
 
-    communicationCategory:
-        "Comunicação Digital",
 
-    communicationDescription:
-        "Projetos profissionais relacionados ao planejamento, produção de conteúdo, branding e gestão de redes sociais.",
+        /* PMAY */
 
-    apamTag1:
-        "Social Media",
+        pmayTitle:
+            "PMAY",
 
-    apamTag2:
-        "Instagram",
+        pmayDescription:
+            "Projeto de rebranding desenvolvido para minha marca pessoal, refletindo minha evolução profissional e consolidando minha atuação em Design, Comunicação Digital e Branding.",
 
-    apamTag3:
-        "Design",
+        pmayTag1:
+            "Branding",
 
-    casaMaeTag1:
-        "Branding",
+        pmayTag2:
+            "Identidade Visual",
 
-    casaMaeTag2:
-        "Manual de Marca",
+        pmayTag3:
+            "Marca Pessoal",
 
-    casaMaeTag3:
-        "Identidade Visual",
 
-    alegreTag1:
-        "Social Media",
-
-    alegreTag2:
-        "Direção de Arte",
-
-    alegreTag3:
-        "Design Editorial",
-
-    alegreTag4:
-        "Saúde Mental",
-/* PMAY */
-
-pmayTitle:
-    "PMAY",
-
-pmayDescription:
-    "Projeto de rebranding desenvolvido para minha marca pessoal, refletindo minha evolução profissional e consolidando minha atuação em Design, Comunicação Digital e Branding.",
-
-pmayTag1:
-    "Branding",
-
-pmayTag2:
-    "Identidade Visual",
-
-pmayTag3:
-    "Marca Pessoal",
-
-    /*==============================
-  FREELANCER
-  ==============================*/
-
-  freelancerTitle:
-    "Projetos Freelancer",
-
-freelancerDescription:
-    "Desenvolvimento de identidades visuais para pequenos negócios, incluindo criação de logotipos, aplicações gráficas e materiais institucionais.",
-
-myRole:
-    "Minha participação",
-
-clientsTitle:
-    "Clientes",
-
-pmaySkills:
-    "• Identidade Visual<br>• Branding<br>• Design Gráfico",
-
-freelancerClients:
-    "• Sonhadeiro<br>• Cores & Crochê",
-
-alegreSkills:
-    "• Identidade Visual<br>• Branding<br>• Design Gráfico<br>• Social Media",
-
-folhasSkills:
-    "• Identidade Visual<br>• Branding<br>• Design Gráfico",
-    pmaySkills:
-    "• Identidade Visual<br>• Branding<br>• Design Gráfico",
-  /*==============================
-  MIV ALEGREMENTE
-  ==============================*/
-
-  alegreTitle:
-      "MIV AlegreMente",
-
-  alegreDescription:
-      "Manual de Identidade Visual desenvolvido para a clínica AlegreMente, consolidando diretrizes para identidade visual, comunicação institucional e aplicações da marca.",
-
-  folhasTitle:
-      "Folhas de Açúcar",
-
-  folhasDescription:
-      "Projeto freelancer de identidade visual desenvolvido para uma confeitaria artesanal, envolvendo criação da marca, aplicações gráficas e materiais institucionais.",
-apamTitle:
-    "Associação Paulista de Amparo à Mulher",
-
-apamDescription:
-    "Atuação como Social Media voluntária, desenvolvendo planejamento estratégico, revitalização do Instagram, identidade visual para campanhas e fortalecimento da presença digital da instituição.",
-
-apamTag1:
-    "Social Media",
-
-apamTag2:
-    "Instagram",
-
-apamTag3:
-    "Design",
-
-apamTag4:
-    "Planejamento",
-
-
-/* CASA MÃE */
-
-casaMaeTitle:
-    "Casa Mãe – Identidade Visual",
-
-casaMaeDescription:
-    "Desenvolvimento do manual de identidade visual, aplicações da marca, templates para redes sociais e materiais institucionais para divulgação da Casa de Retiro das Mensageiras do Amor Divino.",
-
-casaMaeTag1:
-    "Branding",
-
-casaMaeTag2:
-    "Manual de Marca",
-
-casaMaeTag3:
-    "Identidade Visual",
-
-    /*==============================
-    PROJETOS ACADÊMICOS
-    ==============================*/
-
-    daisyTitle:
-        "Daisy",
-
-    daisyDescription:
-        "Projeto Integrador desenvolvido para criação de uma tradutora digital de Libras. Atuei na construção da identidade visual, direção de arte e roteirização.",
-
-
-    catclubTitle:
-        "CatClub",
-
-    catclubDescription:
-        "Projeto acadêmico desenvolvido na disciplina de Gestão de Projetos com foco na criação de um e-book infantil interativo. Minha participação concentrou-se na redação e planejamento do projeto.",
-
-
-    alcasTitle:
-        "Alcas",
-
-    alcasDescription:
-        "Projeto acadêmico desenvolvido para a Agência Alcas, envolvendo construção de identidade visual, manual de marca, mockups e aplicações gráficas.",
-
-
-    marcasTitle:
-        "Marcas do Passado",
-
-    marcasDescription:
-        "Visual Novel desenvolvida durante a graduação, com roteiro original e narrativa interativa baseada em múltiplos finais.",
-/*==============================
-AUDIOVISUAL
-==============================*/
-
-audiovisualCategory:
-    "Audiovisual",
-
-audiovisualTitle:
-    "Projetos em Audiovisual",
-
-audiovisualDescription:
-    "Projetos voltados à produção audiovisual, storytelling, direção de arte e comunicação digital.",
-
-
-/* ALEGREMENTE */
-
-alegrementeTitle:
-    "AlegreMente Psicologia",
-
-alegrementeDescription:
-    "Produção de identidade visual para redes sociais, planejamento de conteúdo, direção de arte e desenvolvimento de peças gráficas voltadas à comunicação em saúde mental.",
-
-alegrementeTag1:
-    "Social Media",
-
-alegrementeTag2:
-    "Direção de Arte",
-
-alegrementeTag3:
-    "Design Editorial",
-
-alegrementeTag4:
-    "Saúde Mental",
-
-
-/* AUDIOBOOK */
-
-audiobookTitle:
-    "Contos de Morpheus: Entre Máscaras",
-
-audiobookDescription:
-    "Narrativa ficcional em formato de áudio acompanhando Elena Walker, psicóloga forense recém-promovida a detetive. Ambientada na cidade de Morpheus, a história mistura suspense investigativo, horror psicológico e elementos sobrenaturais, explorando a tênue fronteira entre sonhos e realidade. O projeto envolve storytelling, desenvolvimento de personagens, roteiro e produção para mídia sonora.",
-
-audiobookTag1:
-    "Storytelling",
-
-audiobookTag2:
-    "Narrativa Sonora",
-
-audiobookTag3:
-    "Suspense",
-
-audiobookTag4:
-    "Horror Psicológico",
-
-audiobookTag5:
-    "Spotify",
-
-    /*==============================
-PRODUÇÃO ACADÊMICA
-==============================*/
-
-researchTag:
-    "PRODUÇÃO ACADÊMICA",
-
-researchTitle:
-    "Destaques da Graduação",
-
-researchDescription:
-    "Os três projetos mais marcantes desenvolvidos durante minha graduação em Design de Mídias Digitais.",
-
-
-/* TRANSMÍDIA */
-
-transmidiaTitle:
-    "Transmídia e Convergência",
-
-transmidiaDescription:
-    "Projeto desenvolvido durante a graduação abordando narrativas transmídia, cultura da convergência e comunicação entre plataformas.",
-
-transmidiaTag1:
-    "Transmídia",
-
-transmidiaTag2:
-    "Audiovisual",
-
-transmidiaTag3:
-    "Narrativa",
-
-
-/* PALMA */
-
-palmaTitle:
-    "PALMA",
-
-palmaDescription:
-    "Trabalho de Graduação desenvolvido em língua inglesa, integrando storytelling, produção audiovisual e apresentação internacional.",
-
-palmaTag1:
-    "Storytelling",
-
-palmaTag2:
-    "Inglês",
-
-palmaTag3:
-    "Audiovisual",
-
-
-/* MORPHEUS */
-
-morpheusTitle:
-    "Contos de Morpheus: Entre Máscaras",
-
-morpheusDescription:
-    "Narrativa ficcional em formato de áudio acompanhando Elena Walker, psicóloga forense recém-promovida a detetive. Ambientada na cidade de Morpheus, a história mistura suspense investigativo, horror psicológico e elementos sobrenaturais, explorando a tênue fronteira entre sonhos e realidade.",
-
-morpheusTag1:
-    "Storytelling",
-
-morpheusTag2:
-    "Narrativa Sonora",
-
-morpheusTag3:
-    "Suspense",
-
-morpheusTag4:
-    "Horror Psicológico",
-
-morpheusTag5:
-    "Spotify",
-
-
-
-/*==============================
-COMUNICAÇÃO DIGITAL
-==============================*/
-
-communicationTag:
-    "COMUNICAÇÃO DIGITAL",
-
-communicationTitle:
-    "Projetos Profissionais",
-
-communicationDescription:
-    "Projetos relacionados ao planejamento de conteúdo, branding, identidade visual e gestão de redes sociais para empresas e instituições.",
-
-   /*==============================
-PESQUISA
-==============================*/
-
-researchSectionTag:
-    "PESQUISA",
-
-researchSectionTitle:
-    "Pesquisa em Desenvolvimento",
-
-researchSectionDescription:
-    "Pesquisa em desenvolvimento para candidatura ao Programa de Pós-Graduação em Multimeios (UNICAMP), voltada aos estudos de Comunicação, Cultura Digital, Audiovisual e Plataformas.",
-
-researchProjectTitle:
-    "Comunicação, Cultura Digital e Plataformas",
-
-researchText1:
-    "O estudo investiga as relações entre tecnologias digitais, plataformas e cultura visual, buscando compreender como essas transformações influenciam as práticas comunicacionais contemporâneas.",
-
-researchText2:
-    "A proposta articula pesquisa acadêmica e experiência profissional em design, comunicação digital e audiovisual, reunindo diferentes perspectivas para compreender os impactos das plataformas digitais na cultura visual e na comunicação.",
-
-researchInterestTitle:
-    "Áreas de Interesse",
-
-interest1:
-    "Comunicação",
-
-interest2:
-    "Cultura Digital",
-
-interest3:
-    "Curadoria Algorítmica",
-
-interest4:
-    "Plataformas Digitais",
-
-interest5:
-    "Cultura Visual",
-
-interest6:
-    "Estudos de Mídia",
-
-
-
-/*==============================
-CURRÍCULO
-==============================*/
-
-curriculumTag:
-    "CURRÍCULO",
-
-curriculumTitle:
-    "Currículo & Formação",
-
-curriculumDescription:
-    "Conheça minha trajetória acadêmica, experiências profissionais e produção científica na área de Comunicação, Design Digital, Cultura Visual e Plataformas Digitais.",
-
-professionalResumeTitle:
-    "Currículo Profissional",
-
-professionalResumeDescription:
-    "Formação acadêmica, experiências profissionais, competências técnicas e atuação em Design, Branding, Social Media e Produção Audiovisual.",
-
-viewPdf:
-    "Visualizar PDF",
-
-lattesTitle:
-    "Currículo Lattes",
-
-lattesDescription:
-    "Produção científica, artigos, pesquisas, projetos acadêmicos, eventos e atividades desenvolvidas durante minha formação.",
-
-accessLattes:
-    "Acessar Lattes",
-
-
-
-/*==============================
-CONTATO
-==============================*/
-
-contactTag:
-    "CONTATO",
-
-contactTitle:
-    "Vamos criar algo juntos?",
-
-contactDescription:
-    "Se você procura uma designer para desenvolver uma identidade visual, fortalecer a comunicação da sua marca ou conversar sobre novos projetos e pesquisas, será um prazer falar com você.",
-
-copyright:
-    "© 2023–2026 Mayra C. N. Gomes. Todos os direitos reservados."
-
-},
-
-
-en: {
-
-    /*==============================
-    MENU
-    ==============================*/
-
-    menuAbout:
-        "About",
-
-    menuSkills:
-        "Expertise",
-
-    menuProjects:
-        "Projects",
-
-    menuResearch:
-        "Research",
-
-    menuResume:
-        "Curriculum",
-
-    menuContact:
-        "Contact",
-
-
-    /*==============================
-    HERO
-    ==============================*/
-
-    heroTag:
-        "DESIGN • BRANDING • DIGITAL COMMUNICATION",
-
-    heroDescription:
-        "Every brand tells a story. I transform ideas into visual identities that communicate purpose, authenticity and personality, creating projects that combine strategy, design and digital experience.",
-
-    btnProjects:
-        "VIEW PROJECTS",
-
-    btnResume:
-        "RÉSUMÉ",
-
-
-    /*==============================
-    EXPERTISE
-    ==============================*/
-
-    skillsTag:
-        "EXPERTISE",
-
-    skillsTitle:
-        "Areas of Expertise",
-
-    skillsDescription:
-        "Skills developed through academic education, professional experience and research projects.",
-
-    skillGraphicTitle:
-        "Graphic Design",
-
-    skillGraphicDescription:
-        "Development of visual identities, editorial materials, and digital and printed graphic assets.",
-
-    skillBrandingTitle:
-        "Branding & Communication",
-
-    skillBrandingDescription:
-        "Communication strategies, branding, digital marketing and brand positioning.",
-
-    skillAudiovisualTitle:
-        "Audiovisual Production",
-
-    skillAudiovisualDescription:
-        "Video production, editing, photography, storytelling and visual narrative.",
-
-    skillSocialTitle:
-        "Social Media",
-
-    skillSocialDescription:
-        "Content planning, social media identity design and profile management.",
-
-    skillDigitalTitle:
-        "Digital Design",
-
-    skillDigitalDescription:
-        "HTML, CSS, Bootstrap, digital interfaces and user experience.",
-
-    skillResearchTitle:
-        "Research",
-
-    skillResearchDescription:
-        "Digital culture, platforms, algorithms, communication, audiovisual studies and visual culture.",
         /*==============================
-BRANDING
-==============================*/
-myRole:
-    "My Role",
+        FREELANCER
+        ==============================*/
 
-clientsTitle:
-    "Clients",
+        freelancerTitle:
+            "Projetos Freelancer",
 
-freelancerClients:
-    "• Sonhadeiro<br>• Cores & Crochê",
+        freelancerDescription:
+            "Desenvolvimento de identidades visuais para pequenos negócios, incluindo criação de logotipos, aplicações gráficas e materiais institucionais.",
 
-alegreSkills:
-    "• Visual Identity<br>• Branding<br>• Graphic Design<br>• Social Media",
 
-folhasSkills:
-    "• Visual Identity<br>• Branding<br>• Graphic Design",
+        /*==============================
+        MIV ALEGREMENTE
+        ==============================*/
 
-pmaySkills:
-    "• Visual Identity<br>• Branding<br>• Graphic Design",
-brandingCategory:
-    "Branding & Visual Identity",
+        alegreTitle:
+            "MIV AlegreMente",
 
-brandingTitle:
-    "Featured Branding Projects",
+        alegreDescription:
+            "Manual de Identidade Visual desenvolvido para a clínica AlegreMente, consolidando diretrizes para identidade visual, comunicação institucional e aplicações da marca.",
 
-brandingDescription:
-    "Projects focused on brand development, visual identity and editorial design.",
 
+        /*==============================
+        FOLHAS DE AÇÚCAR
+        ==============================*/
 
-/* PMAY */
+        folhasTitle:
+            "Folhas de Açúcar",
 
-pmayTitle:
-    "PMAY",
+        folhasDescription:
+            "Projeto freelancer de identidade visual desenvolvido para uma confeitaria artesanal, envolvendo criação da marca, aplicações gráficas e materiais institucionais.",
 
-pmayDescription:
-    "Personal branding project created to reflect my professional evolution and consolidate my work in design, digital communication and branding.",
 
-pmayTag1:
-    "Branding",
+        /*==============================
+        COMUNICAÇÃO DIGITAL
+        ==============================*/
 
-pmayTag2:
-    "Visual Identity",
+        communicationCategory:
+            "Comunicação Digital",
 
-pmayTag3:
-    "Personal Brand",
+        communicationTitle:
+            "Projetos Profissionais",
 
-    communicationCategory:
-        "Digital Communication",
+        communicationDescription:
+            "Projetos relacionados ao planejamento de conteúdo, branding, identidade visual e gestão de redes sociais para empresas e instituições.",
 
-    communicationDescription:
-        "Professional projects related to content strategy, branding, visual identity and social media management.",
 
-    apamTag1:
-        "Social Media",
+        /* APAM */
 
-    apamTag2:
-        "Instagram",
+        apamTitle:
+            "Associação Paulista de Amparo à Mulher",
 
-    apamTag3:
-        "Design",
+        apamDescription:
+            "Atuação como Social Media voluntária, desenvolvendo planejamento estratégico, revitalização do Instagram, identidade visual para campanhas e fortalecimento da presença digital da instituição.",
 
-    casaMaeTag1:
-        "Branding",
+        apamTag1:
+            "Social Media",
 
-    casaMaeTag2:
-        "Brand Manual",
+        apamTag2:
+            "Instagram",
 
-    casaMaeTag3:
-        "Visual Identity",
+        apamTag3:
+            "Design",
 
-    alegreTag1:
-        "Social Media",
+        apamTag4:
+            "Planejamento",
 
-    alegreTag2:
-        "Art Direction",
 
-    alegreTag3:
-        "Editorial Design",
+        /* CASA MÃE */
 
-    alegreTag4:
-        "Mental Health",
-/* APAM */
+        casaMaeTitle:
+            "Casa Mãe – Identidade Visual",
 
-apamTitle:
-    "São Paulo Women's Support Association",
+        casaMaeDescription:
+            "Desenvolvimento do manual de identidade visual, aplicações da marca, templates para redes sociais e materiais institucionais para divulgação da Casa de Retiro das Mensageiras do Amor Divino.",
 
-apamDescription:
-    "Volunteer social media work focused on strategic planning, Instagram redesign, campaign visual identity and strengthening the institution's digital presence.",
+        casaMaeTag1:
+            "Branding",
 
-apamTag1:
-    "Social Media",
+        casaMaeTag2:
+            "Manual de Marca",
 
-apamTag2:
-    "Instagram",
+        casaMaeTag3:
+            "Identidade Visual",
+              /*==============================
+        PROJETOS ACADÊMICOS
+        ==============================*/
 
-apamTag3:
-    "Design",
+        daisyTitle:
+            "Daisy",
 
-apamTag4:
-    "Planning",
+        daisyDescription:
+            "Projeto Integrador desenvolvido para criação de uma tradutora digital de Libras. Atuei na construção da identidade visual, direção de arte e roteirização.",
 
+        catclubTitle:
+            "CatClub",
 
-/* CASA MÃE */
+        catclubDescription:
+            "Projeto acadêmico desenvolvido na disciplina de Gestão de Projetos com foco na criação de um e-book infantil interativo. Minha participação concentrou-se na redação e planejamento do projeto.",
 
-casaMaeTitle:
-    "Casa Mãe – Visual Identity",
+        alcasTitle:
+            "Alcas",
 
-casaMaeDescription:
-    "Development of the complete visual identity manual, brand applications, social media templates and institutional materials for the retreat house of the Missionaries of Divine Love.",
+        alcasDescription:
+            "Projeto acadêmico desenvolvido para a Agência Alcas, envolvendo construção de identidade visual, manual de marca, mockups e aplicações gráficas.",
 
-casaMaeTag1:
-    "Branding",
+        marcasTitle:
+            "Marcas do Passado",
 
-casaMaeTag2:
-    "Brand Manual",
+        marcasDescription:
+            "Visual Novel desenvolvida durante a graduação, com roteiro original e narrativa interativa baseada em múltiplos finais.",
 
-casaMaeTag3:
-    "Visual Identity",
 
-    /*==============================
-    ACADEMIC PROJECTS
-    ==============================*/
-    daisyTitle:
-        "Daisy",
+        /*==============================
+        AUDIOVISUAL
+        ==============================*/
 
-    daisyDescription:
-        "Capstone project developed to create a digital Brazilian Sign Language (Libras) translator. I was responsible for the visual identity, art direction and scriptwriting.",
+        audiovisualCategory:
+            "Audiovisual",
 
-    catclubTitle:
-        "CatClub",
+        audiovisualTitle:
+            "Projetos em Audiovisual",
 
-    catclubDescription:
-        "Academic project developed for the Project Management course, focused on creating an interactive children's e-book. My contribution focused on writing and project planning.",
+        audiovisualDescription:
+            "Projetos voltados à produção audiovisual, storytelling, direção de arte e comunicação digital.",
 
-    alcasTitle:
-        "Alcas",
+        alegrementeTitle:
+            "AlegreMente Psicologia",
 
-    alcasDescription:
-        "Academic project developed for Alcas Agency, involving visual identity design, brand guidelines, mockups and graphic applications.",
+        alegrementeDescription:
+            "Produção de identidade visual para redes sociais, planejamento de conteúdo, direção de arte e desenvolvimento de peças gráficas voltadas à comunicação em saúde mental.",
 
-    marcasTitle:
-        "Marks of the Past",
+        alegrementeTag1:
+            "Social Media",
 
-    marcasDescription:
-        "Visual novel developed during my undergraduate studies, featuring an original script and an interactive narrative with multiple endings.",
-    /*==============================
-FREELANCER
-==============================*/
+        alegrementeTag2:
+            "Direção de Arte",
 
-freelancerTitle:
-    "Freelance Projects",
+        alegrementeTag3:
+            "Design Editorial",
 
-freelancerDescription:
-    "Development of visual identities for small businesses, including logo design, graphic applications and institutional materials.",
+        alegrementeTag4:
+            "Saúde Mental",
 
+        audiobookTitle:
+            "Contos de Morpheus: Entre Máscaras",
 
-/*==============================
-MIV ALEGREMENTE
-==============================*/
+        audiobookDescription:
+            "Narrativa ficcional em formato de áudio acompanhando Elena Walker, psicóloga forense recém-promovida a detetive. Ambientada na cidade de Morpheus, a história mistura suspense investigativo, horror psicológico e elementos sobrenaturais, explorando a tênue fronteira entre sonhos e realidade. O projeto envolve storytelling, desenvolvimento de personagens, roteiro e produção para mídia sonora.",
 
-alegreTitle:
-    "AlegreMente Brand Guidelines",
+        audiobookTag1:
+            "Storytelling",
 
-alegreDescription:
-    "Visual Identity Manual developed for AlegreMente Clinic, establishing guidelines for visual identity, institutional communication and brand applications.",
+        audiobookTag2:
+            "Narrativa Sonora",
 
+        audiobookTag3:
+            "Suspense",
 
-/*==============================
-FOLHAS DE AÇÚCAR
-==============================*/
+        audiobookTag4:
+            "Horror Psicológico",
 
-folhasTitle:
-    "Folhas de Açúcar",
+        audiobookTag5:
+            "Spotify",
 
-folhasDescription:
-    "Freelance visual identity project developed for an artisan bakery, including brand creation, graphic applications and institutional materials.",
-/*==============================
-AUDIOVISUAL
-==============================*/
 
-audiovisualCategory:
-    "Audiovisual & Content",
+        /*==============================
+        PRODUÇÃO ACADÊMICA
+        ==============================*/
 
-audiovisualTitle:
-    "Featured Audiovisual Projects",
+        researchTag:
+            "PRODUÇÃO ACADÊMICA",
 
-audiovisualDescription:
-    "Projects involving content production, visual storytelling, social media and digital communication.",
+        researchTitle:
+            "Destaques da Graduação",
 
+        researchDescription:
+            "Os três projetos mais marcantes desenvolvidos durante minha graduação em Design de Mídias Digitais.",
 
-/* ALEGREMENTE */
+        transmidiaTitle:
+            "Transmídia e Convergência",
 
-    alegreComTitle:
-        "AlegreMente Psychology",
+        transmidiaDescription:
+            "Projeto desenvolvido durante a graduação abordando narrativas transmídia, cultura da convergência e comunicação entre plataformas.",
 
-    alegreComDescription:
-        "Creation of visual identity for social media, content planning, art direction and graphic materials designed to promote mental health services.",
+        transmidiaTag1:
+            "Transmídia",
 
-    alegreTag1:
-        "Social Media",
+        transmidiaTag2:
+            "Audiovisual",
 
-    alegreTag2:
-        "Art Direction",
+        transmidiaTag3:
+            "Narrativa",
 
-    alegreTag3:
-        "Editorial Design",
+        palmaTitle:
+            "PALMA",
 
-    alegreTag4:
-        "Mental Health",
+        palmaDescription:
+            "Trabalho de Graduação desenvolvido em língua inglesa, integrando storytelling, produção audiovisual e apresentação internacional.",
 
-/* AUDIOBOOK */
+        palmaTag1:
+            "Storytelling",
 
-audiobookTitle:
-    "Morpheus Tales: Behind the Masks",
+        palmaTag2:
+            "Inglês",
 
-audiobookDescription:
-    "Fictional audio narrative following Elena Walker, a forensic psychologist recently promoted to detective. Set in the city of Morpheus, the story blends investigative suspense, psychological horror and supernatural elements while exploring the fragile boundary between dreams and reality. The project includes storytelling, character development, scriptwriting and audio production.",
+        palmaTag3:
+            "Audiovisual",
 
-audiobookTag1:
-    "Storytelling",
+        morpheusTitle:
+            "Contos de Morpheus: Entre Máscaras",
 
-audiobookTag2:
-    "Audio Narrative",
+        morpheusDescription:
+            "Narrativa ficcional em formato de áudio acompanhando Elena Walker, psicóloga forense recém-promovida a detetive. Ambientada na cidade de Morpheus, a história mistura suspense investigativo, horror psicológico e elementos sobrenaturais, explorando a tênue fronteira entre sonhos e realidade.",
 
-audiobookTag3:
-    "Suspense",
+        morpheusTag1:
+            "Storytelling",
 
-audiobookTag4:
-    "Psychological Horror",
+        morpheusTag2:
+            "Narrativa Sonora",
 
-audiobookTag5:
-    "Spotify",
-    /*==============================
-ACADEMIC PRODUCTION
-==============================*/
+        morpheusTag3:
+            "Suspense",
 
-researchTag:
-    "ACADEMIC PRODUCTION",
+        morpheusTag4:
+            "Horror Psicológico",
 
-researchTitle:
-    "Featured Projects",
+        morpheusTag5:
+            "Spotify",
 
-researchDescription:
-    "The three most significant projects developed during my Bachelor's degree in Digital Media Design.",
 
+        /*==============================
+        PESQUISA
+        ==============================*/
 
-/* TRANSMÍDIA */
+        researchSectionTag:
+            "PESQUISA",
 
-transmidiaTitle:
-    "Transmedia and Convergence",
+        researchSectionTitle:
+            "Pesquisa em Desenvolvimento",
 
-transmidiaDescription:
-    "Undergraduate project exploring transmedia storytelling, convergence culture and communication across digital platforms.",
+        researchSectionDescription:
+            "Pesquisa em desenvolvimento para candidatura ao Programa de Pós-Graduação em Multimeios (UNICAMP), voltada aos estudos de Comunicação, Cultura Digital, Audiovisual e Plataformas.",
 
-transmidiaTag1:
-    "Transmedia",
+        researchProjectTitle:
+            "Comunicação, Cultura Digital e Plataformas",
 
-transmidiaTag2:
-    "Audiovisual",
+        researchText1:
+            "O estudo investiga as relações entre tecnologias digitais, plataformas e cultura visual, buscando compreender como essas transformações influenciam as práticas comunicacionais contemporâneas.",
 
-transmidiaTag3:
-    "Narrative",
+        researchText2:
+            "A proposta articula pesquisa acadêmica e experiência profissional em design, comunicação digital e audiovisual, reunindo diferentes perspectivas para compreender os impactos das plataformas digitais na cultura visual e na comunicação.",
 
+        researchInterestTitle:
+            "Áreas de Interesse",
 
-/* PALMA */
+        interest1:
+            "Comunicação",
 
-palmaTitle:
-    "PALMA",
+        interest2:
+            "Cultura Digital",
 
-palmaDescription:
-    "Undergraduate project developed entirely in English, combining storytelling, audiovisual production and international presentation.",
+        interest3:
+            "Curadoria Algorítmica",
 
-palmaTag1:
-    "Storytelling",
+        interest4:
+            "Plataformas Digitais",
 
-palmaTag2:
-    "English",
+        interest5:
+            "Cultura Visual",
 
-palmaTag3:
-    "Audiovisual",
+        interest6:
+            "Estudos de Mídia",
 
 
-/* MORPHEUS */
+        /*==============================
+        CURRÍCULO
+        ==============================*/
 
-morpheusTitle:
-    "Morpheus Tales: Behind the Masks",
+        curriculumTag:
+            "CURRÍCULO",
 
-morpheusDescription:
-    "Fictional audio narrative following Elena Walker, a forensic psychologist recently promoted to detective. Set in the city of Morpheus, the story blends investigative suspense, psychological horror and supernatural elements, exploring the fine line between dreams and reality. The project involved storytelling, character development, scriptwriting and audio production.",
+        curriculumTitle:
+            "Currículo & Formação",
 
-morpheusTag1:
-    "Storytelling",
+        curriculumDescription:
+            "Conheça minha trajetória acadêmica, experiências profissionais e produção científica na área de Comunicação, Design Digital, Cultura Visual e Plataformas Digitais.",
 
-morpheusTag2:
-    "Audio Narrative",
+        professionalResumeTitle:
+            "Currículo Profissional",
 
-morpheusTag3:
-    "Suspense",
+        professionalResumeDescription:
+            "Formação acadêmica, experiências profissionais, competências técnicas e atuação em Design, Branding, Social Media e Produção Audiovisual.",
 
-morpheusTag4:
-    "Psychological Horror",
+        viewPdf:
+            "Visualizar PDF",
 
-morpheusTag5:
-    "Spotify",
+        lattesTitle:
+            "Currículo Lattes",
 
+        lattesDescription:
+            "Produção científica, artigos, pesquisas, projetos acadêmicos, eventos e atividades desenvolvidas durante minha formação.",
 
-/*==============================
-DIGITAL COMMUNICATION
-==============================*/
+        accessLattes:
+            "Acessar Lattes",
 
-communicationTag:
-    "DIGITAL COMMUNICATION",
 
-communicationTitle:
-    "Professional Projects",
+        /*==============================
+        CONTATO
+        ==============================*/
 
-communicationDescription:
-    "Projects focused on digital communication, social media management, branding and visual identity for companies and institutions.",
+        contactTag:
+            "CONTATO",
 
-   /*==============================
-RESEARCH
-==============================*/
+        contactTitle:
+            "Vamos criar algo juntos?",
 
-researchSectionTag:
-    "RESEARCH",
+        contactDescription:
+            "Se você procura uma designer para desenvolver uma identidade visual, fortalecer a comunicação da sua marca ou conversar sobre novos projetos e pesquisas, será um prazer falar com você.",
 
-researchSectionTitle:
-    "Research in Progress",
+        copyright:
+            "© 2023–2026 Mayra C. N. Gomes. Todos os direitos reservados."
 
-researchSectionDescription:
-    "Research project under development for admission to the Graduate Program in Multimedia (UNICAMP), focused on Communication, Digital Culture, Audiovisual Studies, and Digital Platforms.",
+    },
+      /*====================================================
+      ENGLISH
+    ====================================================*/
 
-researchProjectTitle:
-    "Communication, Digital Culture, and Platforms",
+    en: {
 
-researchText1:
-    "This research explores the relationship between digital technologies, platforms, and visual culture, seeking to understand how these transformations shape contemporary communication practices.",
+        /*==============================
+        MENU
+        ==============================*/
 
-researchText2:
-    "The project combines academic research with professional experience in design, digital communication, and audiovisual media, bringing together different perspectives to examine the impact of digital platforms on visual culture and communication.",
-researchInterestTitle:
-    "Research Interests",
+        menuAbout:
+            "About",
 
-interest1:
-    "Communication",
+        menuSkills:
+            "Expertise",
 
-interest2:
-    "Digital Culture",
+        menuProjects:
+            "Projects",
 
-interest3:
-    "Algorithmic Curation",
+        menuResearch:
+            "Research",
 
-interest4:
-    "Digital Platforms",
+        menuResume:
+            "Curriculum",
 
-interest5:
-    "Visual Culture",
+        menuContact:
+            "Contact",
 
-interest6:
-    "Media Studies",
 
+        /*==============================
+        HERO
+        ==============================*/
 
-/*==============================
-CURRICULUM
-==============================*/
+        heroTag:
+            "DESIGN • BRANDING • DIGITAL COMMUNICATION",
 
-curriculumTag:
-    "CURRICULUM",
+        heroDescription:
+            "Every brand tells a story. I transform ideas into visual identities that communicate purpose, authenticity, and personality, creating projects that combine strategy, design, and digital experience.",
 
-curriculumTitle:
-    "Curriculum & Education",
+        btnProjects:
+            "VIEW PROJECTS",
 
-curriculumDescription:
-    "Learn more about my academic background, professional experience and scientific production in Communication, Digital Design, Visual Culture and Digital Platforms.",
+        btnResume:
+            "RÉSUMÉ",
 
-professionalResumeTitle:
-    "Professional Resume",
 
-professionalResumeDescription:
-    "Academic education, professional experience, technical skills and work involving Design, Branding, Social Media and Audiovisual Production.",
+        /*==============================
+        EXPERTISE
+        ==============================*/
 
-viewPdf:
-    "View PDF",
+        skillsTag:
+            "EXPERTISE",
 
-lattesTitle:
-    "Lattes CV",
+        skillsTitle:
+            "Areas of Expertise",
 
-lattesDescription:
-    "Scientific publications, research, academic projects, conferences and activities developed throughout my academic journey.",
+        skillsDescription:
+            "Skills developed through academic education, professional experience, and research projects.",
 
-accessLattes:
-    "Access Lattes",
+        skillGraphicTitle:
+            "Graphic Design",
 
+        skillGraphicDescription:
+            "Development of visual identities, editorial materials, and digital and printed graphic assets.",
 
-/*==============================
-CONTACT
-==============================*/
+        skillBrandingTitle:
+            "Branding & Communication",
 
-contactTag:
-    "CONTACT",
+        skillBrandingDescription:
+            "Communication strategies, branding, digital marketing, and brand positioning.",
 
-contactTitle:
-    "Let's Create Something Together?",
+        skillAudiovisualTitle:
+            "Audiovisual Production",
 
-contactDescription:
-    "If you're looking for a designer to build a visual identity, strengthen your brand communication or discuss research and innovation, I'd be happy to hear from you.",
+        skillAudiovisualDescription:
+            "Video production, editing, photography, storytelling, and visual narrative.",
 
-copyright:
-    "© 2023–2026 Mayra C. N. Gomes. All rights reserved."
+        skillSocialTitle:
+            "Social Media",
 
-}
+        skillSocialDescription:
+            "Content planning, social media identity design, and profile management.",
+
+        skillDigitalTitle:
+            "Digital Design",
+
+        skillDigitalDescription:
+            "HTML, CSS, Bootstrap, digital interfaces, and user experience.",
+
+        skillResearchTitle:
+            "Research",
+
+        skillResearchDescription:
+            "Digital culture, platforms, algorithms, communication, audiovisual studies, and visual culture.",
+              /*==============================
+        PROJECTS
+        ==============================*/
+
+        myRole:
+            "My Role",
+
+        clientsTitle:
+            "Clients",
+
+        freelancerClients:
+            "• Sonhadeiro<br>• Cores & Crochê",
+
+        pmaySkills:
+            "• Visual Identity<br>• Branding<br>• Graphic Design",
+
+        alegreSkills:
+            "• Visual Identity<br>• Branding<br>• Graphic Design<br>• Social Media",
+
+        folhasSkills:
+            "• Visual Identity<br>• Branding<br>• Graphic Design",
+
+
+        /*==============================
+        BRANDING
+        ==============================*/
+
+        brandingCategory:
+            "Branding & Visual Identity",
+
+        brandingTitle:
+            "Branding Projects",
+
+        brandingDescription:
+            "Projects focused on brand development, visual identity, and editorial design.",
+
+
+        /* PMAY */
+
+        pmayTitle:
+            "PMAY",
+
+        pmayDescription:
+            "Personal branding project created to reflect my professional growth and consolidate my work in Design, Digital Communication, and Branding.",
+
+        pmayTag1:
+            "Branding",
+
+        pmayTag2:
+            "Visual Identity",
+
+        pmayTag3:
+            "Personal Brand",
+
+
+        /*==============================
+        FREELANCE
+        ==============================*/
+
+        freelancerTitle:
+            "Freelance Projects",
+
+        freelancerDescription:
+            "Development of visual identities for small businesses, including logo design, graphic applications, and institutional materials.",
+
+
+        /*==============================
+        ALEGREMENTE
+        ==============================*/
+
+        alegreTitle:
+            "AlegreMente Brand Guidelines",
+
+        alegreDescription:
+            "Visual Identity Manual developed for AlegreMente Clinic, establishing guidelines for visual identity, institutional communication, and brand applications.",
+
+
+        /*==============================
+        FOLHAS DE AÇÚCAR
+        ==============================*/
+
+        folhasTitle:
+            "Folhas de Açúcar",
+
+        folhasDescription:
+            "Freelance visual identity project created for an artisan bakery, including brand development, graphic applications, and institutional materials.",
+
+
+        /*==============================
+        DIGITAL COMMUNICATION
+        ==============================*/
+
+        communicationCategory:
+            "Digital Communication",
+
+        communicationTitle:
+            "Professional Projects",
+
+        communicationDescription:
+            "Professional projects involving content strategy, branding, visual identity, and social media management.",
+
+
+        /* APAM */
+
+        apamTitle:
+            "São Paulo Women's Support Association",
+
+        apamDescription:
+            "Volunteer Social Media work involving strategic planning, Instagram redesign, campaign visual identity, and strengthening the institution's digital presence.",
+
+        apamTag1:
+            "Social Media",
+
+        apamTag2:
+            "Instagram",
+
+        apamTag3:
+            "Design",
+
+        apamTag4:
+            "Planning",
+
+
+        /* CASA MÃE */
+
+        casaMaeTitle:
+            "Casa Mãe – Visual Identity",
+
+        casaMaeDescription:
+            "Development of the visual identity manual, brand applications, social media templates, and institutional materials for the Missionaries of Divine Love Retreat House.",
+
+        casaMaeTag1:
+            "Branding",
+
+        casaMaeTag2:
+            "Brand Manual",
+
+        casaMaeTag3:
+            "Visual Identity",
+              /*==============================
+        ACADEMIC PROJECTS
+        ==============================*/
+
+        daisyTitle:
+            "Daisy",
+
+        daisyDescription:
+            "Capstone project developed to create a digital Brazilian Sign Language (Libras) translator. I was responsible for the visual identity, art direction, and scriptwriting.",
+
+        catclubTitle:
+            "CatClub",
+
+        catclubDescription:
+            "Academic project developed for the Project Management course, focused on creating an interactive children's e-book. My contribution focused on writing and project planning.",
+
+        alcasTitle:
+            "Alcas",
+
+        alcasDescription:
+            "Academic project developed for Alcas Agency, involving visual identity design, brand guidelines, mockups, and graphic applications.",
+
+        marcasTitle:
+            "Marks of the Past",
+
+        marcasDescription:
+            "Visual novel developed during my undergraduate studies, featuring an original script and an interactive narrative with multiple endings.",
+
+
+        /*==============================
+        AUDIOVISUAL
+        ==============================*/
+
+        audiovisualCategory:
+            "Audiovisual",
+
+        audiovisualTitle:
+            "Audiovisual Projects",
+
+        audiovisualDescription:
+            "Projects focused on audiovisual production, storytelling, art direction, and digital communication.",
+
+        alegrementeTitle:
+            "AlegreMente Psychology",
+
+        alegrementeDescription:
+            "Creation of visual identity for social media, content planning, art direction, and graphic materials designed for mental health communication.",
+
+        alegrementeTag1:
+            "Social Media",
+
+        alegrementeTag2:
+            "Art Direction",
+
+        alegrementeTag3:
+            "Editorial Design",
+
+        alegrementeTag4:
+            "Mental Health",
+
+        audiobookTitle:
+            "Morpheus Tales: Behind the Masks",
+
+        audiobookDescription:
+            "Fictional audio narrative following Elena Walker, a forensic psychologist recently promoted to detective. Set in the city of Morpheus, the story blends investigative suspense, psychological horror, and supernatural elements while exploring the fragile boundary between dreams and reality. The project includes storytelling, character development, scriptwriting, and audio production.",
+
+        audiobookTag1:
+            "Storytelling",
+
+        audiobookTag2:
+            "Audio Narrative",
+
+        audiobookTag3:
+            "Suspense",
+
+        audiobookTag4:
+            "Psychological Horror",
+
+        audiobookTag5:
+            "Spotify",
+
+
+        /*==============================
+        ACADEMIC PRODUCTION
+        ==============================*/
+
+        researchTag:
+            "ACADEMIC PRODUCTION",
+
+        researchTitle:
+            "Academic Highlights",
+
+        researchDescription:
+            "The three most significant projects developed during my Bachelor's Degree in Digital Media Design.",
+
+        transmidiaTitle:
+            "Transmedia and Convergence",
+
+        transmidiaDescription:
+            "Undergraduate project exploring transmedia storytelling, convergence culture, and communication across digital platforms.",
+
+        transmidiaTag1:
+            "Transmedia",
+
+        transmidiaTag2:
+            "Audiovisual",
+
+        transmidiaTag3:
+            "Narrative",
+
+        palmaTitle:
+            "PALMA",
+
+        palmaDescription:
+            "Undergraduate project developed entirely in English, combining storytelling, audiovisual production, and international presentation.",
+
+        palmaTag1:
+            "Storytelling",
+
+        palmaTag2:
+            "English",
+
+        palmaTag3:
+            "Audiovisual",
+
+        morpheusTitle:
+            "Morpheus Tales: Behind the Masks",
+
+        morpheusDescription:
+            "Fictional audio narrative following Elena Walker, a forensic psychologist recently promoted to detective. Set in the city of Morpheus, the story blends investigative suspense, psychological horror, and supernatural elements while exploring the thin line between dreams and reality.",
+
+        morpheusTag1:
+            "Storytelling",
+
+        morpheusTag2:
+            "Audio Narrative",
+
+        morpheusTag3:
+            "Suspense",
+
+        morpheusTag4:
+            "Psychological Horror",
+
+        morpheusTag5:
+            "Spotify",
+              /*==============================
+        RESEARCH
+        ==============================*/
+
+        researchSectionTag:
+            "RESEARCH",
+
+        researchSectionTitle:
+            "Research in Progress",
+
+        researchSectionDescription:
+            "Research project under development for admission to the Graduate Program in Multimedia (UNICAMP), focused on Communication, Digital Culture, Audiovisual Studies, and Digital Platforms.",
+
+        researchProjectTitle:
+            "Communication, Digital Culture, and Platforms",
+
+        researchText1:
+            "This research explores the relationship between digital technologies, platforms, and visual culture, seeking to understand how these transformations shape contemporary communication practices.",
+
+        researchText2:
+            "The project combines academic research with professional experience in design, digital communication, and audiovisual media, bringing together different perspectives to examine the impact of digital platforms on visual culture and communication.",
+
+        researchInterestTitle:
+            "Research Interests",
+
+        interest1:
+            "Communication",
+
+        interest2:
+            "Digital Culture",
+
+        interest3:
+            "Algorithmic Curation",
+
+        interest4:
+            "Digital Platforms",
+
+        interest5:
+            "Visual Culture",
+
+        interest6:
+            "Media Studies",
+
+
+        /*==============================
+        CURRICULUM
+        ==============================*/
+
+        curriculumTag:
+            "CURRICULUM",
+
+        curriculumTitle:
+            "Curriculum & Education",
+
+        curriculumDescription:
+            "Learn more about my academic background, professional experience, and academic production in Communication, Digital Design, Visual Culture, and Digital Platforms.",
+
+        professionalResumeTitle:
+            "Professional Resume",
+
+        professionalResumeDescription:
+            "Academic background, professional experience, technical skills, and work in Design, Branding, Social Media, and Audiovisual Production.",
+
+        viewPdf:
+            "View PDF",
+
+        lattesTitle:
+            "Lattes CV",
+
+        lattesDescription:
+            "Scientific publications, research, academic projects, conferences, and activities developed throughout my academic journey.",
+
+        accessLattes:
+            "Access Lattes",
+
+
+        /*==============================
+        CONTACT
+        ==============================*/
+
+        contactTag:
+            "CONTACT",
+
+        contactTitle:
+            "Let's Create Something Together?",
+
+        contactDescription:
+            "If you're looking for a designer to build a visual identity, strengthen your brand communication, or discuss new projects and research, I'd be happy to hear from you.",
+
+        copyright:
+            "© 2023–2026 Mayra C. N. Gomes. All rights reserved."
+
+    }
 
 };
-
-
 /*====================================================
-ALTERAR IDIOMA
+  ALTERAR IDIOMA
 ====================================================*/
 
-function changeLanguage(language){
+function changeLanguage(language) {
 
-    // Define o idioma da página
+    // Atualiza o idioma da página
     document.documentElement.lang =
-        language === "pt"
-            ? "pt-BR"
-            : "en";
+        language === "pt" ? "pt-BR" : "en";
 
     // Salva a preferência
     localStorage.setItem("language", language);
 
-    // Percorre todos os elementos com data-i18n
-    document.querySelectorAll("[data-i18n]").forEach(element=>{
+    // Atualiza todos os elementos com data-i18n
+    document.querySelectorAll("[data-i18n]").forEach(element => {
 
         const key = element.dataset.i18n;
 
-        // Só altera se a chave existir
-        if(
+        if (
             translations[language] &&
-            translations[language][key]
-        ){
-
-            element.innerHTML =
-                translations[language][key];
-
+            Object.prototype.hasOwnProperty.call(translations[language], key)
+        ) {
+            element.innerHTML = translations[language][key];
         }
 
     });
 
-    // Atualiza os botões
-
+    // Atualiza estado dos botões
     const btnPT = document.getElementById("btn-pt");
     const btnEN = document.getElementById("btn-en");
 
-    if(btnPT){
-
-        btnPT.classList.toggle(
-            "active",
-            language==="pt"
-        );
-
+    if (btnPT) {
+        btnPT.classList.toggle("active", language === "pt");
     }
 
-    if(btnEN){
-
-        btnEN.classList.toggle(
-            "active",
-            language==="en"
-        );
-
+    if (btnEN) {
+        btnEN.classList.toggle("active", language === "en");
     }
 
 }
 
 
 /*====================================================
-CARREGAMENTO INICIAL
+  CARREGAMENTO INICIAL
 ====================================================*/
 
-document.addEventListener("DOMContentLoaded",()=>{
+document.addEventListener("DOMContentLoaded", () => {
 
     const savedLanguage =
         localStorage.getItem("language") || "pt";
@@ -1102,3 +1002,4 @@ document.addEventListener("DOMContentLoaded",()=>{
     changeLanguage(savedLanguage);
 
 });
+      
