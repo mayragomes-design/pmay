@@ -934,7 +934,7 @@ communicationTitle:
 communicationDescription:
     "Projects focused on digital communication, social media management, branding and visual identity for companies and institutions.",
 
-    /*==============================
+   /*==============================
 RESEARCH
 ==============================*/
 
@@ -942,20 +942,19 @@ researchSectionTag:
     "RESEARCH",
 
 researchSectionTitle:
-    "Current Research",
+    "Research in Progress",
 
 researchSectionDescription:
-    "Research project developed for admission to the Master's Program in Multimedia at the University of Campinas (UNICAMP), investigating how algorithms reshape visual culture and influence contemporary digital practices.",
+    "Research project under development for admission to the Graduate Program in Multimedia (UNICAMP), focused on Communication, Digital Culture, Audiovisual Studies, and Digital Platforms.",
 
 researchProjectTitle:
-    "The Algorithm's Mirror: Digital Practices and the Construction of Visual Culture on Digital Platforms",
+    "Communication, Digital Culture, and Platforms",
 
 researchText1:
-    "This research investigates how recommendation systems, algorithms and digital platforms continuously learn from user interactions, reorganizing the production, circulation and visibility of visual culture.",
+    "This research explores the relationship between digital technologies, platforms, and visual culture, seeking to understand how these transformations shape contemporary communication practices.",
 
 researchText2:
-    "The study brings together Communication, Digital Culture, Audiovisual Studies and Platform Studies to understand how these technologies influence identity construction and contemporary visual experiences.",
-
+    "The project combines academic research with professional experience in design, digital communication, and audiovisual media, bringing together different perspectives to examine the impact of digital platforms on visual culture and communication."
 researchInterestTitle:
     "Research Interests",
 
