@@ -428,7 +428,7 @@ communicationTitle:
 communicationDescription:
     "Projetos relacionados ao planejamento de conteúdo, branding, identidade visual e gestão de redes sociais para empresas e instituições.",
 
-    /*==============================
+   /*==============================
 PESQUISA
 ==============================*/
 
@@ -436,20 +436,19 @@ researchSectionTag:
     "PESQUISA",
 
 researchSectionTitle:
-    "Projeto Atual",
+    "Pesquisa em Desenvolvimento",
 
 researchSectionDescription:
-    "Pesquisa desenvolvida para ingresso no Programa de Pós-Graduação em Multimeios (UNICAMP), investigando como algoritmos reorganizam a cultura visual e influenciam as práticas digitais contemporâneas.",
+    "Pesquisa em desenvolvimento para candidatura ao Programa de Pós-Graduação em Multimeios (UNICAMP), voltada aos estudos de Comunicação, Cultura Digital, Audiovisual e Plataformas.",
 
 researchProjectTitle:
-    "O Espelho do Algoritmo: práticas digitais e a construção da cultura visual nas plataformas digitais",
+    "Comunicação, Cultura Digital e Plataformas",
 
 researchText1:
-    "O projeto investiga como sistemas de recomendação, algoritmos e plataformas digitais aprendem continuamente a partir das ações dos usuários, reorganizando a produção, circulação e visibilidade da cultura visual.",
+    "O estudo investiga as relações entre tecnologias digitais, plataformas e cultura visual, buscando compreender como essas transformações influenciam as práticas comunicacionais contemporâneas.",
 
 researchText2:
-    "A pesquisa articula estudos de Comunicação, Cultura Digital, Audiovisual e Plataformas, buscando compreender como essas tecnologias interferem na construção das identidades e nas experiências visuais contemporâneas.",
-
+    "A proposta articula pesquisa acadêmica e experiência profissional em design, comunicação digital e audiovisual, reunindo diferentes perspectivas para compreender os impactos das plataformas digitais na cultura visual e na comunicação."
 researchInterestTitle:
     "Áreas de Interesse",
 
