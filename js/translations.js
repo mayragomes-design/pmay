@@ -381,7 +381,23 @@ const translations = {
         morpheusTag5:
             "Spotify",
 
+alegrementeTitle:
+    "AlegreMente Psicologia",
 
+alegrementeDescription:
+    "Produção de identidade visual para redes sociais, planejamento de conteúdo, direção de arte e criação de peças gráficas voltadas à divulgação de serviços em saúde mental.",
+
+alegrementeTag1:
+    "Social Media",
+
+alegrementeTag2:
+    "Direção de Arte",
+
+alegrementeTag3:
+    "Design Editorial",
+
+alegrementeTag4:
+    "Saúde Mental",
         /*==============================
         PESQUISA
         ==============================*/
@@ -853,7 +869,25 @@ const translations = {
 
         morpheusTag5:
             "Spotify",
-              /*==============================
+
+      alegrementeTitle:
+    "AlegreMente Psychology",
+
+alegrementeDescription:
+    "Development of visual identity for social media, content planning, art direction, and graphic design pieces created to promote mental health services.",
+
+alegrementeTag1:
+    "Social Media",
+
+alegrementeTag2:
+    "Art Direction",
+
+alegrementeTag3:
+    "Editorial Design",
+
+alegrementeTag4:
+    "Mental Health",
+        /*==============================
         RESEARCH
         ==============================*/
 
