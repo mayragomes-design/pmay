@@ -1194,46 +1194,87 @@ PESQUISA
 
 }
 
+.research .container{
+
+    max-width:1320px;
+
+}
+
 .research-grid{
 
     display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:60px;
+    grid-template-columns:48% 52%;
+    column-gap:60px;
     align-items:start;
+
+}
+
+/*==========================
+COLUNA ESQUERDA
+==========================*/
+
+.research-left{
+
+    display:flex;
+    flex-direction:column;
 
 }
 
 .research-left h2{
 
-    margin-bottom:30px;
+    margin-bottom:25px;
 
 }
 
 .research-left p{
 
-    margin-bottom:35px;
+    margin-bottom:40px;
+    line-height:1.9;
 
 }
 
 .research-image{
 
     width:100%;
-    border-radius:28px;
+    height:430px;
     display:block;
+    object-fit:cover;
+    border-radius:24px;
+
+}
+
+/*==========================
+COLUNA DIREITA
+==========================*/
+
+.research-right{
+
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    padding-top:8px;
 
 }
 
 .research-right h3{
 
     color:#8D63B7;
-    margin-bottom:30px;
+    margin-bottom:28px;
+    line-height:1.25;
 
 }
 
 .research-right p{
 
-    margin-bottom:22px;
     line-height:1.9;
+    margin-bottom:26px;
+
+}
+
+.research-right h5{
+
+    margin-top:20px;
+    margin-bottom:18px;
 
 }
 
@@ -1242,7 +1283,6 @@ PESQUISA
     display:flex;
     flex-wrap:wrap;
     gap:12px;
-    margin-top:20px;
 
 }
 
@@ -1250,23 +1290,46 @@ PESQUISA
 
     background:#8D63B7;
     color:#fff;
-    border-radius:40px;
-    padding:12px 18px;
+    border:none;
+    border-radius:30px;
+    padding:12px 20px;
+    font-size:.95rem;
     font-weight:500;
 
 }
 
+/*==========================
+RESPONSIVO
+==========================*/
+
 @media (max-width:992px){
+
+    .research{
+
+        padding:90px 0;
+
+    }
 
     .research-grid{
 
         grid-template-columns:1fr;
-        gap:40px;
+        row-gap:50px;
+
+    }
+
+    .research-right{
+
+        padding-top:0;
+
+    }
+
+    .research-image{
+
+        height:auto;
 
     }
 
 }
-
 /*====================================================
 = LINHA DO TEMPO
 ====================================================*/
