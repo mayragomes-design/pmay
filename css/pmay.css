@@ -1184,161 +1184,86 @@ p{
     color:rgba(255,255,255,.82);
 }
 /*====================================================
-= PESQUISA
+PESQUISA
 ====================================================*/
 
-.research-section{
+.research{
 
     padding:120px 0;
-
-    background:#ffffff;
-
-}
-
-.research-title{
-
-    color:#8D63B7;      /* roxo da identidade */
-
-    font-family:"Playfair Display", serif;
-
-    font-weight:700;
-
-    line-height:1.3;
+    background:#F7F2FC;
 
 }
 
-.research-text{
+.research-grid{
 
-    font-size:1.05rem;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:start;
 
+}
+
+.research-left h2{
+
+    margin-bottom:30px;
+
+}
+
+.research-left p{
+
+    margin-bottom:35px;
+
+}
+
+.research-image{
+
+    width:100%;
+    border-radius:28px;
+    display:block;
+
+}
+
+.research-right h3{
+
+    color:#8D63B7;
+    margin-bottom:30px;
+
+}
+
+.research-right p{
+
+    margin-bottom:22px;
     line-height:1.9;
-
-    color:#555;
 
 }
 
 .research-tags{
 
     display:flex;
-
     flex-wrap:wrap;
-
-    gap:10px;
+    gap:12px;
+    margin-top:20px;
 
 }
 
 .research-tags .badge{
 
     background:#8D63B7;
-
     color:#fff;
-
-    padding:10px 16px;
-
-    border-radius:30px;
-
-    font-size:.9rem;
-
+    border-radius:40px;
+    padding:12px 18px;
     font-weight:500;
 
 }
-/*====================================================
-= PESQUISA
-====================================================*/
 
-.research-section{
+@media (max-width:992px){
 
-    padding:120px 0;
+    .research-grid{
 
-    background:#F7F2FC;   /* Mesmo lilás do Currículo */
+        grid-template-columns:1fr;
+        gap:40px;
 
-}
-
-/* Título da seção */
-
-.research-section .section-tag{
-
-    color:#8E67C7;    /* Roxo */
-
-    letter-spacing:3px;
-
-    text-transform:uppercase;
-
-    font-family:"PoppinsBold";
-
-}
-
-/* Título principal */
-
-.research-section .section-title h2{
-
-    color:#24162E;
-
-}
-
-/* Descrição */
-
-.research-section .section-description{
-
-    color:#5F5F74;
-
-}
-
-/* Bloco da pesquisa */
-
-.research-banner{
-
-    background:#ffffff;
-
-    border-radius:28px;
-
-    padding:70px;
-
-    box-shadow:0 20px 50px rgba(0,0,0,.08);
-
-}
-
-/* "Projeto Atual" */
-
-.research-banner h2{
-
-    color:#24162E;
-
-    margin-bottom:25px;
-
-    font-size:3rem;
-
-}
-
-/* Texto */
-
-.research-banner p{
-
-    color:#5F5F74;
-
-    font-size:1.08rem;
-
-    margin-bottom:20px;
-
-}
-
-/* Imagem */
-
-.research-image{
-
-    border-radius:24px;
-
-    overflow:hidden;
-
-}
-
-.research-image img{
-
-    width:100%;
-
-    display:block;
-
-    border-radius:24px;
+    }
 
 }
 
