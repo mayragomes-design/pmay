@@ -448,7 +448,8 @@ researchText1:
     "O estudo investiga as relações entre tecnologias digitais, plataformas e cultura visual, buscando compreender como essas transformações influenciam as práticas comunicacionais contemporâneas.",
 
 researchText2:
-    "A proposta articula pesquisa acadêmica e experiência profissional em design, comunicação digital e audiovisual, reunindo diferentes perspectivas para compreender os impactos das plataformas digitais na cultura visual e na comunicação."
+    "A proposta articula pesquisa acadêmica e experiência profissional em design, comunicação digital e audiovisual, reunindo diferentes perspectivas para compreender os impactos das plataformas digitais na cultura visual e na comunicação.",
+
 researchInterestTitle:
     "Áreas de Interesse",
 
@@ -954,7 +955,7 @@ researchText1:
     "This research explores the relationship between digital technologies, platforms, and visual culture, seeking to understand how these transformations shape contemporary communication practices.",
 
 researchText2:
-    "The project combines academic research with professional experience in design, digital communication, and audiovisual media, bringing together different perspectives to examine the impact of digital platforms on visual culture and communication."
+    "The project combines academic research with professional experience in design, digital communication, and audiovisual media, bringing together different perspectives to examine the impact of digital platforms on visual culture and communication.",
 researchInterestTitle:
     "Research Interests",
 
