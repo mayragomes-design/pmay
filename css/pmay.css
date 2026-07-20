@@ -372,8 +372,8 @@ p{
 .hero-author{
     font-family: "Playfair Display", serif;
     font-style: italic;
-    font-size: 2rem;
-    color: rgba(255,255,255,.90);
+    font-size: 1.7rem;
+    color: rgba(255,255,255,.82);
 
     margin-bottom: 2.2rem;
 }
