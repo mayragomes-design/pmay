@@ -310,7 +310,20 @@ p{
 /*====================================================
 = HERO
 ====================================================*/
+.hero-title{
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: .9;
+}
 
+.hero-subtitle{
+    display:block;
+    font-size: .48em;      /* cerca da metade do tamanho */
+    font-weight: 600;
+    font-style: italic;
+    opacity: .9;
+    margin-top: .2rem;
+}
 .masthead{
 
     position:relative;
