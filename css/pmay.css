@@ -425,6 +425,11 @@ p{
     filter:drop-shadow(0 5px 10px rgba(0,0,0,.22));
 
 }
+.hero-title{
+    color: rgba(255,255,255,.96);
+    -webkit-text-fill-color: rgba(255,255,255,.96);
+    text-shadow: 0 2px 12px rgba(0,0,0,.18);
+}
 
 /*=========================
   ASSINATURA
