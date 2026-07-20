@@ -313,16 +313,17 @@ p{
 .hero-title{
     font-size: 6rem;
     font-weight: 800;
-    line-height: .9;
+    font-style: italic;
+    line-height: .95;
+    margin-bottom: .2rem;
 }
 
-.hero-subtitle{
-    display:block;
-    font-size: .48em;      /* cerca da metade do tamanho */
-    font-weight: 600;
+.hero-author{
+    font-size: 2rem;
     font-style: italic;
-    opacity: .9;
-    margin-top: .2rem;
+    font-weight: 500;
+    opacity: .8;
+    margin-bottom: 2.5rem;
 }
 .masthead{
 
