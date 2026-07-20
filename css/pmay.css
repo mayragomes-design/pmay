@@ -397,15 +397,15 @@ p{
     background:linear-gradient(
         180deg,
         #FFFFFF 0%,
-        #EEE9F8 45%,
-        #CDBDE8 100%
+        #F4F0FB 55%,
+        #E6DEF6 100%
     );
 
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
     background-clip:text;
 
-    filter:drop-shadow(0 6px 14px rgba(0,0,0,.28));
+    filter:drop-shadow(0 5px 10px rgba(0,0,0,.22));
 
 }
 
@@ -420,17 +420,16 @@ p{
     font-style:italic;
     font-weight:500;
 
-    font-size:1.7rem;
+    font-size:1.75rem;
 
     color:rgba(255,255,255,.88);
 
-    letter-spacing:.4px;
+    letter-spacing:.3px;
 
-    margin-top:-.2rem;
+    margin-top:-.15rem;
     margin-bottom:2.2rem;
 
-    text-shadow:
-        0 2px 8px rgba(0,0,0,.28);
+    text-shadow:0 2px 6px rgba(0,0,0,.25);
 
 }
 
