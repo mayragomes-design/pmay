@@ -11084,11 +11084,6 @@ body {
   line-height: 0.95;
   letter-spacing: normal;
   text-transform: none;
-  color: #ffffff;
-  background: none;
-  -webkit-text-fill-color: #ffffff;
-  -webkit-background-clip: initial;
-  background-clip: initial;
 }
 
 .masthead h2,
