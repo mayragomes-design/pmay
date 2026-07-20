@@ -392,18 +392,18 @@ p{
 
     margin-bottom: .15rem;
 
-    background: linear-gradient(
-        180deg,
-        rgba(255,255,255,.95),
-        rgba(225,220,240,.90),
-        rgba(180,165,210,.82)
-    );
+    background:linear-gradient(
+    180deg,
+    rgba(255,255,255,1),
+    rgba(245,240,255,.98),
+    rgba(215,200,245,.95)
+);
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 
-    opacity: .60;
+    opacity:1;
 
     text-shadow:
         0 2px 8px rgba(0,0,0,.30);
