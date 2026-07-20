@@ -309,7 +309,25 @@ p{
 /*====================================================
 = HERO
 ====================================================*/
+.hero-content{
+    padding-top: 6rem;
+}
 
+.hero-title{
+    margin-bottom: .4rem;
+}
+
+.hero-author{
+    margin-bottom: 2.2rem;
+}
+
+.hero-tag{
+    margin-bottom: 2rem;
+}
+
+.hero-description{
+    margin-bottom: 2.8rem;
+}
 .masthead{
 
     position: relative;
