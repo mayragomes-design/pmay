@@ -309,27 +309,8 @@ p{
 /*====================================================
 = HERO
 ====================================================*/
-.hero-content{
-    padding-top: 6rem;
-}
 
-.hero-title{
-    margin-bottom: .4rem;
-}
-
-.hero-author{
-    margin-bottom: 2.2rem;
-}
-
-.hero-tag{
-    margin-bottom: 2rem;
-}
-
-.hero-description{
-    margin-bottom: 2.8rem;
-}
 .masthead{
-
     position: relative;
     width: 100%;
     min-height: 92vh;
@@ -339,7 +320,6 @@ p{
     justify-content: center;
 
     text-align: center;
-
     padding: 90px 0 110px;
 
     background:
@@ -352,83 +332,70 @@ p{
     background-repeat: no-repeat;
 
     overflow: hidden;
-
 }
 
 .hero-overlay{
+    position: absolute;
+    inset: 0;
 
-    position:absolute;
-    inset:0;
-
-    background:linear-gradient(
+    background: linear-gradient(
         180deg,
         rgba(0,0,0,.08),
         rgba(0,0,0,.35)
     );
-
 }
 
 .hero-content{
+    position: relative;
+    z-index: 2;
 
-    position:relative;
-    z-index:2;
+    padding-top: 6rem;
+    margin-top: 15px;
+}
 
-    margin-top:15px;
+.hero-title{
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 700;
 
+    font-size: clamp(4rem, 7vw, 6rem);
+    line-height: .92;
+
+    margin-bottom: .4rem;
+
+    color: rgba(255,255,255,.95);
+    -webkit-text-fill-color: rgba(255,255,255,.95);
+
+    text-shadow:
+        0 2px 12px rgba(0,0,0,.18),
+        0 1px 2px rgba(0,0,0,.10);
+}
+
+.hero-author{
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-size: 2rem;
+    color: rgba(255,255,255,.90);
+
+    margin-bottom: 2.2rem;
 }
 
 .hero-tag{
+    display: block;
 
-    display:block;
+    color: #F5D46B;
 
-    color:#F5D46B;
+    font-family: "PoppinsBold";
+    text-transform: uppercase;
 
-    font-family:"PoppinsBold";
+    letter-spacing: 5px;
+    font-size: .9rem;
 
-    text-transform:uppercase;
-
-    letter-spacing:5px;
-
-    font-size:.9rem;
-
-    margin-bottom:20px;
-
+    margin-bottom: 2rem;
 }
 
-/*=========================
-  TÍTULO
-=========================*/
-
-.hero-title{
-
-    font-family:"Playfair Display", serif;
-    font-style:italic;
-    font-weight:700;
-
-    font-size:clamp(4rem,7vw,6rem);
-
-    line-height:.92;
-
-    margin-bottom:.35rem;
-
-    background:linear-gradient(
-        180deg,
-        #FFFFFF 0%,
-        #F4F0FB 55%,
-        #E6DEF6 100%
-    );
-
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
-    background-clip:text;
-
-    filter:drop-shadow(0 5px 10px rgba(0,0,0,.22));
-
-}
-.hero-title{
-    color: rgba(255,255,255,.96);
-    -webkit-text-fill-color: rgba(255,255,255,.96);
-    text-shadow: 0 2px 12px rgba(0,0,0,.18);
+.hero-description{
+    margin-bottom: 2.8rem;
 }
 
 /*=========================
