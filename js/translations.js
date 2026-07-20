@@ -131,7 +131,7 @@ const translations = {
             "Projetos de Branding",
 
         brandingDescription:
-            "Projetos voltados à construção de marcas, identidade visual e design editorial.",
+            "Projetos voltados à construção de marcas, identidade visual e design.",
 
 
         /* PMAY */
@@ -620,7 +620,7 @@ alegrementeTag4:
             "Branding Projects",
 
         brandingDescription:
-            "Projects focused on brand development, visual identity, and editorial design.",
+            "Projects focused on brand development, visual identity, and design.",
 
 
         /* PMAY */
