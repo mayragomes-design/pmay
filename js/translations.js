@@ -9,10 +9,7 @@ const translations = {
     ====================================================*/
 
     pt: {
-    title: "PMAY Design | Mayra Gomes – Designer de Mídias Digitais",
-    description:
-      "PMAY Design é o portfólio de Mayra Gomes, designer especializada em identidade visual, branding, social media, design gráfico e comunicação digital."
-  },
+   
         /*==============================
         MENU
         ==============================*/
@@ -500,10 +497,6 @@ alegrementeTag4:
     ====================================================*/
 
     en: { 
-      title: "PMAY Design | Mayra Gomes – Digital Media Designer",
-    description:
-      "PMAY Design is the portfolio of Mayra Gomes, a designer specializing in visual identity, branding, social media, graphic design, and digital communication."
-  }
 
         /*==============================
         MENU
