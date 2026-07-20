@@ -139,7 +139,7 @@ const translations = {
         pmayTitle:
             "PMAY",
 
-        pmayDescription: "Projeto de rebranding desenvolvido para minha marca pessoal, <strong>PubliMAcity</strong>, refletindo minha evolução profissional e consolidando minha atuação em Design, Comunicação Digital e Branding. A identidade <strong>PMAY</strong> nasce como uma abreviação de <strong>PubliMAcity</strong>, simbolizando uma evolução da marca para uma linguagem mais contemporânea, sem perder sua essência.",
+        pmayDescription: "Projeto de rebranding desenvolvido para minha marca pessoal, <strong>PubliMAcitY</strong>, refletindo minha evolução profissional e consolidando minha atuação em Design, Comunicação Digital e Branding. A identidade <strong>PMAY</strong> nasce como uma abreviação de <strong>PubliMAcitY</strong>, simbolizando uma evolução da marca para uma linguagem mais cotemporânea, sem perder sua essência.",
         pmayTag1:
             "Branding",
 
@@ -629,7 +629,7 @@ alegrementeTag4:
             "PMAY",
 
         pmayDescription:
-            "A rebranding project created for my personal brand, <strong>PubliMAcity</strong>, reflecting my professional growth and strengthening my work in Design, Digital Communication, and Branding. The name <strong>PMAY</strong> is an abbreviation of <strong>PubliMAcity</strong>, representing the evolution of the brand into a more contemporary visual identity while preserving its original essence.",
+            "A rebranding project created for my personal brand, <strong>PubliMAcitY</strong>, reflecting my professional growth and strengthening my work in Design, Digital Communication, and Branding. The name <strong>PMAY</strong> is an abbreviation of <strong>PubliMAcitY</strong>, representing the evolution of the brand into a more contemporary visual identity while preserving its original essence.",
 
         pmayTag1:
             "Branding",
