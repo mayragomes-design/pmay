@@ -382,31 +382,29 @@ p{
 
 .hero-title{
 
-    font-family: "Playfair Display", serif;
-    font-style: italic;
-    font-weight: 700;
+    font-family:"Playfair", serif;
+    font-style:italic;
+    font-weight:700;
 
-    font-size: clamp(3.6rem, 6vw, 5.8rem);
+    font-size:clamp(3.8rem,6vw,5.8rem);
 
-    line-height: .95;
+    line-height:.95;
 
-    margin-bottom: .15rem;
+    margin-bottom:.2rem;
 
     background:linear-gradient(
-    180deg,
-    rgba(255,255,255,1),
-    rgba(245,240,255,.98),
-    rgba(215,200,245,.95)
-);
+        180deg,
+        rgba(255,255,255,.92) 0%,
+        rgba(235,228,248,.85) 55%,
+        rgba(185,170,215,.75) 100%
+    );
 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-
-    opacity:1;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
 
     text-shadow:
-        0 2px 8px rgba(0,0,0,.30);
+        0 3px 10px rgba(0,0,0,.28);
 
 }
 
@@ -416,20 +414,20 @@ p{
 
 .hero-author{
 
-    font-family: "Playfair Display", serif;
+    font-family:"Playfair", serif;
+    font-style:italic;
+    font-weight:500;
 
-    font-style: italic;
-    font-weight: 500;
+    font-size:1.55rem;
 
-    font-size: 1.7rem;
+    color:rgba(255,255,255,.78);
 
-    color: rgba(255,255,255,.72);
+    margin-top:-.15rem;
+    margin-bottom:2.1rem;
 
-    margin-top: -.3rem;
-    margin-bottom: 2.3rem;
+    letter-spacing:.5px;
 
-    text-shadow:
-        0 2px 6px rgba(0,0,0,.25);
+    text-shadow:0 2px 6px rgba(0,0,0,.25);
 
 }
 
