@@ -70,7 +70,26 @@ window.addEventListener("DOMContentLoaded", () => {
             }
 
         });
+const aboutPanel = document.getElementById("aboutPanel");
 
-    });
+const aboutToggle = document.getElementById("aboutToggle");
+
+aboutToggle.addEventListener("click",()=>{
+
+    aboutPanel.classList.toggle("open");
+
+    const icon=aboutToggle.querySelector("i");
+
+    if(aboutPanel.classList.contains("open")){
+
+        icon.className="fa-solid fa-chevron-right";
+
+    }else{
+
+        icon.className="fa-solid fa-chevron-left";
+
+    }
+
+});
 
 });
