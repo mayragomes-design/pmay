@@ -196,6 +196,33 @@ p{
 /*====================================================
 = NAVBAR
 ====================================================*/
+#navbarResponsive{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+
+@media (min-width:992px){
+
+    #navbarResponsive{
+        gap:20px;
+    }
+
+    .navbar-nav{
+        flex-direction:row;
+        align-items:center;
+        margin-bottom:0;
+    }
+
+    .language-switch{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        gap:8px;
+        margin-left:10px;
+    }
+
+}
 #mainNav .nav-link.active{
 
     background: var(--roxo);
