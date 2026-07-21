@@ -38,7 +38,11 @@ const translations = {
         /*==============================
         HERO
         ==============================*/
+aboutCardTitle:
+    "Quem é a Mayra?",
 
+aboutCardText:
+    "Designer de Mídias Digitais formada pela FATEC Carapicuíba, com atuação em branding, identidade visual, marketing digital, web design e comunicação digital. Atualmente desenvolve pesquisas em cultura visual, plataformas digitais e curadoria algorítmica, unindo prática profissional e investigação acadêmica para desenvolver soluções criativas e estratégicas.",
         heroTag:
             "DESIGN • BRANDING • COMUNICAÇÃO DIGITAL",
 
@@ -523,7 +527,11 @@ heroBy: "by Mayra Cristina Nogueira Gomes",
         menuContact:
             "Contact",
 
+aboutCardTitle:
+    "Who is Mayra?",
 
+aboutCardText:
+    "Digital Media Designer graduated from FATEC Carapicuíba, working in branding, visual identity, digital marketing, web design and digital communication. She is currently researching visual culture, digital platforms and algorithmic curation, combining professional practice with academic research to create creative and strategic solutions.",
         /*==============================
         HERO
         ==============================*/
