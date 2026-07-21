@@ -11,7 +11,7 @@ const translations = {
     pt: {
    
     heroBy: "por Mayra Cristina Nogueira Gomes",
-}
+
         /*==============================
         MENU
         ==============================*/
@@ -500,7 +500,7 @@ alegrementeTag4:
 
     en: { 
 heroBy: "by Mayra Cristina Nogueira Gomes",
-}
+
         /*==============================
         MENU
         ==============================*/
