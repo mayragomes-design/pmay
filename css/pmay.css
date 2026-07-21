@@ -3022,3 +3022,20 @@ CARDS SOBRE
     margin:0;
 
 }
+@media(max-width:1200px){
+
+.hero-profile-card{
+
+    position:static;
+
+    transform:none;
+
+    width:100%;
+
+    max-width:380px;
+
+    margin:50px auto 0;
+
+}
+
+}
