@@ -2886,13 +2886,9 @@ CARDS SOBRE
 
     display:flex;
     align-items:center;
-    justify-content:center;
-
     gap:8px;
 
-    margin-left:24px;
-
-    flex-shrink:0;
+    margin-left:18px;
 
 }
 
@@ -2902,8 +2898,10 @@ CARDS SOBRE
     align-items:center;
     justify-content:center;
 
-    min-width:62px;
-    height:36px;
+    gap:6px;
+
+    min-width:70px;
+    height:38px;
 
     padding:0 14px;
 
@@ -2911,6 +2909,7 @@ CARDS SOBRE
     border-radius:999px;
 
     background:#fff;
+
     color:#2E1A47;
 
     font-family:"PoppinsMedium";
@@ -2918,17 +2917,26 @@ CARDS SOBRE
 
     cursor:pointer;
 
-    transition:.3s;
+    transition:.30s;
 
-    white-space:nowrap;
+}
+
+.language-btn img{
+
+    width:18px;
+    height:18px;
+
+    border-radius:50%;
+
+    object-fit:cover;
 
 }
 
 .language-btn:hover{
 
-    background:#F5D46B;
-
     transform:translateY(-2px);
+
+    background:#FFF8D7;
 
 }
 
@@ -2936,6 +2944,6 @@ CARDS SOBRE
 
     background:#F5D46B;
 
-    color:#2E1A47;
+    border-color:#F5D46B;
 
 }
