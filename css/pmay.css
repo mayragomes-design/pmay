@@ -3069,5 +3069,24 @@ PAINEL LATERAL
     right:0;
 
 }
+  .hero-subtitle{
+
+    display:block;
+
+    margin-top:18px;
+
+    margin-bottom:18px;
+
+    font-family:"Cormorant Garamond", serif;
+
+    font-style:italic;
+
+    font-size:2rem;
+
+    color:#F3E8FF !important;
+
+    opacity:1 !important;
+
+}
 
 }
