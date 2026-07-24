@@ -3007,7 +3007,7 @@ CARDS SOBRE
 
 }
 /*====================================================
-IDIOMAS
+= IDIOMAS
 ====================================================*/
 
 .language-switch{
@@ -3015,48 +3015,52 @@ IDIOMAS
     display:flex;
     align-items:center;
     gap:8px;
-    margin-left:18px;
+    margin-left:16px;
 
 }
 
 .language-btn{
 
-    width:36px;
-    height:36px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    width:34px;
+    height:34px;
 
     padding:0;
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
     border:none;
-    background:transparent;
+    background:none;
+
+    cursor:pointer;
 
 }
 
-.language-btn img{
+.language-btn img,
+.language-btn svg{
 
-    width:28px;
-    height:28px;
+    display:block;
 
-    border-radius:50%;
+    width:24px;
+    height:24px;
 
-    object-fit:cover;
+    object-fit:contain;
 
-    transition:.25s;
+    transition:.25s ease;
 
 }
 
-.language-btn:hover img{
+.language-btn:hover img,
+.language-btn:hover svg{
 
     transform:scale(1.08);
 
 }
 
-.language-btn.active img{
+.language-btn.active img,
+.language-btn.active svg{
 
-    outline:2px solid #F4EA57;
-    outline-offset:2px;
+    filter:drop-shadow(0 0 3px rgba(244,234,87,.7));
 
 }
