@@ -3007,103 +3007,56 @@ CARDS SOBRE
 
 }
 /*====================================================
-= IDIOMAS
+IDIOMAS
 ====================================================*/
 
 .language-switch{
 
     display:flex;
     align-items:center;
-    gap:10px;
-    margin-left:30px;
+    gap:8px;
+    margin-left:18px;
 
 }
 
 .language-btn{
 
-    width:60px;
-    height:38px;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    border-radius:30px;
-
-    border:2px solid #F5D46B;
-
-    background:#fff;
-
-    color:#2E1A47;
-
-    font-family:"PoppinsMedium";
-    font-size:.80rem;
-
-    cursor:pointer;
-
-    transition:.3s;
-
-}
-
-.language-btn:hover{
-
-    transform:translateY(-2px);
-
-}
-
-.language-btn.active{
-
-    background:#F5D46B;
-
-    color:#2E1A47;
-
-}
-.language-switch{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:10px;
-
-}
-
-.language-btn{
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    width:42px;
-
-    height:42px;
+    width:36px;
+    height:36px;
 
     padding:0;
 
-    border:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
+    border:none;
     background:transparent;
 
 }
 
 .language-btn img{
 
-    width:34px;
-
-    height:34px;
-
-    object-fit:cover;
+    width:28px;
+    height:28px;
 
     border-radius:50%;
 
-    transition:.3s;
+    object-fit:cover;
+
+    transition:.25s;
 
 }
 
-.language-btn img:hover{
+.language-btn:hover img{
 
     transform:scale(1.08);
+
+}
+
+.language-btn.active img{
+
+    outline:2px solid #F4EA57;
+    outline-offset:2px;
 
 }
