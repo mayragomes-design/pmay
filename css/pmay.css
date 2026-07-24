@@ -3014,53 +3014,54 @@ CARDS SOBRE
 
     display:flex;
     align-items:center;
-    gap:8px;
-    margin-left:16px;
+    gap:12px;
+    margin-left:20px;
 
 }
 
 .language-btn{
 
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    width:34px;
-    height:34px;
+    width:36px;
+    height:36px;
 
     padding:0;
 
     border:none;
-    background:none;
+    background:transparent;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
     cursor:pointer;
 
 }
 
-.language-btn img,
-.language-btn svg{
+.language-btn img{
+
+    width:28px;
+    height:28px;
 
     display:block;
 
-    width:24px;
-    height:24px;
-
     object-fit:contain;
+
+    border-radius:50%;
 
     transition:.25s ease;
 
 }
 
-.language-btn:hover img,
-.language-btn:hover svg{
+.language-btn:hover img{
 
-    transform:scale(1.08);
+    transform:scale(1.12);
 
 }
 
-.language-btn.active img,
-.language-btn.active svg{
+.language-btn.active img{
 
-    filter:drop-shadow(0 0 3px rgba(244,234,87,.7));
+    transform:scale(1.12);
+
+    box-shadow:0 0 0 2px #F4EA57;
 
 }
