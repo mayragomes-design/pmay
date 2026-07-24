@@ -2952,17 +2952,23 @@ CARDS SOBRE
 
     display:flex;
 
+    flex-direction:row;
+
     align-items:center;
 
-    gap:12px;
+    justify-content:center;
 
-    margin-left:24px;
+    gap:10px;
+
+    margin-left:28px;
+
+    white-space:nowrap;
 
 }
 
 .language-btn{
 
-    display:flex;
+    display:inline-flex;
 
     align-items:center;
 
@@ -2970,29 +2976,31 @@ CARDS SOBRE
 
     gap:8px;
 
-    padding:8px 12px;
+    height:42px;
 
-    border:none;
+    padding:6px 12px;
 
-    border-radius:50px;
+    background:#fff;
 
-    background:transparent;
+    border:2px solid #F4EA57;
+
+    border-radius:30px;
 
     cursor:pointer;
 
-    transition:.30s ease;
+    transition:.30s;
 
 }
 
 .language-btn img{
 
-    width:24px;
+    width:22px;
 
-    height:24px;
-
-    object-fit:contain;
+    height:22px;
 
     display:block;
+
+    object-fit:contain;
 
     border-radius:50%;
 
@@ -3002,58 +3010,43 @@ CARDS SOBRE
 
     font-family:"PoppinsBold";
 
-    font-size:.9rem;
+    font-size:.85rem;
 
-    color:#222;
+    color:#333;
 
-    letter-spacing:.5px;
-
-}
-
-.language-btn:hover{
-
-    background:rgba(111,168,168,.12);
+    line-height:1;
 
 }
-
-.language-btn:hover img{
-
-    transform:scale(1.08);
-
-}
-
 .language-btn.active{
 
-    background:#7EB6B7;
+    background:#F4EA57;
+
+    border-color:#F4EA57;
 
 }
 
 .language-btn.active span{
 
-    color:#fff;
+    color:#111;
+
+}
+.language-btn:not(.active){
+
+    background:#fff;
+
+    border:2px solid #F4EA57;
 
 }
 
-.language-btn.active img{
+.language-btn:not(.active):hover{
 
-    transform:scale(1.08);
-
-    box-shadow:0 0 0 2px rgba(255,255,255,.6);
+    background:#FFFBE4;
 
 }
 
-/*====================
-RESPONSIVO
-====================*/
+.language-btn:hover{
 
-@media(max-width:991px){
-
-    .language-switch{
-
-        margin:20px 0 0;
-
-        justify-content:center;
-
-    }
+    transform:translateY(-2px);
 
 }
+
