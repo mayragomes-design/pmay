@@ -1,61 +1,60 @@
 window.addEventListener("DOMContentLoaded", () => {
 
-    const sections = document.querySelectorAll(
-        "header[id], section[id], footer[id]"
-    );
-
+    const sections = document.querySelectorAll("section[id], header[id], footer[id]");
     const navLinks = document.querySelectorAll("#mainNav .nav-link");
 
     function activateMenu() {
 
-    let current = "";
+        let current = "";
 
-    const scrollPosition = window.scrollY + 180;
+        const scrollPosition = window.scrollY + 120;
 
-    sections.forEach(section => {
+        sections.forEach(section => {
 
-        const top = section.offsetTop;
-        const bottom = top + section.offsetHeight;
+            const top = section.offsetTop;
+            const height = section.offsetHeight;
 
-        if (scrollPosition >= top && scrollPosition < bottom) {
+            if (
+                scrollPosition >= top &&
+                scrollPosition < top + height
+            ) {
 
-            current = section.id;
+                current = section.id;
+
+            }
+
+        });
+
+        if (
+            window.innerHeight + window.scrollY >=
+            document.documentElement.scrollHeight - 5
+        ) {
+
+            current = "footer";
 
         }
 
-    });
+        navLinks.forEach(link => {
 
-    // Quando chegar ao final da página,
-    // força o menu "Contato"
+            link.classList.remove("active");
 
-    if (
-        window.innerHeight + window.scrollY >=
-        document.documentElement.scrollHeight - 5
-    ) {
+            if (link.getAttribute("href") === "#" + current) {
 
-        current = "footer";
+                link.classList.add("active");
+
+            }
+
+        });
 
     }
-
-    navLinks.forEach(link => {
-
-        link.classList.remove("active");
-
-        if (link.getAttribute("href") === "#" + current) {
-
-            link.classList.add("active");
-
-        }
-
-    });
-
-}
 
     activateMenu();
 
     window.addEventListener("scroll", activateMenu);
 
-    // Fecha o menu mobile
+    /*====================
+      Fecha menu mobile
+    ====================*/
 
     const navbarToggler = document.querySelector(".navbar-toggler");
 
@@ -63,33 +62,44 @@ window.addEventListener("DOMContentLoaded", () => {
 
         item.addEventListener("click", () => {
 
-            if (window.getComputedStyle(navbarToggler).display !== "none") {
+            if (
+                navbarToggler &&
+                window.getComputedStyle(navbarToggler).display !== "none"
+            ) {
 
                 navbarToggler.click();
 
             }
 
         });
-const aboutPanel = document.getElementById("aboutPanel");
 
-const aboutToggle = document.getElementById("aboutToggle");
+    });
 
-aboutToggle.addEventListener("click",()=>{
+    /*====================
+      Painel Sobre
+    ====================*/
 
-    aboutPanel.classList.toggle("open");
+    const aboutPanel = document.getElementById("aboutPanel");
+    const aboutToggle = document.getElementById("aboutToggle");
 
-    const icon=aboutToggle.querySelector("i");
+    if (aboutPanel && aboutToggle) {
 
-    if(aboutPanel.classList.contains("open")){
+        aboutToggle.addEventListener("click", () => {
 
-        icon.className="fa-solid fa-chevron-right";
+            aboutPanel.classList.toggle("open");
 
-    }else{
+            const icon = aboutToggle.querySelector("i");
 
-        icon.className="fa-solid fa-chevron-left";
+            if (icon) {
+
+                icon.className = aboutPanel.classList.contains("open")
+                    ? "fa-solid fa-chevron-right"
+                    : "fa-solid fa-chevron-left";
+
+            }
+
+        });
 
     }
-
-});
 
 });
