@@ -1,60 +1,50 @@
 window.addEventListener("DOMContentLoaded", () => {
 
-    const sections = document.querySelectorAll("section[id], header[id], footer[id]");
+    /*====================================
+      MENU ATIVO
+    ====================================*/
+
     const navLinks = document.querySelectorAll("#mainNav .nav-link");
+    const sections = document.querySelectorAll("section[id], header[id], footer[id]");
 
-    function activateMenu() {
+    const observer = new IntersectionObserver((entries) => {
 
-        let current = "";
+        entries.forEach(entry => {
 
-        const scrollPosition = window.scrollY + 120;
+            if (entry.isIntersecting) {
 
-        sections.forEach(section => {
+                navLinks.forEach(link => {
+                    link.classList.remove("active");
+                });
 
-            const top = section.offsetTop;
-            const height = section.offsetHeight;
+                const activeLink = document.querySelector(
+                    `#mainNav .nav-link[href="#${entry.target.id}"]`
+                );
 
-            if (
-                scrollPosition >= top &&
-                scrollPosition < top + height
-            ) {
-
-                current = section.id;
-
-            }
-
-        });
-
-        if (
-            window.innerHeight + window.scrollY >=
-            document.documentElement.scrollHeight - 5
-        ) {
-
-            current = "footer";
-
-        }
-
-        navLinks.forEach(link => {
-
-            link.classList.remove("active");
-
-            if (link.getAttribute("href") === "#" + current) {
-
-                link.classList.add("active");
+                if (activeLink) {
+                    activeLink.classList.add("active");
+                }
 
             }
 
         });
 
-    }
+    }, {
 
-    activateMenu();
+        root: null,
 
-    window.addEventListener("scroll", activateMenu);
+        /* considera a seção ativa enquanto ocupa boa parte da tela */
+        rootMargin: "-25% 0px -45% 0px",
 
-    /*====================
-      Fecha menu mobile
-    ====================*/
+        threshold: 0
+
+    });
+
+    sections.forEach(section => observer.observe(section));
+
+    /*====================================
+      FECHAR MENU MOBILE
+    ====================================*/
 
     const navbarToggler = document.querySelector(".navbar-toggler");
 
@@ -75,9 +65,9 @@ window.addEventListener("DOMContentLoaded", () => {
 
     });
 
-    /*====================
-      Painel Sobre
-    ====================*/
+    /*====================================
+      PAINEL SOBRE
+    ====================================*/
 
     const aboutPanel = document.getElementById("aboutPanel");
     const aboutToggle = document.getElementById("aboutToggle");
