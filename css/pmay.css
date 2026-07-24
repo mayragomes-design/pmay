@@ -1200,10 +1200,10 @@ p{
     color:rgba(255,255,255,.82);
 }
 /*====================================================
-= PESQUISA
+= PRODUÇÃO ACADÊMICA
 ====================================================*/
 
-.projects-section{
+#research{
 
     padding:120px 0;
 
@@ -1211,7 +1211,13 @@ p{
 
 }
 
-.projects-section .section-tag{
+#research .section-title{
+
+    margin-bottom:70px;
+
+}
+
+#research .section-tag{
 
     color:#8D63B7;
 
@@ -1223,28 +1229,27 @@ p{
 
 }
 
-.projects-section h2{
+#research h2{
 
     color:#24162E;
 
 }
 
-.projects-section .section-description,
-.projects-section .section-title p{
+#research .section-title p{
 
     max-width:900px;
 
-    margin:0 auto;
+    margin:auto;
 
     color:#5F5F74;
 
 }
 
-.academic-card{
+#research .academic-card{
 
     background:#fff;
 
-    border-radius:26px;
+    border-radius:24px;
 
     overflow:hidden;
 
@@ -1256,15 +1261,15 @@ p{
 
 }
 
-.academic-card:hover{
+#research .academic-card:hover{
 
-    transform:translateY(-10px);
+    transform:translateY(-8px);
 
-    box-shadow:0 25px 55px rgba(0,0,0,.14);
+    box-shadow:0 24px 55px rgba(0,0,0,.15);
 
 }
 
-.academic-card video{
+#research .academic-card video{
 
     width:100%;
 
@@ -1272,23 +1277,23 @@ p{
 
 }
 
-.academic-content{
+#research .academic-content{
 
-    padding:35px;
+    padding:32px;
 
 }
 
-.academic-content h3{
-
-    color:#24162E;
+#research .academic-content h3{
 
     font-size:1.8rem;
+
+    color:#24162E;
 
     margin-bottom:18px;
 
 }
 
-.academic-content p{
+#research .academic-content p{
 
     color:#5F5F74;
 
@@ -1296,7 +1301,7 @@ p{
 
 }
 
-.project-tags{
+#research .project-tags{
 
     display:flex;
 
@@ -1304,25 +1309,27 @@ p{
 
     gap:10px;
 
-    margin-top:25px;
+    margin-top:20px;
 
 }
 
-.project-tags span{
+#research .project-tags span{
 
     background:#8D63B7;
 
     color:#fff;
 
-    padding:9px 18px;
-
     border-radius:30px;
 
-    font-size:.9rem;
+    padding:8px 18px;
+
+    font-size:.85rem;
 
 }
 
-.featured-project-card{
+#research .featured-project-card{
+
+    margin-top:60px;
 
     background:#fff;
 
@@ -1334,31 +1341,29 @@ p{
 
 }
 
-.spotify-player{
-
-    width:100%;
+#research .spotify-player{
 
     display:block;
 
-}
-
-.featured-project-content{
-
-    padding:40px;
+    width:100%;
 
 }
 
-.featured-project-content h3{
+#research .featured-project-content{
+
+    padding:38px;
+
+}
+
+#research .featured-project-content h3{
 
     color:#24162E;
 
-    font-size:2rem;
-
-    margin-bottom:20px;
+    margin-bottom:18px;
 
 }
 
-.featured-project-content p{
+#research .featured-project-content p{
 
     color:#5F5F74;
 
@@ -1368,37 +1373,10 @@ p{
 
 @media(max-width:992px){
 
-    .academic-content{
+    #research .featured-project-content,
+    #research .academic-content{
 
         padding:28px;
-
-    }
-
-    .featured-project-content{
-
-        padding:28px;
-
-    }
-
-}
-
-@media(max-width:576px){
-
-    .projects-section{
-
-        padding:80px 0;
-
-    }
-
-    .academic-content h3{
-
-        font-size:1.5rem;
-
-    }
-
-    .featured-project-content h3{
-
-        font-size:1.7rem;
 
     }
 
