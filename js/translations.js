@@ -1019,8 +1019,166 @@ servicesSocialFooterTitle:
 
 servicesSocialFooterText:
 "Não trabalho com pacotes engessados. Cada projeto é desenvolvido considerando o momento da marca, seus objetivos e os recursos disponíveis. Caso você precise apenas de consultoria, planejamento, design ou outro serviço específico, será elaborado um orçamento personalizado.",
+
+      /* ==========================================================
+   WORKFLOW
+========================================================== */
+
+workflowTag:
+"PROCESSO",
+
+workflowTitle:
+"Como funciona o projeto?",
+
+workflowSubtitle:
+"Cada projeto é desenvolvido de forma personalizada. O processo abaixo representa o fluxo de trabalho mais comum, mas pode ser adaptado conforme a complexidade e as necessidades do serviço.",
+
+workflowStep1Title:
+"Briefing",
+
+workflowStep1Description:
+"Conversamos sobre seus objetivos, referências, público-alvo, necessidades e expectativas para compreender completamente o projeto.",
+
+workflowStep2Title:
+"Pesquisa",
+
+workflowStep2Description:
+"Realizo pesquisas visuais, estratégicas e técnicas para desenvolver soluções alinhadas à identidade da marca e aos objetivos definidos.",
+
+workflowStep3Title:
+"Desenvolvimento",
+
+workflowStep3Description:
+"Transformo o planejamento em soluções criativas, desenvolvendo o projeto com foco em qualidade, funcionalidade e identidade visual.",
+
+workflowStep4Title:
+"Refinamentos",
+
+workflowStep4Description:
+"Após a apresentação, realizamos os ajustes previstos na proposta para garantir que o resultado esteja alinhado às expectativas.",
+
+workflowStep5Title:
+"Entrega",
+
+workflowStep5Description:
+"Você recebe todos os arquivos organizados, orientações de uso quando aplicável e suporte inicial para implementação.",
+
+
+/* ==========================================================
+   FAQ
+========================================================== */
+
+faqTag:
+"FAQ",
+
+faqTitle:
+"Perguntas frequentes",
+
+faqSubtitle:
+"Abaixo estão algumas das dúvidas mais comuns sobre orçamento, prazos, pagamentos e desenvolvimento dos projetos.",
+
+faqQuestion1:
+"Os valores apresentados são fixos?",
+
+faqAnswer1:
+"Não. Os valores apresentados representam o investimento inicial para cada serviço. Projetos com necessidades específicas poderão receber um orçamento personalizado.",
+
+faqQuestion2:
+"Posso solicitar apenas um logotipo?",
+
+faqAnswer2:
+"Sim. Caso você precise apenas de um logotipo ou de uma solução específica, será elaborado um orçamento conforme o escopo solicitado.",
+
+faqQuestion3:
+"Como funciona o pagamento?",
+
+faqAnswer3:
+"O pagamento normalmente é realizado em etapas definidas na proposta comercial ou contrato, conforme o tipo e a duração do projeto.",
+
+faqQuestion4:
+"Quantas revisões estão incluídas?",
+
+faqAnswer4:
+"A quantidade de revisões varia conforme o serviço contratado e será especificada na proposta enviada antes do início do projeto.",
+
+faqQuestion5:
+"Vocês trabalham com clientes internacionais?",
+
+faqAnswer5:
+"Sim. Atendo clientes no Brasil e em outros países, com orçamento em Real (BRL), Euro (EUR) e Dólar Americano (USD).",
+
+faqQuestion6:
+"Quanto tempo leva um projeto?",
+
+faqAnswer6:
+"O prazo depende da complexidade do serviço. Cada categoria apresenta um prazo médio, podendo variar conforme o escopo.",
+
+faqQuestion7:
+"Os arquivos finais são enviados organizados?",
+
+faqAnswer7:
+"Sim. Todos os arquivos finais são entregues organizados, nos formatos adequados para utilização conforme o projeto.",
+
+faqQuestion8:
+"Você desenvolve websites completos?",
+
+faqAnswer8:
+"Desenvolvo websites institucionais, landing pages e projetos personalizados. Lojas virtuais (e-commerce) não fazem parte dos serviços atuais.",
+
+faqQuestion9:
+"Posso contratar apenas uma consultoria?",
+
+faqAnswer9:
+"Sim. Também ofereço consultorias, planejamento estratégico, direção criativa e outros serviços personalizados.",
+
+faqQuestion10:
+"Como é feita a comunicação durante o projeto?",
+
+faqAnswer10:
+"A comunicação acontece por e-mail, WhatsApp ou reuniões online previamente agendadas.",
+
+faqQuestion11:
+"Os arquivos editáveis fazem parte da entrega?",
+
+faqAnswer11:
+"Quando previsto na proposta comercial, os arquivos editáveis poderão ser incluídos na entrega final.",
+
+faqQuestion12:
+"É possível solicitar urgência?",
+
+faqAnswer12:
+"Sim, desde que exista disponibilidade na agenda. Projetos urgentes poderão receber uma taxa adicional.",
+
+faqQuestion13:
+"Não encontrei o serviço que preciso. O que faço?",
+
+faqAnswer13:
+"Entre em contato. Cada projeto é único e será um prazer desenvolver uma proposta personalizada para sua necessidade.",
+
+
+/* ==========================================================
+   CTA
+========================================================== */
+
+servicesCtaTag:
+"VAMOS CONVERSAR",
+
+servicesCtaTitle:
+"Vamos transformar sua ideia em um projeto?",
+
+servicesCtaSubtitle:
+"Se você procura uma identidade visual, website, estratégia para redes sociais ou produção audiovisual, será um prazer desenvolver uma solução personalizada para sua marca.",
+
+servicesCtaButton:
+"Solicitar orçamento",
+
+servicesTermsButton:
+"Termos & Licenciamento",
+
+servicesCtaNote:
+"Não encontrou exatamente o serviço que procura? Entre em contato. Cada projeto é desenvolvido de forma personalizada."
       
-      /*==============================
+  /*==============================
         PROJETOS ACADÊMICOS
         ==============================*/
 
@@ -1100,7 +1258,6 @@ servicesSocialFooterText:
 
         audiobookTag5:
             "Spotify",
-
 
         /*==============================
         PRODUÇÃO ACADÊMICA
@@ -2359,7 +2516,163 @@ workflowStep5Title:
 workflowStep5Description:
 "Final files are organized and delivered together with all agreed materials and usage guidelines.",  
       
-      
+      /* ==========================================================
+   WORKFLOW
+========================================================== */
+
+workflowTag:
+"PROCESS",
+
+workflowTitle:
+"How does the project work?",
+
+workflowSubtitle:
+"Every project is developed individually. The workflow below represents the standard process, but it can be adapted according to your project's complexity and goals.",
+
+workflowStep1Title:
+"Briefing",
+
+workflowStep1Description:
+"We discuss your goals, references, target audience, requirements and expectations to fully understand your project.",
+
+workflowStep2Title:
+"Research",
+
+workflowStep2Description:
+"I conduct visual, strategic and technical research to develop solutions aligned with your brand identity and objectives.",
+
+workflowStep3Title:
+"Development",
+
+workflowStep3Description:
+"I transform the planning into creative solutions, focusing on quality, functionality and visual identity.",
+
+workflowStep4Title:
+"Refinements",
+
+workflowStep4Description:
+"After the presentation, the revisions included in the proposal are carried out to ensure the final result meets your expectations.",
+
+workflowStep5Title:
+"Delivery",
+
+workflowStep5Description:
+"You receive all organized final files, usage guidelines (when applicable), and initial implementation support.",
+
+
+/* ==========================================================
+   FAQ
+========================================================== */
+
+faqTag:
+"FAQ",
+
+faqTitle:
+"Frequently Asked Questions",
+
+faqSubtitle:
+"Here are some of the most common questions about pricing, deadlines, payments and project development.",
+
+faqQuestion1:
+"Are the listed prices fixed?",
+
+faqAnswer1:
+"No. The prices shown represent the starting investment for each service. Projects with specific requirements will receive a custom quotation.",
+
+faqQuestion2:
+"Can I request only a logo?",
+
+faqAnswer2:
+"Yes. If you only need a logo or a specific design service, a personalized quotation will be prepared according to your project scope.",
+
+faqQuestion3:
+"How does payment work?",
+
+faqAnswer3:
+"Payment is usually divided into stages defined in the commercial proposal or contract, depending on the project's size and duration.",
+
+faqQuestion4:
+"How many revisions are included?",
+
+faqAnswer4:
+"The number of revisions depends on the selected service and will always be specified before the project begins.",
+
+faqQuestion5:
+"Do you work with international clients?",
+
+faqAnswer5:
+"Yes. I work with clients worldwide and provide quotations in Brazilian Real (BRL), Euro (EUR) and US Dollar (USD).",
+
+faqQuestion6:
+"How long does a project take?",
+
+faqAnswer6:
+"The timeline depends on the complexity of the project. Each service includes an estimated delivery time.",
+
+faqQuestion7:
+"Will the final files be organized?",
+
+faqAnswer7:
+"Yes. All final files are delivered in an organized structure and in the appropriate formats for each project.",
+
+faqQuestion8:
+"Do you develop complete websites?",
+
+faqAnswer8:
+"I develop landing pages, portfolio websites and institutional websites. E-commerce projects are currently not part of my services.",
+
+faqQuestion9:
+"Can I hire only a consultation?",
+
+faqAnswer9:
+"Yes. I also provide consulting, creative direction, strategic planning and other personalized services.",
+
+faqQuestion10:
+"How do we communicate during the project?",
+
+faqAnswer10:
+"Communication takes place via email, WhatsApp or scheduled online meetings.",
+
+faqQuestion11:
+"Are editable source files included?",
+
+faqAnswer11:
+"When specified in the commercial proposal, editable source files may be included in the final delivery.",
+
+faqQuestion12:
+"Can I request an urgent project?",
+
+faqAnswer12:
+"Yes, subject to availability. Rush projects may require an additional fee.",
+
+faqQuestion13:
+"I couldn't find the service I need. What should I do?",
+
+faqAnswer13:
+"Feel free to get in touch. Every project is unique, and I'd be happy to prepare a custom proposal for your needs.",
+
+
+/* ==========================================================
+   CTA
+========================================================== */
+
+servicesCtaTag:
+"LET'S WORK TOGETHER",
+
+servicesCtaTitle:
+"Ready to bring your idea to life?",
+
+servicesCtaSubtitle:
+"Whether you need a visual identity, website, social media strategy or audiovisual production, I'd be delighted to create a solution tailored to your brand.",
+
+servicesCtaButton:
+"Request a Quote",
+
+servicesTermsButton:
+"Terms & Licensing",
+
+servicesCtaNote:
+"Couldn't find exactly what you're looking for? Get in touch. Every project is tailored to your goals and needs."
       /*==============================
         ACADEMIC PROJECTS
         ==============================*/
