@@ -241,198 +241,785 @@ aboutCardText:
 
         casaMaeTag3:
             "Identidade Visual",
-      /*==============================
-SERVIÇOS
-==============================*/
-
-menuServices:
-    "Serviços",
+    /* ==========================================================
+   SERVIÇOS
+========================================================== */
 
 servicesTag:
-    "SERVIÇOS",
+"SERVIÇOS",
 
 servicesTitle:
-    "Serviços & Valores",
+"Serviços",
 
-servicesDescription:
-    "Conheça os principais serviços oferecidos pela PMAY. Os valores apresentados representam o investimento inicial de cada projeto e podem variar conforme escopo, complexidade e prazo.",
+servicesSubtitle:
+"Cada projeto é desenvolvido para comunicar ideias com estratégia, personalidade e propósito.",
 
-serviceBrandTitle:
-    "Identidade Visual Essencial",
+servicesIntroTitle:
+"Cada projeto começa de um jeito diferente.",
 
-serviceBrandDescription:
-    "Ideal para profissionais, pequenas empresas e marcas que desejam construir uma identidade visual consistente.",
+servicesIntroParagraph1:
+"Alguns clientes precisam apenas de um logotipo. Outros procuram uma identidade visual completa, um website, conteúdo para redes sociais ou uma produção audiovisual.",
 
-serviceBrandPrice:
-    "A partir de R$ 450",
+servicesIntroParagraph2:
+"Por isso, os serviços abaixo foram organizados como pontos de partida. Cada proposta pode ser adaptada de acordo com os objetivos, o prazo e as necessidades do seu projeto.",
 
-serviceBrandItem1:
-    "Logotipo",
+servicesHighlightTitle:
+"Soluções flexíveis",
 
-serviceBrandItem2:
-    "Paleta de cores",
+servicesHighlightText:
+"Os valores apresentados representam o investimento inicial dos serviços mais solicitados. Caso seu projeto exija algo diferente, será um prazer desenvolver uma proposta personalizada.",
 
-serviceBrandItem3:
-    "Tipografia",
+servicesNoticeTitle:
+"Importante",
 
-serviceBrandItem4:
-    "Manual simplificado",
+servicesNoticeText:
+"Os valores apresentados servem como referência para o escopo descrito. Projetos mais complexos, novas funcionalidades ou entregas adicionais poderão receber um orçamento personalizado.",
 
-serviceCompleteTitle:
-    "Identidade Visual Completa",
+servicesNavigation:
+"Deslize para conhecer as soluções.",
+      /* ==========================================================
+   BRANDING
+========================================================== */
 
-serviceCompleteDescription:
-    "Sistema completo de identidade visual com estratégia, aplicações e manual de marca.",
+servicesBrandingTitle:
+"Branding & Identidade Visual",
 
-serviceCompletePrice:
-    "A partir de R$ 1.200",
+servicesBrandingDescription:
+"Uma identidade visual vai muito além de um logotipo. Ela comunica valores, fortalece o posicionamento da marca e cria reconhecimento em todos os pontos de contato.",
 
-serviceCompleteItem1:
-    "Estratégia",
+servicesBrandingStartLevel:
+"🌱 Começar",
 
-serviceCompleteItem2:
-    "Moodboard",
+servicesBrandingStartTitle:
+"Identidade Visual Essencial",
 
-serviceCompleteItem3:
-    "Manual da marca",
+servicesBrandingStartDescription:
+"Para profissionais, pequenos negócios e marcas que desejam iniciar sua presença visual de forma profissional.",
 
-serviceCompleteItem4:
-    "Aplicações",
+servicesProcessTitle:
+"Como funciona?",
 
-serviceLandingTitle:
-    "Landing Page",
+servicesDeliveriesTitle:
+"O que você recebe?",
 
-serviceLandingDescription:
-    "Página única desenvolvida para apresentar produtos, serviços ou campanhas.",
+servicesDeadlineTitle:
+"Prazo médio",
 
-serviceLandingPrice:
-    "A partir de R$ 900",
+servicesInvestmentTitle:
+"Investimento inicial",
 
-serviceLandingItem1:
-    "HTML, CSS e JavaScript",
+servicesVariationTitle:
+"O investimento pode variar?",
 
-serviceLandingItem2:
-    "Design Responsivo",
+servicesProposalButton:
+"Solicitar proposta",
+      servicesBrandingStartProcess1:
+"Briefing e alinhamento do projeto",
 
-serviceLandingItem3:
-    "SEO básico",
+servicesBrandingStartProcess2:
+"Pesquisa inicial de referências",
 
-serviceLandingItem4:
-    "Publicação",
+servicesBrandingStartProcess3:
+"Desenvolvimento da proposta visual",
 
-serviceWebsiteTitle:
-    "Website Institucional",
+servicesBrandingStartProcess4:
+"Refinamentos",
 
-serviceWebsiteDescription:
-    "Website completo para empresas, profissionais e instituições.",
+servicesBrandingStartProcess5:
+"Organização dos arquivos finais",
 
-serviceWebsitePrice:
-    "A partir de R$ 1.800",
+servicesBrandingStartDelivery1:
+"Logotipo principal",
 
-serviceWebsiteItem1:
-    "Até 5 páginas",
+servicesBrandingStartDelivery2:
+"Versão reduzida",
 
-serviceWebsiteItem2:
-    "Responsivo",
+servicesBrandingStartDelivery3:
+"Paleta de cores",
 
-serviceWebsiteItem3:
-    "SEO básico",
+servicesBrandingStartDelivery4:
+"Tipografia",
 
-serviceWebsiteItem4:
-    "Deploy",
+servicesBrandingStartDelivery5:
+"Guia rápido de aplicação",
 
-serviceVideoShortTitle:
-    "Vídeo Curto",
+servicesBrandingStartDeadline:
+"2–3 semanas",
 
-serviceVideoShortDescription:
-    "Edição de vídeos para redes sociais e campanhas digitais.",
+servicesBrandingStartPrice:
+"R$ 450",
 
-serviceVideoShortPrice:
-    "A partir de R$ 80",
+servicesBrandingStartEuro:
+"≈ € 95",
 
-serviceVideoShortItem1:
-    "Até 60 segundos",
+servicesBrandingStartVariation:
+"Sim. Cada projeto possui necessidades diferentes. Caso você precise apenas de um logotipo, novas aplicações ou materiais específicos, será desenvolvido um orçamento personalizado.",
+      servicesBrandingGrowLevel:
+"🌿 Consolidar",
 
-serviceVideoShortItem2:
-    "Colorização",
+servicesBrandingGrowTitle:
+"Identidade Visual Expandida",
 
-serviceVideoShortItem3:
-    "Legenda",
+servicesBrandingGrowDescription:
+"Ideal para marcas que desejam fortalecer sua comunicação e criar uma identidade consistente para diferentes materiais.",
 
-serviceVideoShortItem4:
-    "Exportação",
+servicesBrandingGrowProcess1:
+"Briefing aprofundado",
 
-serviceVideoLongTitle:
-    "Vídeo Longo",
+servicesBrandingGrowProcess2:
+"Pesquisa visual",
 
-serviceVideoLongDescription:
-    "Produções audiovisuais completas para YouTube, apresentações e conteúdo institucional.",
+servicesBrandingGrowProcess3:
+"Desenvolvimento estratégico",
 
-serviceVideoLongPrice:
-    "A partir de R$ 400",
+servicesBrandingGrowProcess4:
+"Refinamentos",
 
-serviceVideoLongItem1:
-    "Edição completa",
+servicesBrandingGrowProcess5:
+"Organização dos arquivos",
 
-serviceVideoLongItem2:
-    "Correção de cor",
+servicesBrandingGrowDelivery1:
+"Todos os itens da versão Essencial",
 
-serviceVideoLongItem3:
-    "Áudio",
+servicesBrandingGrowDelivery2:
+"Logo secundário",
 
-serviceVideoLongItem4:
-    "Motion Graphics",
+servicesBrandingGrowDelivery3:
+"Elementos gráficos",
 
-serviceSocialTitle:
-    "Social Media",
+servicesBrandingGrowDelivery4:
+"Ícones personalizados",
 
-serviceSocialDescription:
-    "Planejamento visual e criação de conteúdo para redes sociais.",
+servicesBrandingGrowDelivery5:
+"Templates para redes sociais",
 
-serviceSocialPrice:
-    "A partir de R$ 700/mês",
+servicesBrandingGrowDelivery6:
+"Manual intermediário",
 
-serviceSocialItem1:
-    "Planejamento",
+servicesBrandingGrowDeadline:
+"3–5 semanas",
 
-serviceSocialItem2:
-    "Artes",
+servicesBrandingGrowPrice:
+"R$ 800",
 
-serviceSocialItem3:
-    "Calendário",
+servicesBrandingGrowEuro:
+"≈ € 165",
 
-serviceSocialItem4:
-    "Consultoria",
+servicesBrandingGrowVariation:
+"Dependendo das aplicações desejadas, quantidade de materiais ou necessidades específicas, o projeto poderá receber uma proposta personalizada.",
+      servicesBrandingExpandLevel:
+"✨ Expandir",
 
-serviceResearchTitle:
-    "Pesquisa & Estratégia",
+servicesBrandingExpandTitle:
+"Branding Completo",
 
-serviceResearchDescription:
-    "Pesquisa visual, benchmarking e direção criativa para novos projetos.",
+servicesBrandingExpandDescription:
+"Para empresas e marcas que desejam construir uma identidade estratégica preparada para crescer.",
 
-serviceResearchPrice:
-    "Sob consulta",
+servicesBrandingExpandProcess1:
+"Imersão na marca",
 
-serviceResearchItem1:
-    "Benchmark",
+servicesBrandingExpandProcess2:
+"Pesquisa de mercado",
 
-serviceResearchItem2:
-    "Moodboard",
+servicesBrandingExpandProcess3:
+"Estratégia visual",
 
-serviceResearchItem3:
-    "Pesquisa",
+servicesBrandingExpandProcess4:
+"Desenvolvimento criativo",
 
-serviceResearchItem4:
-    "Consultoria",
+servicesBrandingExpandProcess5:
+"Refinamentos",
 
-servicesNoteTitle:
-    "Informações importantes",
+servicesBrandingExpandProcess6:
+"Organização completa da entrega",
 
-servicesNote:
-    "Os valores apresentados são estimativas iniciais. O investimento final poderá variar conforme escopo, complexidade, prazo de entrega e necessidades específicas do projeto.",
+servicesBrandingExpandDelivery1:
+"Todos os itens anteriores",
 
-servicesPolicy:
-    "Consulte também as Políticas de Trabalho para conhecer prazos, revisões, licenciamento e demais condições."
+servicesBrandingExpandDelivery2:
+"Moodboard estratégico",
+
+servicesBrandingExpandDelivery3:
+"Direção criativa",
+
+servicesBrandingExpandDelivery4:
+"Aplicações completas",
+
+servicesBrandingExpandDelivery5:
+"Manual completo da marca",
+
+servicesBrandingExpandDelivery6:
+"Arquivos organizados",
+
+servicesBrandingExpandDeadline:
+"4–8 semanas",
+
+servicesBrandingExpandPrice:
+"R$ 1.200",
+
+servicesBrandingExpandEuro:
+"≈ € 250",
+
+servicesBrandingExpandVariation:
+"Projetos maiores podem incluir naming, posicionamento, apresentações, materiais editoriais, embalagens e outras demandas específicas. Nesses casos, será elaborada uma proposta exclusiva.",
+      /* ==========================================================
+   WEB DESIGN
+========================================================== */
+
+servicesWebsiteTitle:
+"Web Design",
+
+servicesWebsiteDescription:
+"Mais do que um site bonito, um website deve comunicar, transmitir credibilidade e facilitar o contato entre sua marca e seus clientes.",
+
+/* ---------- APRESENTAR ---------- */
+
+servicesWebsitePresentLevel:
+"🌱 Apresentar",
+
+servicesWebsitePresentTitle:
+"Landing Page",
+
+servicesWebsitePresentDescription:
+"Ideal para divulgar um serviço, produto, evento ou campanha em uma única página.",
+
+servicesWebsitePresentProcess1:
+"Briefing do projeto",
+
+servicesWebsitePresentProcess2:
+"Planejamento da estrutura",
+
+servicesWebsitePresentProcess3:
+"Desenvolvimento responsivo",
+
+servicesWebsitePresentProcess4:
+"Testes",
+
+servicesWebsitePresentProcess5:
+"Publicação",
+
+servicesWebsitePresentDelivery1:
+"Landing Page personalizada",
+
+servicesWebsitePresentDelivery2:
+"Design responsivo",
+
+servicesWebsitePresentDelivery3:
+"Integração com WhatsApp",
+
+servicesWebsitePresentDelivery4:
+"Formulário de contato",
+
+servicesWebsitePresentDelivery5:
+"SEO básico",
+
+servicesWebsitePresentDelivery6:
+"Deploy inicial",
+
+servicesWebsitePresentDeadline:
+"2–3 semanas",
+
+servicesWebsitePresentPrice:
+"R$ 950",
+
+servicesWebsitePresentEuro:
+"≈ € 180",
+
+servicesWebsitePresentVariation:
+"Caso seja necessário integrar novas funcionalidades, idiomas, animações ou páginas adicionais, será elaborado um orçamento personalizado.",
+
+/* ---------- CONSOLIDAR ---------- */
+
+servicesWebsiteGrowLevel:
+"🌿 Consolidar",
+
+servicesWebsiteGrowTitle:
+"Website Institucional",
+
+servicesWebsiteGrowDescription:
+"Para profissionais, empresas e instituições que desejam apresentar seus serviços de forma completa e profissional.",
+
+servicesWebsiteGrowProcess1:
+"Briefing aprofundado",
+
+servicesWebsiteGrowProcess2:
+"Arquitetura das páginas",
+
+servicesWebsiteGrowProcess3:
+"Desenvolvimento Front-end",
+
+servicesWebsiteGrowProcess4:
+"Responsividade",
+
+servicesWebsiteGrowProcess5:
+"Publicação",
+
+servicesWebsiteGrowDelivery1:
+"Até 5 páginas",
+
+servicesWebsiteGrowDelivery2:
+"Página inicial",
+
+servicesWebsiteGrowDelivery3:
+"Página Sobre",
+
+servicesWebsiteGrowDelivery4:
+"Página de Serviços",
+
+servicesWebsiteGrowDelivery5:
+"Página de Contato",
+
+servicesWebsiteGrowDelivery6:
+"SEO básico",
+
+servicesWebsiteGrowDelivery7:
+"Integração com WhatsApp",
+
+servicesWebsiteGrowDelivery8:
+"Deploy",
+
+servicesWebsiteGrowDeadline:
+"4–6 semanas",
+
+servicesWebsiteGrowPrice:
+"R$ 1.800",
+
+servicesWebsiteGrowEuro:
+"≈ € 340",
+
+servicesWebsiteGrowVariation:
+"Projetos que necessitem de novas páginas, idiomas, animações ou integrações específicas poderão receber uma proposta personalizada.",
+
+/* ---------- EXPANDIR ---------- */
+
+servicesWebsiteExpandLevel:
+"✨ Expandir",
+
+servicesWebsiteExpandTitle:
+"Website Personalizado",
+
+servicesWebsiteExpandDescription:
+"Para projetos que exigem maior personalização visual, novas funcionalidades ou estruturas específicas.",
+
+servicesWebsiteExpandProcess1:
+"Pesquisa",
+
+servicesWebsiteExpandProcess2:
+"Planejamento",
+
+servicesWebsiteExpandProcess3:
+"Arquitetura do projeto",
+
+servicesWebsiteExpandProcess4:
+"Desenvolvimento personalizado",
+
+servicesWebsiteExpandProcess5:
+"Testes",
+
+servicesWebsiteExpandProcess6:
+"Publicação",
+
+servicesWebsiteExpandDelivery1:
+"Mais de 5 páginas",
+
+servicesWebsiteExpandDelivery2:
+"Design exclusivo",
+
+servicesWebsiteExpandDelivery3:
+"Responsividade",
+
+servicesWebsiteExpandDelivery4:
+"SEO",
+
+servicesWebsiteExpandDelivery5:
+"Integrações personalizadas*",
+
+servicesWebsiteExpandDelivery6:
+"Deploy",
+
+servicesWebsiteExpandDeadline:
+"Sob consulta",
+
+servicesWebsiteExpandPrice:
+"Sob consulta",
+
+servicesWebsiteExpandEuro:
+"Projeto personalizado",
+
+servicesWebsiteExpandVariation:
+"Cada website personalizado é planejado conforme a quantidade de páginas, integrações, complexidade visual e objetivos do projeto.",
+
+servicesWebsiteNote:
+"*Conforme a viabilidade técnica do projeto.",
+
+servicesWebsiteFooterTitle:
+"Sobre domínio e hospedagem",
+
+servicesWebsiteFooterText1:
+"O desenvolvimento do website não inclui domínio nem hospedagem. Caso ainda não possua esses serviços, posso orientar na escolha da melhor solução e realizar toda a configuração inicial.",
+
+servicesWebsiteFooterText2:
+"Os sites institucionais são desenvolvidos prioritariamente com HTML, CSS e JavaScript, podendo ser publicados em plataformas como GitHub Pages, Netlify, Cloudflare Pages ou Vercel, conforme as necessidades do projeto.",
+   /* ==========================================================
+   AUDIOVISUAL & STORYTELLING
+========================================================== */
+
+servicesVideoTitle:
+"Audiovisual & Storytelling",
+
+servicesVideoDescription:
+"Um bom vídeo vai além da edição. Ele transmite emoções, comunica ideias e fortalece a identidade da sua marca por meio da narrativa e da linguagem visual.",
+
+/* ---------- PUBLICAR ---------- */
+
+servicesVideoPublishLevel:
+"🎥 Publicar",
+
+servicesVideoPublishTitle:
+"Vídeo Curto",
+
+servicesVideoPublishDescription:
+"Ideal para Reels, TikTok, Shorts e campanhas digitais que buscam impacto rápido e conteúdo dinâmico.",
+
+servicesVideoPublishProcess1:
+"Briefing",
+
+servicesVideoPublishProcess2:
+"Organização do material",
+
+servicesVideoPublishProcess3:
+"Edição",
+
+servicesVideoPublishProcess4:
+"Refinamentos",
+
+servicesVideoPublishProcess5:
+"Exportação",
+
+servicesVideoPublishDelivery1:
+"Vídeo de até 90 segundos",
+
+servicesVideoPublishDelivery2:
+"Cortes profissionais",
+
+servicesVideoPublishDelivery3:
+"Correção básica de cor",
+
+servicesVideoPublishDelivery4:
+"Legendas (opcional)",
+
+servicesVideoPublishDelivery5:
+"Trilha sonora livre de direitos*",
+
+servicesVideoPublishDeadline:
+"3–5 dias úteis",
+
+servicesVideoPublishPrice:
+"R$ 120",
+
+servicesVideoPublishEuro:
+"≈ € 25",
+
+servicesVideoPublishVariation:
+"Projetos com motion graphics, animações, efeitos avançados, legendagem extensa ou maior duração poderão receber um orçamento personalizado.",
+
+/* ---------- DESENVOLVER ---------- */
+
+servicesVideoDevelopLevel:
+"🎞 Desenvolver",
+
+servicesVideoDevelopTitle:
+"Vídeo Institucional",
+
+servicesVideoDevelopDescription:
+"Para empresas, instituições e profissionais que desejam apresentar sua marca de forma profissional e envolvente.",
+
+servicesVideoDevelopProcess1:
+"Briefing",
+
+servicesVideoDevelopProcess2:
+"Planejamento narrativo",
+
+servicesVideoDevelopProcess3:
+"Edição",
+
+servicesVideoDevelopProcess4:
+"Refinamentos",
+
+servicesVideoDevelopProcess5:
+"Entrega",
+
+servicesVideoDevelopDelivery1:
+"Vídeo de até 10 minutos",
+
+servicesVideoDevelopDelivery2:
+"Correção de cor",
+
+servicesVideoDevelopDelivery3:
+"Tratamento de áudio",
+
+servicesVideoDevelopDelivery4:
+"Motion Graphics simples",
+
+servicesVideoDevelopDelivery5:
+"Exportação em Full HD",
+
+servicesVideoDevelopDeadline:
+"2–4 semanas",
+
+servicesVideoDevelopPrice:
+"R$ 500",
+
+servicesVideoDevelopEuro:
+"≈ € 95",
+
+servicesVideoDevelopVariation:
+"Projetos com entrevistas, locução, legendagem multilíngue, animações ou maior duração poderão receber uma proposta personalizada.",
+
+/* ---------- PRODUZIR ---------- */
+
+servicesVideoProduceLevel:
+"✨ Produzir",
+
+servicesVideoProduceTitle:
+"Produção Audiovisual Personalizada",
+
+servicesVideoProduceDescription:
+"Projetos audiovisuais desenvolvidos de acordo com os objetivos da marca, combinando direção criativa, narrativa e identidade visual.",
+
+servicesVideoProduceProcess1:
+"Briefing",
+
+servicesVideoProduceProcess2:
+"Pesquisa",
+
+servicesVideoProduceProcess3:
+"Planejamento",
+
+servicesVideoProduceProcess4:
+"Desenvolvimento",
+
+servicesVideoProduceProcess5:
+"Refinamentos",
+
+servicesVideoProduceProcess6:
+"Entrega organizada",
+
+servicesVideoProduceDelivery1:
+"Edição personalizada",
+
+servicesVideoProduceDelivery2:
+"Narrativa estratégica",
+
+servicesVideoProduceDelivery3:
+"Motion Design*",
+
+servicesVideoProduceDelivery4:
+"Identidade visual para vídeo",
+
+servicesVideoProduceDelivery5:
+"Exportações específicas",
+
+servicesVideoProduceDeadline:
+"Sob consulta",
+
+servicesVideoProducePrice:
+"Sob consulta",
+
+servicesVideoProduceEuro:
+"Projeto personalizado",
+
+servicesVideoProduceVariation:
+"Cada produção audiovisual possui objetivos, narrativa e complexidade diferentes. O investimento será definido conforme as necessidades do projeto.",
+
+servicesVideoNote:
+"*Conforme o escopo e a viabilidade técnica do projeto.",
+
+servicesVideoFooterTitle:
+"Sobre a produção audiovisual",
+
+servicesVideoFooterText:
+"Os valores apresentados consideram a edição de materiais fornecidos pelo cliente. Captação de imagens, locução, roteirização completa, trilhas licenciadas, bancos de imagens e outros serviços poderão ser incluídos mediante orçamento personalizado.",  
+     
+      /* ==========================================================
+   SOCIAL MEDIA
+========================================================== */
+
+servicesSocialTitle:
+"Social Media",
+
+servicesSocialDescription:
+"Uma boa presença digital não depende apenas de publicações frequentes. Ela nasce de estratégia, planejamento e conteúdo pensado para fortalecer a identidade da marca e criar conexões reais com o público.",
+
+/* ---------- ORGANIZAR ---------- */
+
+servicesSocialOrganizeLevel:
+"🌱 Organizar",
+
+servicesSocialOrganizeTitle:
+"Planejamento de Conteúdo",
+
+servicesSocialOrganizeDescription:
+"Para marcas que desejam estruturar sua comunicação antes de iniciar a produção de conteúdo.",
+
+servicesSocialOrganizeProcess1:
+"Briefing",
+
+servicesSocialOrganizeProcess2:
+"Análise do perfil",
+
+servicesSocialOrganizeProcess3:
+"Pesquisa de referências",
+
+servicesSocialOrganizeProcess4:
+"Planejamento estratégico",
+
+servicesSocialOrganizeProcess5:
+"Entrega organizada",
+
+servicesSocialOrganizeDelivery1:
+"Calendário editorial",
+
+servicesSocialOrganizeDelivery2:
+"Pilares de conteúdo",
+
+servicesSocialOrganizeDelivery3:
+"Ideias para publicações",
+
+servicesSocialOrganizeDelivery4:
+"Direcionamento visual",
+
+servicesSocialOrganizeDelivery5:
+"Estratégia inicial",
+
+servicesSocialOrganizeDeadline:
+"1–2 semanas",
+
+servicesSocialOrganizePrice:
+"R$ 300",
+
+servicesSocialOrganizeEuro:
+"≈ € 60",
+
+servicesSocialOrganizeVariation:
+"O planejamento poderá ser ampliado conforme a quantidade de plataformas, profundidade da pesquisa e objetivos do projeto.",
+
+/* ---------- COMUNICAR ---------- */
+
+servicesSocialCommunicateLevel:
+"🌿 Comunicar",
+
+servicesSocialCommunicateTitle:
+"Design para Redes Sociais",
+
+servicesSocialCommunicateDescription:
+"Para marcas que desejam manter uma comunicação visual consistente e profissional em suas redes sociais.",
+
+servicesSocialCommunicateProcess1:
+"Briefing",
+
+servicesSocialCommunicateProcess2:
+"Planejamento",
+
+servicesSocialCommunicateProcess3:
+"Desenvolvimento das peças",
+
+servicesSocialCommunicateProcess4:
+"Refinamentos",
+
+servicesSocialCommunicateProcess5:
+"Organização da entrega",
+
+servicesSocialCommunicateDelivery1:
+"Artes para redes sociais",
+
+servicesSocialCommunicateDelivery2:
+"Carrosséis",
+
+servicesSocialCommunicateDelivery3:
+"Stories",
+
+servicesSocialCommunicateDelivery4:
+"Capas",
+
+servicesSocialCommunicateDelivery5:
+"Templates editáveis*",
+
+servicesSocialCommunicateDeadline:
+"Mensal",
+
+servicesSocialCommunicatePrice:
+"R$ 700/mês",
+
+servicesSocialCommunicateEuro:
+"≈ € 135",
+
+servicesSocialCommunicateVariation:
+"A quantidade de publicações, formatos e plataformas poderá alterar o investimento final do projeto.",
+
+/* ---------- CRESCER ---------- */
+
+servicesSocialGrowLevel:
+"✨ Crescer",
+
+servicesSocialGrowTitle:
+"Gestão Estratégica",
+
+servicesSocialGrowDescription:
+"Para marcas que desejam acompanhamento contínuo, planejamento estratégico e fortalecimento da presença digital.",
+
+servicesSocialGrowProcess1:
+"Diagnóstico",
+
+servicesSocialGrowProcess2:
+"Planejamento mensal",
+
+servicesSocialGrowProcess3:
+"Direção criativa",
+
+servicesSocialGrowProcess4:
+"Produção de conteúdo",
+
+servicesSocialGrowProcess5:
+"Acompanhamento",
+
+servicesSocialGrowDelivery1:
+"Planejamento estratégico",
+
+servicesSocialGrowDelivery2:
+"Calendário editorial",
+
+servicesSocialGrowDelivery3:
+"Artes para redes sociais",
+
+servicesSocialGrowDelivery4:
+"Consultoria",
+
+servicesSocialGrowDelivery5:
+"Relatório simplificado",
+
+servicesSocialGrowDeadline:
+"Mensal",
+
+servicesSocialGrowPrice:
+"Sob consulta",
+
+servicesSocialGrowEuro:
+"Projeto personalizado",
+
+servicesSocialGrowVariation:
+"Cada estratégia é construída conforme os objetivos da marca. O serviço poderá incluir planejamento, design, consultoria, vídeos, pesquisa, direção criativa e outros recursos conforme a necessidade.",
+
+servicesSocialNote:
+"*Quando previsto na proposta comercial.",
+
+servicesSocialFooterTitle:
+"Cada estratégia é única.",
+
+servicesSocialFooterText:
+"Não trabalho com pacotes engessados. Cada projeto é desenvolvido considerando o momento da marca, seus objetivos e os recursos disponíveis. Caso você precise apenas de consultoria, planejamento, design ou outro serviço específico, será elaborado um orçamento personalizado.",
+      
       /*==============================
         PROJETOS ACADÊMICOS
         ==============================*/
