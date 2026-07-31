@@ -3059,424 +3059,44 @@ CARDS SOBRE
 
 }
 
-
 /* ==========================================================
-   SERVICES SECTION
-   PMAY Portfolio
-========================================================== */
-
-/* ==========================================================
-   VARIABLES
-========================================================== */
-
-:root{
-
-    --services-bg:#F8F4FF;
-    --services-card:#FFFFFF;
-
-    --services-primary:#6E49C8;
-    --services-primary-dark:#5634A6;
-    --services-secondary:#7F6CFF;
-
-    --services-green:#6DBF8A;
-
-    --services-border:#E9DFFF;
-
-    --services-title:#2D2348;
-    --services-text:#58556B;
-    --services-light:#7A7892;
-
-    --services-shadow:
-    0 20px 60px rgba(92,73,200,.10);
-
-    --services-radius:24px;
-
-    --transition:.35s ease;
-
-}
-
-
-/* ==========================================================
-   SECTION
-========================================================== */
-
-.services-section{
-
-    background:var(--services-bg);
-
-    padding:140px 0;
-
-    position:relative;
-
-    overflow:hidden;
-
-}
-
-
-/* pequeno detalhe decorativo */
-
-.services-section::before{
-
-    content:"";
-
-    position:absolute;
-
-    width:500px;
-    height:500px;
-
-    border-radius:50%;
-
-    background:rgba(110,73,200,.05);
-
-    top:-180px;
-    right:-180px;
-
-    filter:blur(10px);
-
-}
-
-.services-section::after{
-
-    content:"";
-
-    position:absolute;
-
-    width:350px;
-    height:350px;
-
-    border-radius:50%;
-
-    background:rgba(109,191,138,.06);
-
-    left:-120px;
-    bottom:-120px;
-
-}
-
-
-/* ==========================================================
-   CONTAINER
-========================================================== */
-
-.services-section .container{
-
-    position:relative;
-
-    z-index:2;
-
-}
-
-
-/* ==========================================================
-   HEADER
-========================================================== */
-
-.section-header{
-
-    text-align:center;
-
-    max-width:900px;
-
-    margin:0 auto 80px;
-
-}
-
-
-.section-tag{
-
-    display:inline-flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    padding:10px 22px;
-
-    border-radius:999px;
-
-    background:#EEE8FF;
-
-    color:var(--services-primary);
-
-    font-size:.85rem;
-
-    font-weight:700;
-
-    letter-spacing:.18em;
-
-    text-transform:uppercase;
-
-    margin-bottom:25px;
-
-}
-
-
-.section-title{
-
-    color:var(--services-title);
-
-    font-size:clamp(2.4rem,5vw,4rem);
-
-    font-weight:800;
-
-    line-height:1.1;
-
-    margin-bottom:25px;
-
-}
-
-
-.section-subtitle{
-
-    color:var(--services-text);
-
-    font-size:1.1rem;
-
-    line-height:1.9;
-
-}
-
-
-/* ==========================================================
-   INTRO
-========================================================== */
-
-.services-intro{
-
-    display:grid;
-
-    grid-template-columns:
-
-    2fr
-    1fr;
-
-    gap:40px;
-
-    align-items:start;
-
-    margin-bottom:60px;
-
-}
-
-
-.intro-content{
-
-    background:#FFF;
-
-    border-radius:var(--services-radius);
-
-    padding:45px;
-
-    border:1px solid var(--services-border);
-
-    box-shadow:var(--services-shadow);
-
-}
-
-
-.intro-content h3{
-
-    font-size:2rem;
-
-    color:var(--services-title);
-
-    margin-bottom:25px;
-
-}
-
-
-.intro-content p{
-
-    color:var(--services-text);
-
-    line-height:1.9;
-
-    margin-bottom:20px;
-
-}
-
-
-/* ==========================================================
-   HIGHLIGHT
-========================================================== */
-
-.services-highlight{
-
-    background:linear-gradient(
-    135deg,
-    #6E49C8,
-    #8D72FF
-    );
-
-    color:#FFF;
-
-    padding:40px;
-
-    border-radius:var(--services-radius);
-
-    position:relative;
-
-    overflow:hidden;
-
-}
-
-
-.services-highlight::before{
-
-    content:"";
-
-    position:absolute;
-
-    width:180px;
-    height:180px;
-
-    border-radius:50%;
-
-    background:rgba(255,255,255,.08);
-
-    right:-60px;
-    top:-60px;
-
-}
-
-
-.highlight-icon{
-
-    width:70px;
-    height:70px;
-
-    border-radius:18px;
-
-    background:rgba(255,255,255,.15);
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    font-size:1.5rem;
-
-    margin-bottom:25px;
-
-}
-
-
-.services-highlight h4{
-
-    font-size:1.4rem;
-
-    margin-bottom:18px;
-
-}
-
-
-.services-highlight p{
-
-    line-height:1.8;
-
-    color:rgba(255,255,255,.92);
-
-}
-
-
-/* ==========================================================
-   NOTICE
-========================================================== */
-
-.services-notice{
-
-    display:flex;
-
-    gap:25px;
-
-    align-items:flex-start;
-
-    background:#FFF;
-
-    padding:35px 40px;
-
-    border-radius:20px;
-
-    border-left:6px solid var(--services-primary);
-
-    box-shadow:var(--services-shadow);
-
-    margin-bottom:100px;
-
-}
-
-
-.services-notice i{
-
-    color:var(--services-primary);
-
-    font-size:2rem;
-
-}
-
-
-.services-notice strong{
-
-    display:block;
-
-    color:var(--services-title);
-
-    margin-bottom:12px;
-
-    font-size:1.05rem;
-
-}
-
-
-.services-notice p{
-
-    color:var(--services-text);
-
-    line-height:1.8;
-
-}
-
-
-/* ==========================================================
-   CATEGORY
+   SERVICES LAYOUT
 ========================================================== */
 
 .service-category{
 
-    margin-bottom:130px;
+    display:grid;
+
+    grid-template-columns:380px minmax(0,1fr);
+
+    gap:70px;
+
+    align-items:start;
+
+    margin:140px 0;
 
 }
 
 
-.category-header{
+/* ==========================================================
+   LEFT COLUMN
+========================================================== */
 
-    margin-bottom:45px;
+.service-content{
 
-}
+    position:sticky;
 
-
-.category-header div{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:18px;
-
-    margin-bottom:18px;
+    top:120px;
 
 }
-
 
 .category-icon{
 
-    width:58px;
-    height:58px;
+    width:72px;
 
-    border-radius:16px;
+    height:72px;
 
-    background:#EEE8FF;
+    border-radius:22px;
 
     display:flex;
 
@@ -3484,27 +3104,58 @@ CARDS SOBRE
 
     justify-content:center;
 
-    font-size:1.6rem;
+    font-size:2rem;
+
+    margin-bottom:28px;
+
+    background:linear-gradient(
+        135deg,
+        rgba(116,93,255,.12),
+        rgba(116,93,255,.05)
+    );
+
+    border:1px solid rgba(116,93,255,.10);
 
 }
 
+.service-content h3{
 
-.category-header h3{
-
-    font-size:2rem;
+    font-size:2.5rem;
 
     color:var(--services-title);
 
-}
+    margin-bottom:25px;
 
+    line-height:1.15;
+
+}
 
 .category-description{
 
-    max-width:760px;
-
     color:var(--services-text);
 
-    line-height:1.9;
+    line-height:2;
+
+    margin-bottom:40px;
+
+    max-width:340px;
+
+}
+
+.service-button-left{
+
+    width:fit-content;
+
+}
+
+
+/* ==========================================================
+   RIGHT COLUMN
+========================================================== */
+
+.service-right{
+
+    width:100%;
 
 }
 
@@ -3521,222 +3172,78 @@ CARDS SOBRE
 
     align-items:center;
 
-    margin-bottom:40px;
+    margin-bottom:35px;
 
 }
 
+.navigation-counter{
 
-.navigation-text{
+    display:flex;
 
-    color:var(--services-light);
+    align-items:center;
+
+    gap:10px;
 
     font-size:.95rem;
 
+    font-weight:700;
+
+    color:var(--services-light);
+
 }
 
+.current-slide{
+
+    color:var(--services-primary);
+
+    font-size:1.1rem;
+
+}
+
+.divider{
+
+    opacity:.4;
+
+}
+
+.total-slides{
+
+    opacity:.65;
+
+}
+
+
+/* ==========================================================
+   ARROWS
+========================================================== */
 
 .service-arrow{
 
     width:52px;
+
     height:52px;
 
     border:none;
 
-    cursor:pointer;
-
     border-radius:50%;
 
-    background:#FFF;
+    cursor:pointer;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#FFFFFF;
 
     color:var(--services-primary);
 
     border:1px solid var(--services-border);
 
-    transition:var(--transition);
+    box-shadow:
 
-    box-shadow:0 10px 30px rgba(0,0,0,.05);
-
-}
-
-
-.service-arrow:hover{
-
-    background:var(--services-primary);
-
-    color:#FFF;
-
-    transform:translateY(-4px);
-
-}
-
-
-/* ==========================================================
-   SLIDER (BASE)
-========================================================== */
-
-.services-slider{
-
-    display:flex;
-
-    gap:30px;
-
-    overflow:hidden;
-
-    position:relative;
-
-}
-
-/* ==========================================================
-   SERVICES LAYOUT
-========================================================== */
-
-.services-section{
-
-    padding:140px 0;
-
-    position:relative;
-
-}
-
-.service-category{
-
-    display:grid;
-
-    grid-template-columns:380px 1fr;
-
-    gap:70px;
-
-    align-items:start;
-
-    margin:140px 0;
-
-}
-
-/* ==========================================================
-   LEFT COLUMN
-========================================================== */
-
-.service-content{
-
-    position:sticky;
-
-    top:120px;
-
-}
-
-.category-icon{
-
-    width:74px;
-
-    height:74px;
-
-    border-radius:22px;
-
-    background:linear-gradient(
-        135deg,
-        #EEE8FF,
-        #F8F6FF
-    );
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    font-size:2rem;
-
-    margin-bottom:28px;
-
-}
-
-.service-content h3{
-
-    color:var(--services-title);
-
-    font-size:2.3rem;
-
-    margin-bottom:24px;
-
-}
-
-.category-description{
-
-    color:var(--services-text);
-
-    line-height:2;
-
-    margin-bottom:35px;
-
-}
-
-.service-content .service-button{
-
-    width:fit-content;
-
-    padding:18px 28px;
-
-}
-
-/* ==========================================================
-   RIGHT COLUMN
-========================================================== */
-
-.service-right{
-
-    position:relative;
-
-}
-
-/* ==========================================================
-   NAVIGATION
-========================================================== */
-
-.services-navigation{
-
-    display:flex;
-
-    justify-content:flex-end;
-
-    align-items:center;
-
-    gap:18px;
-
-    margin-bottom:30px;
-
-}
-
-.navigation-text{
-
-    color:var(--services-light);
-
-    font-size:.9rem;
-
-}
-
-.service-arrow{
-
-    width:52px;
-
-    height:52px;
-
-    border:none;
-
-    border-radius:50%;
-
-    background:#FFF;
-
-    color:var(--services-primary);
-
-    cursor:pointer;
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    box-shadow:0 15px 35px rgba(0,0,0,.06);
+        0 10px 30px rgba(0,0,0,.04);
 
     transition:.35s;
 
@@ -3750,7 +3257,18 @@ CARDS SOBRE
 
     transform:translateY(-3px);
 
+    box-shadow:
+
+        0 18px 35px rgba(92,60,182,.18);
+
 }
+
+.service-arrow:active{
+
+    transform:scale(.95);
+
+}
+
 
 /* ==========================================================
    SLIDER
@@ -3760,7 +3278,7 @@ CARDS SOBRE
 
     overflow:hidden;
 
-    border-radius:32px;
+    border-radius:30px;
 
 }
 
@@ -3768,29 +3286,37 @@ CARDS SOBRE
 
     display:flex;
 
+    gap:0;
+
     transition:.45s ease;
+
+    will-change:transform;
 
 }
 
+
 /* ==========================================================
-   CARD
+   CARD BASE
 ========================================================== */
 
 .service-card{
 
-    width:100%;
+    min-width:100%;
 
     flex:0 0 100%;
 
-    background:#FFF;
+}
 
-    border-radius:32px;
 
-    padding:50px;
+/* ==========================================================
+   DIVIDER
+========================================================== */
 
-    border:1px solid var(--services-border);
+.service-category:not(:last-child){
 
-    box-shadow:0 20px 55px rgba(0,0,0,.05);
+    padding-bottom:140px;
+
+    border-bottom:1px solid rgba(120,120,120,.08);
 
 }
 /* ==========================================================
@@ -3801,22 +3327,20 @@ CARDS SOBRE
 
     background:#FFF;
 
-    border-radius:32px;
-
-    padding:48px;
-
     border:1px solid var(--services-border);
 
+    border-radius:32px;
+
+    padding:42px;
+
     box-shadow:
-        0 25px 60px rgba(0,0,0,.05);
+        0 20px 55px rgba(0,0,0,.05);
 
-    display:flex;
-
-    flex-direction:column;
-
-    gap:35px;
+    transition:.35s;
 
     position:relative;
+
+    overflow:hidden;
 
 }
 
@@ -3826,13 +3350,13 @@ CARDS SOBRE
 
     position:absolute;
 
-    left:0;
-
     top:0;
+
+    left:0;
 
     width:100%;
 
-    height:8px;
+    height:6px;
 
     background:linear-gradient(
         90deg,
@@ -3842,8 +3366,18 @@ CARDS SOBRE
 
 }
 
+.service-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+        0 35px 80px rgba(92,60,182,.12);
+
+}
+
+
 /* ==========================================================
-   LEVEL
+   BADGE
 ========================================================== */
 
 .service-level{
@@ -3856,29 +3390,34 @@ CARDS SOBRE
 
     padding:10px 18px;
 
-    width:max-content;
-
     border-radius:999px;
 
-    background:#F3EFFF;
+    background:#F2EEFF;
 
     color:var(--services-primary);
 
-    font-size:.85rem;
+    font-size:.82rem;
 
     font-weight:700;
 
+    margin-bottom:25px;
+
 }
+
+
+/* ==========================================================
+   TITLE
+========================================================== */
 
 .service-card h4{
 
-    font-size:2.2rem;
+    font-size:2rem;
 
     color:var(--services-title);
 
-    margin-top:10px;
+    margin-bottom:18px;
 
-    margin-bottom:8px;
+    line-height:1.2;
 
 }
 
@@ -3888,70 +3427,105 @@ CARDS SOBRE
 
     line-height:1.9;
 
-    max-width:90%;
+    margin-bottom:35px;
 
 }
 
+
 /* ==========================================================
-   SECTION TITLE
+   ACCORDION
 ========================================================== */
 
-.service-card h5{
+.service-collapse{
 
-    font-size:.78rem;
+    border:1px solid var(--services-border);
 
-    text-transform:uppercase;
+    border-radius:18px;
 
-    letter-spacing:.18em;
+    overflow:hidden;
 
-    color:var(--services-primary);
+    margin-bottom:18px;
 
-    margin-bottom:20px;
+    background:#FFF;
+
+    transition:.3s;
 
 }
 
-/* ==========================================================
-   BLOCK
-========================================================== */
+.service-collapse:hover{
 
-.service-block{
-
-    padding-top:30px;
-
-    border-top:1px solid #ECE7F7;
+    border-color:#D7CFFF;
 
 }
+
+.service-collapse[open]{
+
+    box-shadow:
+        0 10px 25px rgba(92,60,182,.08);
+
+}
+
+
 /* ==========================================================
-   PROCESS
+   SUMMARY
 ========================================================== */
 
-.service-process{
+.service-collapse summary{
+
+    cursor:pointer;
+
+    list-style:none;
 
     display:flex;
 
-    flex-direction:column;
+    justify-content:space-between;
 
-    gap:18px;
+    align-items:center;
+
+    padding:20px 24px;
+
+    font-weight:700;
+
+    color:var(--services-title);
+
+    transition:.3s;
 
 }
 
-.service-process li{
+.service-collapse summary::-webkit-details-marker{
+
+    display:none;
+
+}
+
+.service-collapse summary span{
 
     display:flex;
 
     align-items:center;
 
-    gap:18px;
-
-    list-style:none;
+    gap:14px;
 
 }
 
-.service-process li::before{
+.service-collapse summary i{
 
-    content:counter(step);
+    color:var(--services-primary);
 
-    counter-increment:step;
+    width:20px;
+
+    text-align:center;
+
+}
+
+
+/* ==========================================================
+   PLUS ICON
+========================================================== */
+
+.service-collapse summary::after{
+
+    content:"+";
 
     width:34px;
 
@@ -3959,7 +3533,7 @@ CARDS SOBRE
 
     border-radius:50%;
 
-    background:#F3EFFF;
+    background:#F2EEFF;
 
     color:var(--services-primary);
 
@@ -3969,40 +3543,144 @@ CARDS SOBRE
 
     align-items:center;
 
-    font-size:.80rem;
+    font-size:1.3rem;
 
-    font-weight:700;
+    transition:.35s;
 
 }
 
+.service-collapse[open] summary::after{
+
+    content:"−";
+
+    background:var(--services-primary);
+
+    color:#FFF;
+
+}
+
+
+/* ==========================================================
+   CONTENT
+========================================================== */
+
+.service-collapse>*:not(summary){
+
+    padding:
+
+        0 24px
+        24px;
+
+}
+
+
+/* ==========================================================
+   DIVIDER
+========================================================== */
+
+.service-collapse+ .service-collapse{
+
+    margin-top:15px;
+
+}
+/* ==========================================================
+   PROCESS
+========================================================== */
+
 .service-process{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:16px;
 
     counter-reset:step;
 
 }
+
+.service-process li{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:16px;
+
+    color:var(--services-text);
+
+    line-height:1.8;
+
+}
+
+.service-process li::before{
+
+    counter-increment:step;
+
+    content:counter(step);
+
+    width:34px;
+
+    height:34px;
+
+    border-radius:50%;
+
+    background:#F3EEFF;
+
+    color:var(--services-primary);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:.82rem;
+
+    font-weight:700;
+
+    flex-shrink:0;
+
+}
+
+
 /* ==========================================================
    DELIVERIES
 ========================================================== */
 
 .service-deliveries{
 
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+
     display:grid;
 
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:repeat(2,minmax(0,1fr));
 
-    gap:16px;
+    gap:15px;
 
 }
 
 .service-deliveries li{
 
-    list-style:none;
-
     display:flex;
 
-    align-items:center;
+    align-items:flex-start;
 
     gap:12px;
+
+    color:var(--services-text);
+
+    line-height:1.8;
 
 }
 
@@ -4010,13 +3688,13 @@ CARDS SOBRE
 
     content:"✓";
 
-    width:26px;
+    width:24px;
 
-    height:26px;
+    height:24px;
 
     border-radius:50%;
 
-    background:#E8FFF4;
+    background:#E9FFF3;
 
     color:var(--services-green);
 
@@ -4030,60 +3708,52 @@ CARDS SOBRE
 
     font-weight:700;
 
+    flex-shrink:0;
+
 }
+
+
 /* ==========================================================
-   INFO
+   SERVICE BOX
 ========================================================== */
-
-.service-info{
-
-    display:grid;
-
-    grid-template-columns:220px 1fr;
-
-    gap:25px;
-
-}
 
 .service-box{
 
-    background:#FAF8FF;
+    background:#FAF9FF;
 
     border:1px solid var(--services-border);
 
-    border-radius:20px;
+    border-radius:18px;
 
-    padding:24px;
-
-}
-
-.service-box span{
-
-    display:block;
-
-    color:var(--services-light);
-
-    font-size:.80rem;
-
-    margin-bottom:10px;
-
-    text-transform:uppercase;
-
-    letter-spacing:.08em;
+    padding:26px;
 
 }
+
+
+/* ==========================================================
+   DEADLINE
+========================================================== */
 
 .service-box strong{
 
-    font-size:1.2rem;
+    display:block;
+
+    font-size:1.25rem;
 
     color:var(--services-title);
 
+    line-height:1.3;
+
 }
+
+
+/* ==========================================================
+   PRICE
+========================================================== */
 
 .service-price{
 
-    font-size:2.6rem !important;
+    font-size:2.5rem;
 
     font-weight:800;
 
@@ -4091,97 +3761,100 @@ CARDS SOBRE
 
     line-height:1;
 
-    margin-bottom:8px;
+    margin-bottom:10px;
 
 }
 
 .service-box small{
 
+    display:block;
+
     color:var(--services-light);
 
+    font-size:.92rem;
+
+    line-height:1.7;
+
 }
+
+
 /* ==========================================================
    OBSERVATION
 ========================================================== */
 
 .why-text{
 
-    padding:22px;
+    color:var(--services-text);
+
+    line-height:1.95;
+
+    padding:18px;
+
+    border-left:4px solid var(--services-primary);
 
     background:#FCFBFF;
 
-    border-left:5px solid var(--services-primary);
-
-    border-radius:18px;
-
-    line-height:1.9;
-
-    color:var(--services-text);
+    border-radius:14px;
 
 }
+
+
+/* ==========================================================
+   NOTE
+========================================================== */
 
 .service-note{
 
+    margin-top:18px;
+
     color:var(--services-light);
 
-    font-size:.9rem;
+    font-size:.88rem;
 
-    line-height:1.8;
+    line-height:1.7;
 
 }
+
+
 /* ==========================================================
-   BUTTON
+   ANIMATION
 ========================================================== */
 
-.service-button{
+.service-collapse[open] .service-box{
 
-    display:inline-flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    gap:12px;
-
-    margin-top:20px;
-
-    width:fit-content;
-
-    padding:18px 28px;
-
-    border-radius:18px;
-
-    background:var(--services-primary);
-
-    color:#FFF;
-
-    text-decoration:none;
-
-    font-weight:700;
-
-    transition:.35s;
+    animation:fadeService .35s ease;
 
 }
 
-.service-button:hover{
+.service-collapse[open] ul{
 
-    transform:translateY(-4px);
-
-    background:#6B48D9;
+    animation:fadeService .35s ease;
 
 }
 
-.service-button::after{
+.service-collapse[open] p{
 
-    content:"→";
-
-    transition:.3s;
+    animation:fadeService .35s ease;
 
 }
 
-.service-button:hover::after{
+@keyframes fadeService{
 
-    transform:translateX(8px);
+    from{
+
+        opacity:0;
+
+        transform:translateY(-8px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
 
 }
 /* ==========================================================
@@ -4190,15 +3863,15 @@ CARDS SOBRE
 
 .services-tip{
 
-    margin-top:50px;
-
-    padding:35px;
+    margin-top:45px;
 
     display:flex;
 
     align-items:flex-start;
 
     gap:28px;
+
+    padding:34px;
 
     background:linear-gradient(
         135deg,
@@ -4210,7 +3883,8 @@ CARDS SOBRE
 
     border-radius:28px;
 
-    box-shadow:0 20px 45px rgba(0,0,0,.04);
+    box-shadow:
+        0 18px 45px rgba(0,0,0,.04);
 
 }
 
@@ -4222,23 +3896,23 @@ CARDS SOBRE
 
     flex-shrink:0;
 
-    border-radius:22px;
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:20px;
 
     background:linear-gradient(
         135deg,
         var(--services-primary),
-        #8F74FF
+        #8B73FF
     );
 
     color:#FFF;
 
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    font-size:1.5rem;
+    font-size:1.4rem;
 
 }
 
@@ -4246,9 +3920,9 @@ CARDS SOBRE
 
     color:var(--services-title);
 
-    font-size:1.35rem;
+    font-size:1.25rem;
 
-    margin-bottom:18px;
+    margin-bottom:16px;
 
 }
 
@@ -4270,926 +3944,64 @@ CARDS SOBRE
 
 
 /* ==========================================================
-   WORKFLOW
+   BUTTON
 ========================================================== */
 
-.workflow-section{
+.service-button{
 
-    padding:150px 0;
+    display:inline-flex;
 
-}
-
-.workflow{
-
-    display:grid;
-
-    grid-template-columns:
-        repeat(5,1fr);
-
-    gap:28px;
-
-    margin-top:70px;
-
-}
-
-.workflow-step{
-
-    background:#FFF;
-
-    border-radius:28px;
-
-    padding:38px;
-
-    border:1px solid var(--services-border);
-
-    box-shadow:0 15px 40px rgba(0,0,0,.05);
-
-    transition:.35s;
-
-    text-align:center;
-
-}
-
-.workflow-step:hover{
-
-    transform:translateY(-10px);
-
-    box-shadow:
-        0 30px 70px rgba(92,60,182,.12);
-
-}
-
-.workflow-number{
-
-    width:76px;
-
-    height:76px;
-
-    margin:0 auto 28px;
-
-    border-radius:50%;
-
-    background:linear-gradient(
-        135deg,
-        var(--services-primary),
-        #8E73FF
-    );
-
-    display:flex;
+    align-items:center;
 
     justify-content:center;
 
-    align-items:center;
+    gap:12px;
 
-    color:#FFF;
+    padding:18px 30px;
 
-    font-size:1.35rem;
-
-    font-weight:700;
-
-}
-
-.workflow-step h4{
-
-    color:var(--services-title);
-
-    margin-bottom:18px;
-
-    font-size:1.2rem;
-
-}
-
-.workflow-step p{
-
-    color:var(--services-text);
-
-    line-height:1.85;
-
-}
-
-
-/* ==========================================================
-   WORKFLOW CONNECTOR
-========================================================== */
-
-.workflow{
-
-    position:relative;
-
-}
-
-.workflow::before{
-
-    content:"";
-
-    position:absolute;
-
-    top:38px;
-
-    left:9%;
-
-    width:82%;
-
-    height:3px;
-
-    background:linear-gradient(
-        90deg,
-        var(--services-primary),
-        #CDBFFF
-    );
-
-    z-index:0;
-
-}
-
-.workflow-step{
-
-    position:relative;
-
-    z-index:2;
-
-}
-
-
-/* ==========================================================
-   TRUST BOX
-========================================================== */
-
-.workflow-note{
-
-    margin-top:70px;
-
-    padding:35px;
-
-    border-radius:24px;
-
-    background:#F8F6FF;
-
-    border:1px solid var(--services-border);
-
-    display:flex;
-
-    gap:25px;
-
-    align-items:flex-start;
-
-}
-
-.workflow-note i{
-
-    font-size:2rem;
-
-    color:var(--services-primary);
-
-}
-
-.workflow-note h4{
-
-    color:var(--services-title);
-
-    margin-bottom:12px;
-
-}
-
-.workflow-note p{
-
-    color:var(--services-text);
-
-    line-height:1.9;
-
-}
-
-
-/* ==========================================================
-   MICRO ANIMATIONS
-========================================================== */
-
-.service-card,
-.workflow-step,
-.services-tip{
-
-    transition:
-        transform .35s ease,
-        box-shadow .35s ease;
-
-}
-
-.service-card:hover{
-
-    transform:translateY(-8px);
-
-}
-
-.workflow-step:hover{
-
-    transform:translateY(-10px);
-
-}
-
-.services-tip:hover{
-
-    transform:translateY(-5px);
-
-}
-/* ==========================================================
-   FAQ
-========================================================== */
-
-.faq-section{
-
-    padding:140px 0;
-
-}
-
-.faq-container{
-
-    max-width:980px;
-
-    margin:80px auto 0;
-
-}
-
-.faq-item{
-
-    background:#FFF;
-
-    border:1px solid var(--services-border);
-
-    border-radius:24px;
-
-    margin-bottom:22px;
-
-    overflow:hidden;
-
-    transition:.35s;
-
-    box-shadow:
-        0 10px 35px rgba(0,0,0,.04);
-
-}
-
-.faq-item:hover{
-
-    transform:translateY(-4px);
-
-    box-shadow:
-        0 20px 60px rgba(92,60,182,.08);
-
-}
-
-.faq-item summary{
-
-    list-style:none;
-
-    cursor:pointer;
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    padding:30px 35px;
-
-    color:var(--services-title);
-
-    font-size:1.08rem;
-
-    font-weight:700;
-
-    transition:.3s;
-
-}
-
-.faq-item summary::-webkit-details-marker{
-
-    display:none;
-
-}
-
-.faq-item summary::after{
-
-    content:"+";
-
-    width:38px;
-
-    height:38px;
-
-    border-radius:50%;
-
-    background:#F2EEFF;
-
-    color:var(--services-primary);
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    font-size:1.5rem;
-
-    transition:.35s;
-
-}
-
-.faq-item[open] summary{
-
-    color:var(--services-primary);
-
-}
-
-.faq-item[open] summary::after{
-
-    content:"−";
+    border-radius:18px;
 
     background:var(--services-primary);
 
     color:#FFF;
 
-}
+    text-decoration:none;
 
-.faq-item p{
+    font-weight:700;
 
-    padding:0 35px 35px;
-
-    color:var(--services-text);
-
-    line-height:1.9;
-
-    font-size:.98rem;
+    transition:.35s;
 
 }
 
-/* ==========================================================
-   CTA
-========================================================== */
+.service-button::after{
 
-.services-cta{
+    content:"→";
 
-    margin-top:150px;
+    transition:.3s;
 
-    position:relative;
+}
 
-    overflow:hidden;
+.service-button:hover{
 
-    border-radius:40px;
+    transform:translateY(-4px);
 
-    padding:90px 70px;
-
-    background:
-    linear-gradient(
-        135deg,
-        var(--services-primary),
-        #8D73FF
-    );
-
-    text-align:center;
-
-    color:#FFF;
+    background:#6543D8;
 
     box-shadow:
-        0 35px 80px rgba(92,60,182,.20);
+
+        0 18px 35px rgba(92,60,182,.20);
 
 }
 
-.services-cta::before{
+.service-button:hover::after{
 
-    content:"";
-
-    position:absolute;
-
-    width:520px;
-
-    height:520px;
-
-    border-radius:50%;
-
-    background:rgba(255,255,255,.05);
-
-    top:-220px;
-
-    right:-180px;
+    transform:translateX(6px);
 
 }
-
-.services-cta::after{
-
-    content:"";
-
-    position:absolute;
-
-    width:360px;
-
-    height:360px;
-
-    border-radius:50%;
-
-    background:rgba(255,255,255,.05);
-
-    left:-140px;
-
-    bottom:-180px;
-
-}
-
-.services-cta>*{
-
-    position:relative;
-
-    z-index:2;
-
-}
-
-.services-cta .section-tag{
-
-    background:rgba(255,255,255,.18);
-
-    color:#FFF;
-
-}
-
-.services-cta .section-title{
-
-    color:#FFF;
-
-    margin-top:22px;
-
-    margin-bottom:25px;
-
-}
-
-.services-cta .section-subtitle{
-
-    color:rgba(255,255,255,.92);
-
-    max-width:760px;
-
-    margin:0 auto 50px;
-
-    line-height:1.9;
-
-}
-
-/* ==========================================================
-   CTA BUTTONS
-========================================================== */
-
-.cta-buttons{
-
-    display:flex;
-
-    justify-content:center;
-
-    gap:20px;
-
-    flex-wrap:wrap;
-
-}
-
-.primary-button{
-
-    padding:18px 36px;
-
-    border-radius:18px;
-
-    background:#FFF;
-
-    color:var(--services-primary);
-
-    text-decoration:none;
-
-    font-weight:700;
-
-    transition:.35s;
-
-}
-
-.primary-button:hover{
-
-    transform:translateY(-4px);
-
-    background:#F4F0FF;
-
-}
-
-.secondary-button{
-
-    padding:18px 36px;
-
-    border-radius:18px;
-
-    border:2px solid rgba(255,255,255,.25);
-
-    color:#FFF;
-
-    text-decoration:none;
-
-    font-weight:700;
-
-    transition:.35s;
-
-}
-
-.secondary-button:hover{
-
-    background:rgba(255,255,255,.10);
-
-    transform:translateY(-4px);
-
-}
-
-.cta-note{
-
-    margin-top:40px;
-
-    color:rgba(255,255,255,.82);
-
-    font-size:.92rem;
-
-    line-height:1.8;
-
-}
-
-/* ==========================================================
-   TRUST BADGES
-========================================================== */
-
-.services-badges{
-
-    margin-top:45px;
-
-    display:flex;
-
-    justify-content:center;
-
-    flex-wrap:wrap;
-
-    gap:15px;
-
-}
-
-.services-badges span{
-
-    padding:12px 18px;
-
-    border-radius:999px;
-
-    background:rgba(255,255,255,.12);
-
-    color:#FFF;
-
-    font-size:.88rem;
-
-    backdrop-filter:blur(10px);
-
-}
-/* ==========================================================
-   RESPONSIVE
-========================================================== */
-
-@media (max-width:1200px){
-
-    .service-category{
-
-        grid-template-columns:320px 1fr;
-
-        gap:50px;
-
-    }
-
-    .service-content h3{
-
-        font-size:2rem;
-
-    }
-
-    .service-card{
-
-        padding:40px;
-
-    }
-
-    .workflow{
-
-        grid-template-columns:repeat(3,1fr);
-
-    }
-
-    .workflow::before{
-
-        display:none;
-
-    }
-
-}
-
-
-
-/* ========================================================== */
-
-@media (max-width:992px){
-
-    .service-category{
-
-        grid-template-columns:1fr;
-
-        gap:45px;
-
-        margin:100px 0;
-
-    }
-
-    .service-content{
-
-        position:relative;
-
-        top:auto;
-
-    }
-
-    .service-content .service-button{
-
-        width:100%;
-
-        justify-content:center;
-
-    }
-
-    .services-navigation{
-
-        justify-content:space-between;
-
-    }
-
-    .service-card{
-
-        padding:38px;
-
-    }
-
-    .service-deliveries{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .service-info{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .workflow{
-
-        grid-template-columns:repeat(2,1fr);
-
-        gap:24px;
-
-    }
-
-}
-
-
-
-/* ========================================================== */
-
-@media (max-width:768px){
-
-    .services-section{
-
-        padding:90px 0;
-
-    }
-
-    .service-category{
-
-        margin:80px 0;
-
-    }
-
-    .service-card{
-
-        padding:32px;
-
-        border-radius:24px;
-
-    }
-
-    .service-card h4{
-
-        font-size:1.8rem;
-
-    }
-
-    .service-ideal{
-
-        max-width:100%;
-
-    }
-
-    .services-navigation{
-
-        justify-content:center;
-
-        flex-wrap:wrap;
-
-        gap:15px;
-
-    }
-
-    .navigation-text{
-
-        width:100%;
-
-        text-align:center;
-
-        order:-1;
-
-    }
-
-    .service-arrow{
-
-        width:48px;
-
-        height:48px;
-
-    }
-
-    .services-tip{
-
-        flex-direction:column;
-
-        text-align:left;
-
-    }
-
-    .tip-icon{
-
-        margin-bottom:10px;
-
-    }
-
-    .workflow{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .workflow-step{
-
-        padding:32px;
-
-    }
-
-    .faq-item summary{
-
-        padding:24px;
-
-        font-size:1rem;
-
-    }
-
-    .faq-item p{
-
-        padding:0 24px 24px;
-
-    }
-
-    .services-cta{
-
-        padding:60px 35px;
-
-        border-radius:28px;
-
-    }
-
-    .cta-buttons{
-
-        flex-direction:column;
-
-    }
-
-    .primary-button,
-
-    .secondary-button{
-
-        width:100%;
-
-        justify-content:center;
-
-    }
-
-}
-
-
-
-/* ========================================================== */
-
-@media (max-width:576px){
-
-    .section-title{
-
-        font-size:2rem;
-
-    }
-
-    .section-subtitle{
-
-        font-size:1rem;
-
-    }
-
-    .category-icon{
-
-        width:62px;
-
-        height:62px;
-
-        font-size:1.6rem;
-
-    }
-
-    .service-content h3{
-
-        font-size:1.7rem;
-
-    }
-
-    .service-card{
-
-        padding:26px;
-
-    }
-
-    .service-level{
-
-        font-size:.78rem;
-
-    }
-
-    .service-card h4{
-
-        font-size:1.5rem;
-
-    }
-
-    .service-price{
-
-        font-size:2.1rem !important;
-
-    }
-
-    .service-box{
-
-        padding:20px;
-
-    }
-
-    .services-tip{
-
-        padding:28px;
-
-    }
-
-    .tip-icon{
-
-        width:56px;
-
-        height:56px;
-
-        font-size:1.2rem;
-
-    }
-
-    .workflow-number{
-
-        width:60px;
-
-        height:60px;
-
-        font-size:1.15rem;
-
-    }
-
-    .workflow-step{
-
-        padding:28px;
-
-    }
-
-    .services-cta{
-
-        padding:45px 24px;
-
-    }
-
-}
-
 
 
 /* ==========================================================
-   SMOOTH EFFECTS
+   SCROLL
 ========================================================== */
 
 html{
@@ -5198,19 +4010,24 @@ html{
 
 }
 
+
+/* ==========================================================
+   ANIMATIONS
+========================================================== */
+
 .service-card{
 
-    animation:fadeUp .6s ease;
+    animation:fadeCard .6s ease;
 
 }
 
-@keyframes fadeUp{
+@keyframes fadeCard{
 
     from{
 
         opacity:0;
 
-        transform:translateY(20px);
+        transform:translateY(25px);
 
     }
 
@@ -5224,18 +4041,152 @@ html{
 
 }
 
-.service-arrow:active{
 
-    transform:scale(.94);
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+
+@media(max-width:1200px){
+
+    .service-category{
+
+        grid-template-columns:320px 1fr;
+
+        gap:50px;
+
+    }
 
 }
 
-.primary-button:active,
 
-.secondary-button:active,
+@media(max-width:992px){
 
-.service-button:active{
+    .service-category{
 
-    transform:scale(.97);
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+        margin:100px 0;
+
+    }
+
+    .service-content{
+
+        position:relative;
+
+        top:auto;
+
+    }
+
+    .category-description{
+
+        max-width:100%;
+
+    }
+
+    .services-navigation{
+
+        margin-top:10px;
+
+    }
 
 }
+
+
+@media(max-width:768px){
+
+    .service-card{
+
+        padding:30px;
+
+        border-radius:24px;
+
+    }
+
+    .service-deliveries{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .services-tip{
+
+        flex-direction:column;
+
+    }
+
+    .service-button{
+
+        width:100%;
+
+    }
+
+    .navigation-counter{
+
+        font-size:.85rem;
+
+    }
+
+}
+
+
+@media(max-width:576px){
+
+    .service-content h3{
+
+        font-size:2rem;
+
+    }
+
+    .service-card{
+
+        padding:24px;
+
+    }
+
+    .service-card h4{
+
+        font-size:1.55rem;
+
+    }
+
+    .service-price{
+
+        font-size:2rem;
+
+    }
+
+    .service-collapse summary{
+
+        padding:18px 20px;
+
+    }
+
+    .service-collapse>*:not(summary){
+
+        padding:
+
+            0 20px
+            20px;
+
+    }
+
+    .service-box{
+
+        padding:20px;
+
+    }
+
+    .tip-icon{
+
+        width:56px;
+
+        height:56px;
+
+        font-size:1.2rem;
+
+    }
+
+}
+
