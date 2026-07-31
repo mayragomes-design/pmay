@@ -3587,6 +3587,121 @@ CARDS SOBRE
 }
 
 /* ==========================================================
+   SERVICES SLIDER
+========================================================== */
+
+.service-category{
+
+    position:relative;
+
+}
+
+.services-slider-wrapper{
+
+    width:100%;
+
+    overflow:hidden;
+
+    position:relative;
+
+}
+
+.services-slider{
+
+    display:flex;
+
+    gap:32px;
+
+    transition:transform .45s ease;
+
+    will-change:transform;
+
+}
+
+/* ==========================================================
+   NAVIGATION
+========================================================== */
+
+.services-navigation{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:20px;
+
+    margin:45px 0;
+
+}
+
+.navigation-text{
+
+    color:var(--services-light);
+
+    font-size:.95rem;
+
+}
+
+.service-arrow{
+
+    width:50px;
+
+    height:50px;
+
+    border-radius:50%;
+
+    border:1px solid var(--services-border);
+
+    background:#FFF;
+
+    color:var(--services-primary);
+
+    cursor:pointer;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    transition:.3s;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.05);
+
+}
+
+.service-arrow:hover{
+
+    background:var(--services-primary);
+
+    color:#FFF;
+
+    transform:translateY(-2px);
+
+}
+
+.service-arrow:disabled{
+
+    opacity:.35;
+
+    cursor:not-allowed;
+
+    transform:none;
+
+}
+
+.service-arrow:disabled:hover{
+
+    background:#FFF;
+
+    color:var(--services-primary);
+
+}
+
+
+/* ==========================================================
    SERVICE CARD
 ========================================================== */
 
@@ -3594,7 +3709,9 @@ CARDS SOBRE
 
     background:var(--services-card);
 
-    min-width:390px;
+    flex:0 0 calc((100% - 64px) / 3);
+
+    min-width:calc((100% - 64px) / 3);
 
     border-radius:28px;
 
@@ -3604,7 +3721,7 @@ CARDS SOBRE
 
     box-shadow:var(--services-shadow);
 
-    transition:var(--transition);
+    transition:.35s;
 
     display:flex;
 
@@ -3623,9 +3740,11 @@ CARDS SOBRE
     position:absolute;
 
     top:0;
+
     left:0;
 
     width:100%;
+
     height:6px;
 
     background:linear-gradient(
@@ -3641,7 +3760,7 @@ CARDS SOBRE
     transform:translateY(-10px);
 
     box-shadow:
-    0 25px 70px rgba(65,50,140,.15);
+        0 25px 70px rgba(65,50,140,.15);
 
 }
 
@@ -3687,6 +3806,8 @@ CARDS SOBRE
 
     font-size:1.8rem;
 
+    line-height:1.3;
+
     margin-bottom:18px;
 
 }
@@ -3699,9 +3820,9 @@ CARDS SOBRE
 
     margin-bottom:35px;
 
+    flex-grow:1;
+
 }
-
-
 /* ==========================================================
    BLOCKS
 ========================================================== */
@@ -3745,6 +3866,12 @@ CARDS SOBRE
 
     margin:0;
 
+    display:flex;
+
+    flex-direction:column;
+
+    gap:14px;
+
 }
 
 .service-card li{
@@ -3754,8 +3881,6 @@ CARDS SOBRE
     align-items:flex-start;
 
     gap:14px;
-
-    margin-bottom:14px;
 
     color:var(--services-text);
 
@@ -3768,13 +3893,14 @@ CARDS SOBRE
     content:"";
 
     width:10px;
-    height:10px;
 
-    margin-top:8px;
+    height:10px;
 
     border-radius:50%;
 
     background:var(--services-green);
+
+    margin-top:8px;
 
     flex-shrink:0;
 
@@ -3789,9 +3915,9 @@ CARDS SOBRE
 
     display:grid;
 
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:repeat(2,1fr);
 
-    gap:25px;
+    gap:20px;
 
 }
 
@@ -3805,6 +3931,16 @@ CARDS SOBRE
 
     padding:20px;
 
+    transition:.3s;
+
+}
+
+.service-info div:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+
 }
 
 .service-info span{
@@ -3813,9 +3949,13 @@ CARDS SOBRE
 
     color:var(--services-light);
 
-    font-size:.85rem;
+    font-size:.82rem;
 
     margin-bottom:10px;
+
+    text-transform:uppercase;
+
+    letter-spacing:.08em;
 
 }
 
@@ -3827,6 +3967,8 @@ CARDS SOBRE
 
     font-size:1.05rem;
 
+    line-height:1.4;
+
 }
 
 
@@ -3836,9 +3978,11 @@ CARDS SOBRE
 
 .service-price{
 
-    font-size:2rem !important;
+    display:block;
 
     color:var(--services-primary) !important;
+
+    font-size:2rem !important;
 
     font-weight:800;
 
@@ -3873,13 +4017,15 @@ CARDS SOBRE
 
 .service-note{
 
-    font-size:.85rem;
+    margin-top:18px;
 
     color:var(--services-light);
 
-    margin-top:15px;
+    font-size:.88rem;
 
     line-height:1.7;
+
+    font-style:italic;
 
 }
 
@@ -3908,13 +4054,15 @@ CARDS SOBRE
 
     border:2px solid var(--services-primary);
 
+    background:#FFF;
+
     color:var(--services-primary);
 
     text-decoration:none;
 
     font-weight:700;
 
-    transition:var(--transition);
+    transition:.35s;
 
 }
 
@@ -3931,6 +4079,8 @@ CARDS SOBRE
     background:var(--services-primary);
 
     color:#FFF;
+
+    transform:translateY(-2px);
 
 }
 
@@ -3951,6 +4101,8 @@ CARDS SOBRE
 
     gap:15px;
 
+    align-items:flex-start;
+
     margin-top:35px;
 
     padding-top:30px;
@@ -3965,7 +4117,9 @@ CARDS SOBRE
 
     font-size:1.2rem;
 
-    margin-top:3px;
+    margin-top:2px;
+
+    flex-shrink:0;
 
 }
 
@@ -3978,52 +4132,65 @@ CARDS SOBRE
     line-height:1.7;
 
 }
-
-
 /* ==========================================================
    SERVICES TIP
 ========================================================== */
 
 .services-tip{
 
-    margin-top:60px;
+    margin-top:70px;
 
     display:flex;
 
-    gap:25px;
+    gap:30px;
 
     align-items:flex-start;
 
-    background:#FFFFFF;
+    background:#FFF;
 
     border:1px solid var(--services-border);
 
-    border-radius:24px;
+    border-radius:28px;
 
-    padding:35px;
+    padding:40px;
 
     box-shadow:var(--services-shadow);
+
+    transition:.35s;
+
+}
+
+.services-tip:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+        0 20px 50px rgba(65,50,140,.10);
 
 }
 
 .tip-icon{
 
-    width:60px;
-    height:60px;
+    width:70px;
+    height:70px;
 
-    border-radius:18px;
+    border-radius:20px;
 
-    background:#EEE8FF;
+    background:linear-gradient(
+        135deg,
+        #EEE8FF,
+        #F8F6FF
+    );
 
     display:flex;
 
-    align-items:center;
-
     justify-content:center;
+
+    align-items:center;
 
     color:var(--services-primary);
 
-    font-size:1.4rem;
+    font-size:1.6rem;
 
     flex-shrink:0;
 
@@ -4033,9 +4200,9 @@ CARDS SOBRE
 
     color:var(--services-title);
 
-    margin-bottom:15px;
+    font-size:1.3rem;
 
-    font-size:1.25rem;
+    margin-bottom:18px;
 
 }
 
@@ -4043,9 +4210,9 @@ CARDS SOBRE
 
     color:var(--services-text);
 
-    line-height:1.8;
+    line-height:1.9;
 
-    margin-bottom:12px;
+    margin-bottom:14px;
 
 }
 
@@ -4054,6 +4221,8 @@ CARDS SOBRE
     margin-bottom:0;
 
 }
+
+
 /* ==========================================================
    WORKFLOW
 ========================================================== */
@@ -4072,42 +4241,42 @@ CARDS SOBRE
 
     grid-template-columns:repeat(5,1fr);
 
-    gap:30px;
+    gap:28px;
 
     align-items:start;
 
 }
 
-.workflow div{
+.workflow-step{
 
     background:#FFF;
 
-    border-radius:24px;
+    border:1px solid var(--services-border);
+
+    border-radius:26px;
 
     padding:35px;
 
     text-align:center;
 
-    border:1px solid var(--services-border);
-
     box-shadow:var(--services-shadow);
 
-    transition:var(--transition);
+    transition:.35s;
 
     position:relative;
 
 }
 
-.workflow div:hover{
+.workflow-step:hover{
 
     transform:translateY(-8px);
 
 }
 
-.workflow span{
+.workflow-number{
 
-    width:70px;
-    height:70px;
+    width:72px;
+    height:72px;
 
     border-radius:50%;
 
@@ -4127,21 +4296,23 @@ CARDS SOBRE
 
     margin:0 auto 25px;
 
-    font-size:1.5rem;
+    font-size:1.45rem;
 
-    font-weight:700;
+    font-weight:800;
 
 }
 
-.workflow h4{
+.workflow-step h4{
 
     color:var(--services-title);
 
     margin-bottom:15px;
 
+    font-size:1.2rem;
+
 }
 
-.workflow p{
+.workflow-step p{
 
     color:var(--services-text);
 
@@ -4149,6 +4320,21 @@ CARDS SOBRE
 
 }
 
+.workflow-arrow{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:var(--services-primary);
+
+    font-size:1.8rem;
+
+    opacity:.35;
+
+}
 /* ==========================================================
    FAQ
 ========================================================== */
@@ -4171,23 +4357,26 @@ CARDS SOBRE
 
     background:#FFF;
 
-    border-radius:18px;
-
     border:1px solid var(--services-border);
+
+    border-radius:20px;
 
     margin-bottom:20px;
 
     overflow:hidden;
 
-    transition:var(--transition);
+    box-shadow:var(--services-shadow);
 
-    box-shadow:0 10px 30px rgba(0,0,0,.04);
+    transition:.35s;
 
 }
 
 .faq-item:hover{
 
-    transform:translateY(-3px);
+    transform:translateY(-4px);
+
+    box-shadow:
+        0 20px 45px rgba(65,50,140,.10);
 
 }
 
@@ -4197,19 +4386,27 @@ CARDS SOBRE
 
     cursor:pointer;
 
-    padding:28px 35px;
-
     display:flex;
 
     justify-content:space-between;
 
     align-items:center;
 
+    padding:28px 35px;
+
     color:var(--services-title);
+
+    font-size:1.05rem;
 
     font-weight:700;
 
-    font-size:1.05rem;
+    transition:.3s;
+
+}
+
+.faq-item summary:hover{
+
+    color:var(--services-primary);
 
 }
 
@@ -4223,17 +4420,19 @@ CARDS SOBRE
 
     content:"+";
 
-    color:var(--services-primary);
-
     font-size:1.6rem;
 
-    transition:.3s;
+    color:var(--services-primary);
+
+    transition:.35s;
 
 }
 
 .faq-item[open] summary::after{
 
     content:"−";
+
+    transform:rotate(180deg);
 
 }
 
@@ -4247,6 +4446,7 @@ CARDS SOBRE
 
 }
 
+
 /* ==========================================================
    FINAL CTA
 ========================================================== */
@@ -4257,21 +4457,24 @@ CARDS SOBRE
 
     background:linear-gradient(
         135deg,
-        #5C3CB6,
-        #8B73FF
+        var(--services-primary),
+        #8D72FF
     );
 
-    border-radius:40px;
+    border-radius:36px;
 
-    padding:80px 70px;
-
-    color:#FFF;
+    padding:90px 70px;
 
     text-align:center;
+
+    color:#FFF;
 
     position:relative;
 
     overflow:hidden;
+
+    box-shadow:
+        0 35px 90px rgba(92,60,182,.25);
 
 }
 
@@ -4281,15 +4484,17 @@ CARDS SOBRE
 
     position:absolute;
 
-    width:400px;
-    height:400px;
+    width:420px;
+
+    height:420px;
 
     border-radius:50%;
 
-    background:rgba(255,255,255,.06);
+    background:rgba(255,255,255,.05);
+
+    top:-180px;
 
     right:-120px;
-    top:-120px;
 
 }
 
@@ -4300,152 +4505,194 @@ CARDS SOBRE
     position:absolute;
 
     width:300px;
+
     height:300px;
 
     border-radius:50%;
 
     background:rgba(255,255,255,.05);
 
-    left:-100px;
-    bottom:-100px;
+    left:-120px;
+
+    bottom:-120px;
 
 }
 
-.services-cta h2{
+.services-cta .section-tag{
 
     color:#FFF;
 
-    font-size:clamp(2.2rem,4vw,3.5rem);
-
-    margin-bottom:25px;
-
-    position:relative;
-
-    z-index:2;
+    background:rgba(255,255,255,.15);
 
 }
 
-.services-cta p{
+.services-cta .section-title{
+
+    color:#FFF;
+
+    margin-top:20px;
+
+}
+
+.services-cta .section-subtitle{
+
+    color:rgba(255,255,255,.90);
 
     max-width:760px;
 
-    margin:0 auto 45px;
-
-    line-height:1.9;
-
-    color:rgba(255,255,255,.92);
-
-    position:relative;
-
-    z-index:2;
+    margin:25px auto 45px;
 
 }
 
-.services-cta .service-button{
-
-    display:inline-flex;
-
-    width:auto;
-
-    padding:18px 35px;
-
-    background:#FFF;
-
-    color:var(--services-primary);
-
-    border:none;
-
-    position:relative;
-
-    z-index:2;
-
-}
-
-.services-cta .service-button:hover{
-
-    background:#F2EEFF;
-
-    color:var(--services-primary-dark);
-
-    transform:translateY(-4px);
-
-}
-
-/* ==========================================================
-   TRUST BADGES
-========================================================== */
-
-.services-badges{
-
-    margin-top:50px;
+.cta-buttons{
 
     display:flex;
 
     justify-content:center;
 
+    align-items:center;
+
+    gap:20px;
+
     flex-wrap:wrap;
-
-    gap:18px;
-
-    position:relative;
-
-    z-index:2;
 
 }
 
-.services-badges span{
+.primary-button,
+.secondary-button{
 
-    background:rgba(255,255,255,.15);
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:18px 34px;
+
+    border-radius:16px;
+
+    font-weight:700;
+
+    text-decoration:none;
+
+    transition:.35s;
+
+}
+
+.primary-button{
+
+    background:#FFF;
+
+    color:var(--services-primary);
+
+}
+
+.primary-button:hover{
+
+    transform:translateY(-4px);
+
+    background:#F5F2FF;
+
+}
+
+.secondary-button{
+
+    border:2px solid rgba(255,255,255,.35);
 
     color:#FFF;
 
-    padding:12px 20px;
+}
 
-    border-radius:999px;
+.secondary-button:hover{
 
-    font-size:.90rem;
+    background:rgba(255,255,255,.12);
 
-    backdrop-filter:blur(10px);
+    transform:translateY(-4px);
 
 }
 
+.cta-note{
+
+    margin-top:35px;
+
+    color:rgba(255,255,255,.80);
+
+    font-size:.90rem;
+
+    line-height:1.8;
+
+}
 /* ==========================================================
    RESPONSIVE
 ========================================================== */
 
-@media(max-width:1200px){
+@media (max-width:1200px){
+
+    /* ---------- Workflow ---------- */
 
     .workflow{
 
-        grid-template-columns:repeat(3,1fr);
+        grid-template-columns:
+            1fr auto
+            1fr auto
+            1fr;
+
+    }
+
+    .workflow-arrow:nth-of-type(4),
+    .workflow-arrow:nth-of-type(8){
+
+        display:none;
 
     }
 
 }
 
-@media(max-width:992px){
+
+/* ========================================================== */
+
+@media (max-width:992px){
+
+    /* ---------- Intro ---------- */
 
     .services-intro{
 
         grid-template-columns:1fr;
 
-    }
-
-    .workflow{
-
-        grid-template-columns:repeat(2,1fr);
+        gap:40px;
 
     }
+
+    /* ---------- Cards ---------- */
 
     .service-card{
 
-        min-width:340px;
+        flex:0 0 calc((100% - 32px)/2);
+
+        min-width:calc((100% - 32px)/2);
+
+    }
+
+    /* ---------- Workflow ---------- */
+
+    .workflow{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .workflow-arrow{
+
+        display:none;
 
     }
 
 }
 
-@media(max-width:768px){
+
+/* ========================================================== */
+
+@media (max-width:768px){
 
     .services-section{
 
@@ -4459,39 +4706,31 @@ CARDS SOBRE
 
     }
 
+    /* ---------- Slider ---------- */
+
     .services-navigation{
 
         flex-direction:column;
 
-        gap:20px;
+        gap:18px;
+
+        margin:35px 0;
 
     }
 
-    .workflow{
+    .navigation-text{
 
-        grid-template-columns:1fr;
-
-    }
-
-    .services-cta{
-
-        padding:60px 35px;
-
-        border-radius:28px;
-
-    }
-
-    .services-notice{
-
-        flex-direction:column;
+        text-align:center;
 
     }
 
     .service-card{
 
+        flex:0 0 100%;
+
         min-width:100%;
 
-        padding:30px;
+        padding:32px;
 
     }
 
@@ -4501,9 +4740,47 @@ CARDS SOBRE
 
     }
 
+    /* ---------- Tip ---------- */
+
+    .services-tip{
+
+        flex-direction:column;
+
+        padding:32px;
+
+    }
+
+    /* ---------- CTA ---------- */
+
+    .services-cta{
+
+        padding:60px 35px;
+
+        border-radius:28px;
+
+    }
+
+    .cta-buttons{
+
+        flex-direction:column;
+
+        width:100%;
+
+    }
+
+    .primary-button,
+    .secondary-button{
+
+        width:100%;
+
+    }
+
 }
 
-@media(max-width:576px){
+
+/* ========================================================== */
+
+@media (max-width:576px){
 
     .section-header{
 
@@ -4525,25 +4802,43 @@ CARDS SOBRE
 
     .intro-content{
 
-        padding:30px;
+        padding:28px;
 
     }
 
     .services-highlight{
 
-        padding:30px;
+        padding:28px;
 
     }
 
-    .services-tip{
+    .service-card{
 
-        flex-direction:column;
+        padding:26px;
+
+    }
+
+    .service-card h4{
+
+        font-size:1.5rem;
+
+    }
+
+    .service-price{
+
+        font-size:1.7rem !important;
+
+    }
+
+    .service-info{
+
+        gap:16px;
 
     }
 
     .faq-item summary{
 
-        padding:22px 25px;
+        padding:22px 24px;
 
         font-size:1rem;
 
@@ -4551,7 +4846,54 @@ CARDS SOBRE
 
     .faq-item p{
 
-        padding:0 25px 25px;
+        padding:0 24px 24px;
+
+    }
+
+    .services-cta{
+
+        padding:50px 24px;
+
+    }
+
+    .services-tip{
+
+        padding:28px;
+
+    }
+
+}
+
+
+/* ========================================================== */
+
+@media (max-width:420px){
+
+    .service-arrow{
+
+        width:42px;
+
+        height:42px;
+
+    }
+
+    .workflow-number{
+
+        width:58px;
+
+        height:58px;
+
+        font-size:1.2rem;
+
+    }
+
+    .tip-icon{
+
+        width:56px;
+
+        height:56px;
+
+        font-size:1.2rem;
 
     }
 
