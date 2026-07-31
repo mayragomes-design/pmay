@@ -24,7 +24,8 @@ const translations = {
 
         menuProjects:
             "Projetos",
-
+menuServices: 
+  "Serviços",
         menuResearch:
             "Pesquisa",
 
@@ -240,7 +241,198 @@ aboutCardText:
 
         casaMaeTag3:
             "Identidade Visual",
-      
+      /*==============================
+SERVIÇOS
+==============================*/
+
+menuServices:
+    "Serviços",
+
+servicesTag:
+    "SERVIÇOS",
+
+servicesTitle:
+    "Serviços & Valores",
+
+servicesDescription:
+    "Conheça os principais serviços oferecidos pela PMAY. Os valores apresentados representam o investimento inicial de cada projeto e podem variar conforme escopo, complexidade e prazo.",
+
+serviceBrandTitle:
+    "Identidade Visual Essencial",
+
+serviceBrandDescription:
+    "Ideal para profissionais, pequenas empresas e marcas que desejam construir uma identidade visual consistente.",
+
+serviceBrandPrice:
+    "A partir de R$ 450",
+
+serviceBrandItem1:
+    "Logotipo",
+
+serviceBrandItem2:
+    "Paleta de cores",
+
+serviceBrandItem3:
+    "Tipografia",
+
+serviceBrandItem4:
+    "Manual simplificado",
+
+serviceCompleteTitle:
+    "Identidade Visual Completa",
+
+serviceCompleteDescription:
+    "Sistema completo de identidade visual com estratégia, aplicações e manual de marca.",
+
+serviceCompletePrice:
+    "A partir de R$ 1.200",
+
+serviceCompleteItem1:
+    "Estratégia",
+
+serviceCompleteItem2:
+    "Moodboard",
+
+serviceCompleteItem3:
+    "Manual da marca",
+
+serviceCompleteItem4:
+    "Aplicações",
+
+serviceLandingTitle:
+    "Landing Page",
+
+serviceLandingDescription:
+    "Página única desenvolvida para apresentar produtos, serviços ou campanhas.",
+
+serviceLandingPrice:
+    "A partir de R$ 900",
+
+serviceLandingItem1:
+    "HTML, CSS e JavaScript",
+
+serviceLandingItem2:
+    "Design Responsivo",
+
+serviceLandingItem3:
+    "SEO básico",
+
+serviceLandingItem4:
+    "Publicação",
+
+serviceWebsiteTitle:
+    "Website Institucional",
+
+serviceWebsiteDescription:
+    "Website completo para empresas, profissionais e instituições.",
+
+serviceWebsitePrice:
+    "A partir de R$ 1.800",
+
+serviceWebsiteItem1:
+    "Até 5 páginas",
+
+serviceWebsiteItem2:
+    "Responsivo",
+
+serviceWebsiteItem3:
+    "SEO básico",
+
+serviceWebsiteItem4:
+    "Deploy",
+
+serviceVideoShortTitle:
+    "Vídeo Curto",
+
+serviceVideoShortDescription:
+    "Edição de vídeos para redes sociais e campanhas digitais.",
+
+serviceVideoShortPrice:
+    "A partir de R$ 80",
+
+serviceVideoShortItem1:
+    "Até 60 segundos",
+
+serviceVideoShortItem2:
+    "Colorização",
+
+serviceVideoShortItem3:
+    "Legenda",
+
+serviceVideoShortItem4:
+    "Exportação",
+
+serviceVideoLongTitle:
+    "Vídeo Longo",
+
+serviceVideoLongDescription:
+    "Produções audiovisuais completas para YouTube, apresentações e conteúdo institucional.",
+
+serviceVideoLongPrice:
+    "A partir de R$ 400",
+
+serviceVideoLongItem1:
+    "Edição completa",
+
+serviceVideoLongItem2:
+    "Correção de cor",
+
+serviceVideoLongItem3:
+    "Áudio",
+
+serviceVideoLongItem4:
+    "Motion Graphics",
+
+serviceSocialTitle:
+    "Social Media",
+
+serviceSocialDescription:
+    "Planejamento visual e criação de conteúdo para redes sociais.",
+
+serviceSocialPrice:
+    "A partir de R$ 700/mês",
+
+serviceSocialItem1:
+    "Planejamento",
+
+serviceSocialItem2:
+    "Artes",
+
+serviceSocialItem3:
+    "Calendário",
+
+serviceSocialItem4:
+    "Consultoria",
+
+serviceResearchTitle:
+    "Pesquisa & Estratégia",
+
+serviceResearchDescription:
+    "Pesquisa visual, benchmarking e direção criativa para novos projetos.",
+
+serviceResearchPrice:
+    "Sob consulta",
+
+serviceResearchItem1:
+    "Benchmark",
+
+serviceResearchItem2:
+    "Moodboard",
+
+serviceResearchItem3:
+    "Pesquisa",
+
+serviceResearchItem4:
+    "Consultoria",
+
+servicesNoteTitle:
+    "Informações importantes",
+
+servicesNote:
+    "Os valores apresentados são estimativas iniciais. O investimento final poderá variar conforme escopo, complexidade, prazo de entrega e necessidades específicas do projeto.",
+
+servicesPolicy:
+    "Consulte também as Políticas de Trabalho para conhecer prazos, revisões, licenciamento e demais condições."
       /*==============================
         PROJETOS ACADÊMICOS
         ==============================*/
@@ -517,7 +709,8 @@ heroBy: "by Mayra Cristina Nogueira Gomes",
 
         menuProjects:
             "Projects",
-
+menuServices: 
+  "Services",
         menuResearch:
             "Research",
 
@@ -737,6 +930,198 @@ aboutCardText:
 
         casaMaeTag3:
             "Visual Identity",
+      /*==============================
+SERVICES
+==============================*/
+
+menuServices:
+    "Services",
+
+servicesTag:
+    "SERVICES",
+
+servicesTitle:
+    "Services & Pricing",
+
+servicesDescription:
+    "Explore PMAY's main creative services. The prices shown represent the starting investment for each project and may vary depending on scope, complexity, and schedule.",
+
+serviceBrandTitle:
+    "Essential Visual Identity",
+
+serviceBrandDescription:
+    "Perfect for professionals, small businesses, and brands looking for a consistent visual identity.",
+
+serviceBrandPrice:
+    "Starting at R$450",
+
+serviceBrandItem1:
+    "Logo",
+
+serviceBrandItem2:
+    "Color Palette",
+
+serviceBrandItem3:
+    "Typography",
+
+serviceBrandItem4:
+    "Brand Guide",
+
+serviceCompleteTitle:
+    "Complete Branding",
+
+serviceCompleteDescription:
+    "A complete visual identity system including strategy, applications and brand guidelines.",
+
+serviceCompletePrice:
+    "Starting at R$1,200",
+
+serviceCompleteItem1:
+    "Strategy",
+
+serviceCompleteItem2:
+    "Moodboard",
+
+serviceCompleteItem3:
+    "Brand Guidelines",
+
+serviceCompleteItem4:
+    "Applications",
+
+serviceLandingTitle:
+    "Landing Page",
+
+serviceLandingDescription:
+    "A single-page website designed to showcase products, services or campaigns.",
+
+serviceLandingPrice:
+    "Starting at R$900",
+
+serviceLandingItem1:
+    "HTML, CSS & JavaScript",
+
+serviceLandingItem2:
+    "Responsive Design",
+
+serviceLandingItem3:
+    "Basic SEO",
+
+serviceLandingItem4:
+    "Deployment",
+
+serviceWebsiteTitle:
+    "Institutional Website",
+
+serviceWebsiteDescription:
+    "Complete websites for companies, professionals and institutions.",
+
+serviceWebsitePrice:
+    "Starting at R$1,800",
+
+serviceWebsiteItem1:
+    "Up to 5 Pages",
+
+serviceWebsiteItem2:
+    "Responsive",
+
+serviceWebsiteItem3:
+    "Basic SEO",
+
+serviceWebsiteItem4:
+    "Deployment",
+
+serviceVideoShortTitle:
+    "Short-form Video",
+
+serviceVideoShortDescription:
+    "Video editing for social media and digital campaigns.",
+
+serviceVideoShortPrice:
+    "Starting at R$80",
+
+serviceVideoShortItem1:
+    "Up to 60 seconds",
+
+serviceVideoShortItem2:
+    "Color Grading",
+
+serviceVideoShortItem3:
+    "Captions",
+
+serviceVideoShortItem4:
+    "Export",
+
+serviceVideoLongTitle:
+    "Long-form Video",
+
+serviceVideoLongDescription:
+    "Complete audiovisual editing for YouTube, presentations and institutional content.",
+
+serviceVideoLongPrice:
+    "Starting at R$400",
+
+serviceVideoLongItem1:
+    "Full Editing",
+
+serviceVideoLongItem2:
+    "Color Correction",
+
+serviceVideoLongItem3:
+    "Audio",
+
+serviceVideoLongItem4:
+    "Motion Graphics",
+
+serviceSocialTitle:
+    "Social Media",
+
+serviceSocialDescription:
+    "Visual planning and content creation for social platforms.",
+
+serviceSocialPrice:
+    "Starting at R$700/month",
+
+serviceSocialItem1:
+    "Content Planning",
+
+serviceSocialItem2:
+    "Graphic Design",
+
+serviceSocialItem3:
+    "Content Calendar",
+
+serviceSocialItem4:
+    "Consulting",
+
+serviceResearchTitle:
+    "Research & Strategy",
+
+serviceResearchDescription:
+    "Visual research, benchmarking and creative direction for new projects.",
+
+serviceResearchPrice:
+    "Custom Quote",
+
+serviceResearchItem1:
+    "Benchmark",
+
+serviceResearchItem2:
+    "Moodboard",
+
+serviceResearchItem3:
+    "Research",
+
+serviceResearchItem4:
+    "Consulting",
+
+servicesNoteTitle:
+    "Important Information",
+
+servicesNote:
+    "All prices shown are starting estimates. Final pricing may vary depending on project scope, complexity, timeline and specific requirements.",
+
+servicesPolicy:
+    "Please refer to the Working Policies for information regarding timelines, revisions, licensing and other project conditions."
       
       /*==============================
         ACADEMIC PROJECTS
