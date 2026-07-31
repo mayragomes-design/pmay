@@ -93,3 +93,106 @@ window.addEventListener("DOMContentLoaded", () => {
     }
 
 });
+/* ==========================================================
+   SERVICES SLIDERS
+========================================================== */
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    function createSlider(sliderClass, prevClass, nextClass) {
+
+        const slider = document.querySelector(`.${sliderClass}`);
+        const prev = document.querySelector(`.${prevClass}`);
+        const next = document.querySelector(`.${nextClass}`);
+
+        if (!slider || !prev || !next) return;
+
+        const cards = slider.querySelectorAll(".service-card");
+
+        if (cards.length === 0) return;
+
+        let index = 0;
+
+        function getCardsPerView() {
+
+            if (window.innerWidth >= 1200) return 3;
+
+            if (window.innerWidth >= 768) return 2;
+
+            return 1;
+
+        }
+
+        function updateSlider() {
+
+            const cardsPerView = getCardsPerView();
+
+            const cardWidth = cards[0].offsetWidth + 32;
+
+            slider.style.transform =
+                `translateX(-${index * cardWidth}px)`;
+
+            prev.disabled = index === 0;
+
+            next.disabled =
+                index >= cards.length - cardsPerView;
+
+        }
+
+        next.addEventListener("click", () => {
+
+            const cardsPerView = getCardsPerView();
+
+            if (index < cards.length - cardsPerView) {
+
+                index++;
+
+                updateSlider();
+
+            }
+
+        });
+
+        prev.addEventListener("click", () => {
+
+            if (index > 0) {
+
+                index--;
+
+                updateSlider();
+
+            }
+
+        });
+
+        window.addEventListener("resize", updateSlider);
+
+        updateSlider();
+
+    }
+
+    createSlider(
+        "branding-slider",
+        "prev-branding",
+        "next-branding"
+    );
+
+    createSlider(
+        "website-slider",
+        "prev-website",
+        "next-website"
+    );
+
+    createSlider(
+        "video-slider",
+        "prev-video",
+        "next-video"
+    );
+
+    createSlider(
+        "social-slider",
+        "prev-social",
+        "next-social"
+    );
+
+});
