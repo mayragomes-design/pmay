@@ -1517,198 +1517,848 @@ aboutCardText:
 
         casaMaeTag3:
             "Visual Identity",
-      /*==============================
-SERVICES
-==============================*/
-
-menuServices:
-    "Services",
+      /* ==========================================================
+   SERVICES
+========================================================== */
 
 servicesTag:
-    "SERVICES",
+"SERVICES",
 
 servicesTitle:
-    "Services & Pricing",
+"Services",
 
-servicesDescription:
-    "Explore PMAY's main creative services. The prices shown represent the starting investment for each project and may vary depending on scope, complexity, and schedule.",
+servicesSubtitle:
+"Every project is crafted to communicate ideas with strategy, personality, and purpose.",
 
-serviceBrandTitle:
-    "Essential Visual Identity",
+servicesIntroTitle:
+"Every project starts with a different story.",
 
-serviceBrandDescription:
-    "Perfect for professionals, small businesses, and brands looking for a consistent visual identity.",
+servicesIntroParagraph1:
+"Some clients only need a logo. Others are looking for a complete visual identity, a website, social media content, or audiovisual production.",
 
-serviceBrandPrice:
-    "Starting at R$450",
+servicesIntroParagraph2:
+"That's why the services below are presented as starting points rather than fixed packages. Every proposal can be tailored to your goals, timeline, and project requirements.",
 
-serviceBrandItem1:
-    "Logo",
+servicesHighlightTitle:
+"Flexible Solutions",
 
-serviceBrandItem2:
-    "Color Palette",
+servicesHighlightText:
+"The prices shown represent the starting investment for the most requested services. If your project requires something different, I'd be happy to prepare a personalized proposal.",
 
-serviceBrandItem3:
-    "Typography",
+servicesNoticeTitle:
+"Good to Know",
 
-serviceBrandItem4:
-    "Brand Guide",
+servicesNoticeText:
+"The prices listed are starting estimates based on the scope described. More complex projects, additional features, or extra deliverables may require a custom quotation.",
 
-serviceCompleteTitle:
-    "Complete Branding",
+servicesNavigation:
+"Swipe to explore the available solutions.",
 
-serviceCompleteDescription:
-    "A complete visual identity system including strategy, applications and brand guidelines.",
 
-serviceCompletePrice:
-    "Starting at R$1,200",
+/* ==========================================================
+   BRANDING & VISUAL IDENTITY
+========================================================== */
 
-serviceCompleteItem1:
-    "Strategy",
+servicesBrandingTitle:
+"Branding & Visual Identity",
 
-serviceCompleteItem2:
-    "Moodboard",
+servicesBrandingDescription:
+"A visual identity is much more than a logo. It communicates your brand's values, strengthens its positioning, and creates recognition across every touchpoint.",
 
-serviceCompleteItem3:
-    "Brand Guidelines",
+servicesBrandingStartLevel:
+"🌱 Launch",
 
-serviceCompleteItem4:
-    "Applications",
+servicesBrandingStartTitle:
+"Essential Visual Identity",
 
-serviceLandingTitle:
-    "Landing Page",
+servicesBrandingStartDescription:
+"Designed for freelancers, small businesses, and emerging brands looking to establish a professional visual presence.",
 
-serviceLandingDescription:
-    "A single-page website designed to showcase products, services or campaigns.",
+servicesProcessTitle:
+"How it works",
 
-serviceLandingPrice:
-    "Starting at R$900",
+servicesDeliveriesTitle:
+"What's included",
 
-serviceLandingItem1:
-    "HTML, CSS & JavaScript",
+servicesDeadlineTitle:
+"Estimated timeline",
 
-serviceLandingItem2:
-    "Responsive Design",
+servicesInvestmentTitle:
+"Starting Investment",
 
-serviceLandingItem3:
-    "Basic SEO",
+servicesVariationTitle:
+"Can the investment change?",
 
-serviceLandingItem4:
-    "Deployment",
+servicesProposalButton:
+"Request a Proposal",
 
-serviceWebsiteTitle:
-    "Institutional Website",
+/* ---------- LAUNCH ---------- */
 
-serviceWebsiteDescription:
-    "Complete websites for companies, professionals and institutions.",
+servicesBrandingStartProcess1:
+"Project discovery & briefing",
 
-serviceWebsitePrice:
-    "Starting at R$1,800",
+servicesBrandingStartProcess2:
+"Visual research",
 
-serviceWebsiteItem1:
-    "Up to 5 Pages",
+servicesBrandingStartProcess3:
+"Concept development",
 
-serviceWebsiteItem2:
-    "Responsive",
+servicesBrandingStartProcess4:
+"Revision rounds",
 
-serviceWebsiteItem3:
-    "Basic SEO",
+servicesBrandingStartProcess5:
+"Final file delivery",
 
-serviceWebsiteItem4:
-    "Deployment",
+servicesBrandingStartDelivery1:
+"Primary logo",
 
-serviceVideoShortTitle:
-    "Short-form Video",
+servicesBrandingStartDelivery2:
+"Secondary logo variation",
 
-serviceVideoShortDescription:
-    "Video editing for social media and digital campaigns.",
+servicesBrandingStartDelivery3:
+"Color palette",
 
-serviceVideoShortPrice:
-    "Starting at R$80",
+servicesBrandingStartDelivery4:
+"Typography system",
 
-serviceVideoShortItem1:
-    "Up to 60 seconds",
+servicesBrandingStartDelivery5:
+"Quick brand usage guide",
 
-serviceVideoShortItem2:
-    "Color Grading",
+servicesBrandingStartDeadline:
+"2–3 weeks",
 
-serviceVideoShortItem3:
-    "Captions",
+servicesBrandingStartPrice:
+"R$ 450",
 
-serviceVideoShortItem4:
-    "Export",
+servicesBrandingStartEuro:
+"≈ €95",
 
-serviceVideoLongTitle:
-    "Long-form Video",
+servicesBrandingStartVariation:
+"Yes. Every project has unique requirements. If you only need a logo, additional applications, or specific brand assets, a custom proposal will be prepared.",
 
-serviceVideoLongDescription:
-    "Complete audiovisual editing for YouTube, presentations and institutional content.",
 
-serviceVideoLongPrice:
-    "Starting at R$400",
+/* ---------- GROW ---------- */
 
-serviceVideoLongItem1:
-    "Full Editing",
+servicesBrandingGrowLevel:
+"🌿 Grow",
 
-serviceVideoLongItem2:
-    "Color Correction",
+servicesBrandingGrowTitle:
+"Expanded Visual Identity",
 
-serviceVideoLongItem3:
-    "Audio",
+servicesBrandingGrowDescription:
+"Perfect for brands looking to strengthen their communication through a more complete and consistent visual identity.",
 
-serviceVideoLongItem4:
-    "Motion Graphics",
+servicesBrandingGrowProcess1:
+"In-depth discovery session",
 
-serviceSocialTitle:
-    "Social Media",
+servicesBrandingGrowProcess2:
+"Visual research",
 
-serviceSocialDescription:
-    "Visual planning and content creation for social platforms.",
+servicesBrandingGrowProcess3:
+"Strategic concept development",
 
-serviceSocialPrice:
-    "Starting at R$700/month",
+servicesBrandingGrowProcess4:
+"Revision rounds",
 
-serviceSocialItem1:
-    "Content Planning",
+servicesBrandingGrowProcess5:
+"Final asset organization",
 
-serviceSocialItem2:
-    "Graphic Design",
+servicesBrandingGrowDelivery1:
+"Everything included in the Essential package",
 
-serviceSocialItem3:
-    "Content Calendar",
+servicesBrandingGrowDelivery2:
+"Secondary logo",
 
-serviceSocialItem4:
-    "Consulting",
+servicesBrandingGrowDelivery3:
+"Graphic elements",
 
-serviceResearchTitle:
-    "Research & Strategy",
+servicesBrandingGrowDelivery4:
+"Custom icons",
 
-serviceResearchDescription:
-    "Visual research, benchmarking and creative direction for new projects.",
+servicesBrandingGrowDelivery5:
+"Social media templates",
 
-serviceResearchPrice:
-    "Custom Quote",
+servicesBrandingGrowDelivery6:
+"Intermediate brand guidelines",
 
-serviceResearchItem1:
-    "Benchmark",
+servicesBrandingGrowDeadline:
+"3–5 weeks",
 
-serviceResearchItem2:
-    "Moodboard",
+servicesBrandingGrowPrice:
+"R$ 800",
 
-serviceResearchItem3:
-    "Research",
+servicesBrandingGrowEuro:
+"≈ €165",
 
-serviceResearchItem4:
-    "Consulting",
+servicesBrandingGrowVariation:
+"The final investment may vary depending on the number of brand applications, deliverables, or additional requirements.",
 
-servicesNoteTitle:
-    "Important Information",
 
-servicesNote:
-    "All prices shown are starting estimates. Final pricing may vary depending on project scope, complexity, timeline and specific requirements.",
+/* ---------- EXPAND ---------- */
 
-servicesPolicy:
-    "Please refer to the Working Policies for information regarding timelines, revisions, licensing and other project conditions."
+servicesBrandingExpandLevel:
+"✨ Expand",
+
+servicesBrandingExpandTitle:
+"Complete Branding",
+
+servicesBrandingExpandDescription:
+"For businesses seeking a strategic brand identity designed for long-term growth and consistency.",
+
+servicesBrandingExpandProcess1:
+"Brand immersion",
+
+servicesBrandingExpandProcess2:
+"Market research",
+
+servicesBrandingExpandProcess3:
+"Brand strategy",
+
+servicesBrandingExpandProcess4:
+"Creative development",
+
+servicesBrandingExpandProcess5:
+"Revision rounds",
+
+servicesBrandingExpandProcess6:
+"Organized final delivery",
+
+servicesBrandingExpandDelivery1:
+"Everything from previous packages",
+
+servicesBrandingExpandDelivery2:
+"Strategic moodboard",
+
+servicesBrandingExpandDelivery3:
+"Creative direction",
+
+servicesBrandingExpandDelivery4:
+"Brand applications",
+
+servicesBrandingExpandDelivery5:
+"Comprehensive brand guidelines",
+
+servicesBrandingExpandDelivery6:
+"Organized source files",
+
+servicesBrandingExpandDeadline:
+"4–8 weeks",
+
+servicesBrandingExpandPrice:
+"R$ 1,200",
+
+servicesBrandingExpandEuro:
+"≈ €250",
+
+servicesBrandingExpandVariation:
+"Larger branding projects may include naming, positioning, presentations, editorial materials, packaging design, or other custom deliverables. In these cases, a tailored proposal will be prepared.",
+
+      /* ==========================================================
+   WEB DESIGN
+========================================================== */
+
+servicesWebsiteTitle:
+"Web Design",
+
+servicesWebsiteDescription:
+"A website is more than an online presence. It's a space to communicate your brand, build credibility, and create meaningful connections with your audience.",
+
+/* ---------- LAUNCH ---------- */
+
+servicesWebsitePresentLevel:
+"🌱 Launch",
+
+servicesWebsitePresentTitle:
+"Landing Page",
+
+servicesWebsitePresentDescription:
+"Perfect for promoting a product, service, event, or campaign through a focused, single-page experience.",
+
+servicesWebsitePresentProcess1:
+"Project discovery",
+
+servicesWebsitePresentProcess2:
+"Page structure planning",
+
+servicesWebsitePresentProcess3:
+"Responsive development",
+
+servicesWebsitePresentProcess4:
+"Testing & quality assurance",
+
+servicesWebsitePresentProcess5:
+"Website deployment",
+
+servicesWebsitePresentDelivery1:
+"Custom landing page",
+
+servicesWebsitePresentDelivery2:
+"Responsive design",
+
+servicesWebsitePresentDelivery3:
+"WhatsApp integration",
+
+servicesWebsitePresentDelivery4:
+"Contact form",
+
+servicesWebsitePresentDelivery5:
+"Basic SEO optimization",
+
+servicesWebsitePresentDelivery6:
+"Initial deployment",
+
+servicesWebsitePresentDeadline:
+"2–3 weeks",
+
+servicesWebsitePresentPrice:
+"BRL 950",
+
+servicesWebsitePresentEuro:
+"≈ EUR 180",
+
+servicesWebsitePresentVariation:
+"If your project requires additional pages, custom animations, multilingual support, or advanced features, a personalized proposal will be prepared.",
+
+
+/* ---------- GROW ---------- */
+
+servicesWebsiteGrowLevel:
+"🌿 Grow",
+
+servicesWebsiteGrowTitle:
+"Business Website",
+
+servicesWebsiteGrowDescription:
+"Designed for professionals, businesses, and organizations looking for a complete and professional online presence.",
+
+servicesWebsiteGrowProcess1:
+"In-depth discovery session",
+
+servicesWebsiteGrowProcess2:
+"Website architecture",
+
+servicesWebsiteGrowProcess3:
+"Front-end development",
+
+servicesWebsiteGrowProcess4:
+"Responsive optimization",
+
+servicesWebsiteGrowProcess5:
+"Website deployment",
+
+servicesWebsiteGrowDelivery1:
+"Up to 5 pages",
+
+servicesWebsiteGrowDelivery2:
+"Homepage",
+
+servicesWebsiteGrowDelivery3:
+"About page",
+
+servicesWebsiteGrowDelivery4:
+"Services page",
+
+servicesWebsiteGrowDelivery5:
+"Contact page",
+
+servicesWebsiteGrowDelivery6:
+"Basic SEO optimization",
+
+servicesWebsiteGrowDelivery7:
+"WhatsApp integration",
+
+servicesWebsiteGrowDelivery8:
+"Deployment",
+
+servicesWebsiteGrowDeadline:
+"4–6 weeks",
+
+servicesWebsiteGrowPrice:
+"BRL 1,800",
+
+servicesWebsiteGrowEuro:
+"≈ EUR 340",
+
+servicesWebsiteGrowVariation:
+"Projects requiring additional pages, multilingual versions, custom animations, or third-party integrations may require a tailored proposal.",
+
+
+/* ---------- EXPAND ---------- */
+
+servicesWebsiteExpandLevel:
+"✨ Expand",
+
+servicesWebsiteExpandTitle:
+"Custom Website",
+
+servicesWebsiteExpandDescription:
+"For businesses and organizations that need a fully customized website with advanced functionality and unique user experiences.",
+
+servicesWebsiteExpandProcess1:
+"Research",
+
+servicesWebsiteExpandProcess2:
+"Strategic planning",
+
+servicesWebsiteExpandProcess3:
+"Information architecture",
+
+servicesWebsiteExpandProcess4:
+"Custom development",
+
+servicesWebsiteExpandProcess5:
+"Testing & optimization",
+
+servicesWebsiteExpandProcess6:
+"Website deployment",
+
+servicesWebsiteExpandDelivery1:
+"More than 5 pages",
+
+servicesWebsiteExpandDelivery2:
+"Custom interface design",
+
+servicesWebsiteExpandDelivery3:
+"Responsive layout",
+
+servicesWebsiteExpandDelivery4:
+"SEO optimization",
+
+servicesWebsiteExpandDelivery5:
+"Custom integrations*",
+
+servicesWebsiteExpandDelivery6:
+"Deployment",
+
+servicesWebsiteExpandDeadline:
+"Upon request",
+
+servicesWebsiteExpandPrice:
+"Custom Quote",
+
+servicesWebsiteExpandEuro:
+"Tailored Project",
+
+servicesWebsiteExpandVariation:
+"Every custom website is planned according to its structure, number of pages, integrations, visual complexity, and business goals.",
+
+servicesWebsiteNote:
+"*Subject to technical feasibility.",
+
+servicesWebsiteFooterTitle:
+"Domain & Hosting",
+
+servicesWebsiteFooterText1:
+"Website development does not include domain registration or hosting services. If you don't have them yet, I'll be happy to recommend the best solution and handle the initial setup.",
+
+servicesWebsiteFooterText2:
+"Institutional websites are primarily built using HTML, CSS, and JavaScript, and can be deployed on platforms such as GitHub Pages, Netlify, Cloudflare Pages, or Vercel, depending on your project's needs.",
+  /* ==========================================================
+   AUDIOVISUAL & STORYTELLING
+========================================================== */
+
+servicesVideoTitle:
+"Audiovisual & Storytelling",
+
+servicesVideoDescription:
+"A great video is more than good editing. It communicates ideas, evokes emotions, and strengthens your brand through storytelling and visual language.",
+
+/* ---------- PUBLISH ---------- */
+
+servicesVideoPublishLevel:
+"🎥 Publish",
+
+servicesVideoPublishTitle:
+"Short-form Video",
+
+servicesVideoPublishDescription:
+"Perfect for Reels, TikTok, Shorts, and digital campaigns that require engaging, fast-paced content.",
+
+servicesVideoPublishProcess1:
+"Project briefing",
+
+servicesVideoPublishProcess2:
+"Content organization",
+
+servicesVideoPublishProcess3:
+"Video editing",
+
+servicesVideoPublishProcess4:
+"Revision rounds",
+
+servicesVideoPublishProcess5:
+"Final export",
+
+servicesVideoPublishDelivery1:
+"Video up to 90 seconds",
+
+servicesVideoPublishDelivery2:
+"Professional editing",
+
+servicesVideoPublishDelivery3:
+"Basic color correction",
+
+servicesVideoPublishDelivery4:
+"Captions (optional)",
+
+servicesVideoPublishDelivery5:
+"Royalty-free soundtrack*",
+
+servicesVideoPublishDeadline:
+"3–5 business days",
+
+servicesVideoPublishPrice:
+"BRL 120",
+
+servicesVideoPublishEuro:
+"≈ EUR 25",
+
+servicesVideoPublishVariation:
+"Projects involving motion graphics, advanced animations, visual effects, extensive captioning, or longer durations may require a personalized proposal.",
+
+
+/* ---------- DEVELOP ---------- */
+
+servicesVideoDevelopLevel:
+"🎞 Develop",
+
+servicesVideoDevelopTitle:
+"Corporate Video",
+
+servicesVideoDevelopDescription:
+"For businesses, organizations, and professionals looking to present their brand in a professional and engaging way.",
+
+servicesVideoDevelopProcess1:
+"Project briefing",
+
+servicesVideoDevelopProcess2:
+"Story planning",
+
+servicesVideoDevelopProcess3:
+"Video editing",
+
+servicesVideoDevelopProcess4:
+"Revision rounds",
+
+servicesVideoDevelopProcess5:
+"Final delivery",
+
+servicesVideoDevelopDelivery1:
+"Video up to 10 minutes",
+
+servicesVideoDevelopDelivery2:
+"Color grading",
+
+servicesVideoDevelopDelivery3:
+"Audio enhancement",
+
+servicesVideoDevelopDelivery4:
+"Basic motion graphics",
+
+servicesVideoDevelopDelivery5:
+"Full HD export",
+
+servicesVideoDevelopDeadline:
+"2–4 weeks",
+
+servicesVideoDevelopPrice:
+"BRL 500",
+
+servicesVideoDevelopEuro:
+"≈ EUR 95",
+
+servicesVideoDevelopVariation:
+"Projects including interviews, voice-over recording, multilingual subtitles, advanced animations, or extended duration may require a custom proposal.",
+
+
+/* ---------- CREATE ---------- */
+
+servicesVideoProduceLevel:
+"✨ Create",
+
+servicesVideoProduceTitle:
+"Custom Video Production",
+
+servicesVideoProduceDescription:
+"Tailor-made audiovisual productions developed according to your brand's goals, combining creative direction, storytelling, and visual identity.",
+
+servicesVideoProduceProcess1:
+"Project briefing",
+
+servicesVideoProduceProcess2:
+"Research",
+
+servicesVideoProduceProcess3:
+"Creative planning",
+
+servicesVideoProduceProcess4:
+"Production & editing",
+
+servicesVideoProduceProcess5:
+"Revision rounds",
+
+servicesVideoProduceProcess6:
+"Organized final delivery",
+
+servicesVideoProduceDelivery1:
+"Custom video editing",
+
+servicesVideoProduceDelivery2:
+"Strategic storytelling",
+
+servicesVideoProduceDelivery3:
+"Motion Design*",
+
+servicesVideoProduceDelivery4:
+"Video visual identity",
+
+servicesVideoProduceDelivery5:
+"Custom export formats",
+
+servicesVideoProduceDeadline:
+"Upon request",
+
+servicesVideoProducePrice:
+"Custom Quote",
+
+servicesVideoProduceEuro:
+"Tailored Project",
+
+servicesVideoProduceVariation:
+"Every audiovisual production has unique objectives, storytelling, and technical requirements. The final investment is defined according to the project's scope and complexity.",
+
+servicesVideoNote:
+"*Subject to the project's scope and technical feasibility.",
+
+servicesVideoFooterTitle:
+"About Video Production",
+
+servicesVideoFooterText:
+"The prices listed cover editing of footage provided by the client. Filming, voice-over recording, scriptwriting, licensed music, stock footage, and other production services can be included through a personalized quotation.",    
+      
+      /* ==========================================================
+   SOCIAL MEDIA
+========================================================== */
+
+servicesSocialTitle:
+"Social Media",
+
+servicesSocialDescription:
+"A strong digital presence goes beyond frequent posting. It is built through strategy, planning, and content designed to strengthen your brand and create meaningful connections with your audience.",
+
+/* ---------- PLAN ---------- */
+
+servicesSocialOrganizeLevel:
+"🌱 Plan",
+
+servicesSocialOrganizeTitle:
+"Content Strategy",
+
+servicesSocialOrganizeDescription:
+"For brands looking to organize their communication before creating content.",
+
+servicesSocialOrganizeProcess1:
+"Project briefing",
+
+servicesSocialOrganizeProcess2:
+"Profile analysis",
+
+servicesSocialOrganizeProcess3:
+"Market & visual research",
+
+servicesSocialOrganizeProcess4:
+"Content strategy",
+
+servicesSocialOrganizeProcess5:
+"Organized delivery",
+
+servicesSocialOrganizeDelivery1:
+"Content calendar",
+
+servicesSocialOrganizeDelivery2:
+"Content pillars",
+
+servicesSocialOrganizeDelivery3:
+"Content ideas",
+
+servicesSocialOrganizeDelivery4:
+"Visual direction",
+
+servicesSocialOrganizeDelivery5:
+"Initial communication strategy",
+
+servicesSocialOrganizeDeadline:
+"1–2 weeks",
+
+servicesSocialOrganizePrice:
+"BRL 300",
+
+servicesSocialOrganizeEuro:
+"≈ EUR 60",
+
+servicesSocialOrganizeVariation:
+"The final investment may vary depending on the number of platforms, research depth, and project objectives.",
+
+
+/* ---------- COMMUNICATE ---------- */
+
+servicesSocialCommunicateLevel:
+"🌿 Communicate",
+
+servicesSocialCommunicateTitle:
+"Social Media Design",
+
+servicesSocialCommunicateDescription:
+"For brands looking to maintain a consistent and professional visual presence across their social media channels.",
+
+servicesSocialCommunicateProcess1:
+"Project briefing",
+
+servicesSocialCommunicateProcess2:
+"Content planning",
+
+servicesSocialCommunicateProcess3:
+"Design development",
+
+servicesSocialCommunicateProcess4:
+"Revision rounds",
+
+servicesSocialCommunicateProcess5:
+"Organized delivery",
+
+servicesSocialCommunicateDelivery1:
+"Social media graphics",
+
+servicesSocialCommunicateDelivery2:
+"Carousel posts",
+
+servicesSocialCommunicateDelivery3:
+"Stories",
+
+servicesSocialCommunicateDelivery4:
+"Cover images",
+
+servicesSocialCommunicateDelivery5:
+"Editable templates*",
+
+servicesSocialCommunicateDeadline:
+"Monthly",
+
+servicesSocialCommunicatePrice:
+"BRL 700/month",
+
+servicesSocialCommunicateEuro:
+"≈ EUR 135",
+
+servicesSocialCommunicateVariation:
+"The final investment may vary depending on the number of posts, formats, platforms, and project scope.",
+
+
+/* ---------- GROW ---------- */
+
+servicesSocialGrowLevel:
+"✨ Grow",
+
+servicesSocialGrowTitle:
+"Strategic Social Media Management",
+
+servicesSocialGrowDescription:
+"For brands seeking continuous support, strategic planning, and long-term digital growth.",
+
+servicesSocialGrowProcess1:
+"Brand audit",
+
+servicesSocialGrowProcess2:
+"Monthly planning",
+
+servicesSocialGrowProcess3:
+"Creative direction",
+
+servicesSocialGrowProcess4:
+"Content production",
+
+servicesSocialGrowProcess5:
+"Performance monitoring",
+
+servicesSocialGrowDelivery1:
+"Strategic planning",
+
+servicesSocialGrowDelivery2:
+"Content calendar",
+
+servicesSocialGrowDelivery3:
+"Social media graphics",
+
+servicesSocialGrowDelivery4:
+"Creative consulting",
+
+servicesSocialGrowDelivery5:
+"Monthly performance report",
+
+servicesSocialGrowDeadline:
+"Monthly",
+
+servicesSocialGrowPrice:
+"Custom Quote",
+
+servicesSocialGrowEuro:
+"Tailored Project",
+
+servicesSocialGrowVariation:
+"Every strategy is developed according to the brand's goals. Services may include planning, design, creative direction, consulting, video editing, research, copywriting, and other customized solutions.",
+
+servicesSocialNote:
+"*When included in the commercial proposal.",
+
+servicesSocialFooterTitle:
+"Every strategy is unique.",
+
+servicesSocialFooterText:
+"I don't work with one-size-fits-all packages. Every project is developed according to your brand's stage, communication goals, and available resources. If you only need consulting, planning, design, or another specific service, a personalized proposal will be prepared.",
+    
+    /* ==========================================================
+   WORKFLOW
+========================================================== */
+
+workflowTag:
+"PROCESS",
+
+workflowTitle:
+"How We Work",
+
+workflowSubtitle:
+"Every project follows a structured process designed to ensure transparency, organization, and high-quality results from the first conversation to the final delivery.",
+
+workflowStep1Title:
+"Discovery",
+
+workflowStep1Description:
+"We begin by understanding your goals, challenges, expectations, and the unique needs of your project.",
+
+workflowStep2Title:
+"Research",
+
+workflowStep2Description:
+"We analyze references, competitors, trends, and opportunities to build a solid strategic foundation.",
+
+workflowStep3Title:
+"Creation",
+
+workflowStep3Description:
+"I transform strategy into creative and functional visual solutions tailored to your brand.",
+
+workflowStep4Title:
+"Refinement",
+
+workflowStep4Description:
+"Feedback is reviewed and adjustments are made until the final solution meets the project's objectives.",
+
+workflowStep5Title:
+"Delivery",
+
+workflowStep5Description:
+"Final files are organized and delivered together with all agreed materials and usage guidelines.",  
+      
       
       /*==============================
         ACADEMIC PROJECTS
